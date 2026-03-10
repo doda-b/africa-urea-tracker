@@ -1,0 +1,915 @@
+country_un_code,country_name,year,trade_flow,product_code,product_description,partner,trade_value_1000usd,quantity_kg,data_source,fetch_timestamp
+12,Algeria,2010,Import,310210,Urea,World,30578.92,86278928.0,Comtrade API (authenticated),2026-03-10T13:45:54.686866+00:00
+24,Angola,2010,Import,310210,Urea,World,3603.87,5875650.0,Comtrade API (authenticated),2026-03-10T13:45:54.686958+00:00
+72,Botswana,2010,Import,310210,Urea,World,461.55,657504.59,Comtrade API (authenticated),2026-03-10T13:45:54.687026+00:00
+108,Burundi,2010,Import,310210,Urea,World,679.38,1389650.0,Comtrade API (authenticated),2026-03-10T13:45:54.687088+00:00
+120,Cameroon,2010,Import,310210,Urea,World,16384.71,38866218.0,Comtrade API (authenticated),2026-03-10T13:45:54.687149+00:00
+132,Cabo Verde,2010,Import,310210,Urea,World,122.72,179787.0,Comtrade API (authenticated),2026-03-10T13:45:54.687207+00:00
+140,Central African Republic,2010,Import,310210,Urea,World,270.39,481900.0,Comtrade API (authenticated),2026-03-10T13:45:54.687263+00:00
+178,Congo Rep,2010,Import,310210,Urea,World,43.87,81680.0,Comtrade API (authenticated),2026-03-10T13:45:54.687319+00:00
+204,Benin,2010,Import,310210,Urea,World,3416.64,8574880.0,Comtrade API (authenticated),2026-03-10T13:45:54.687376+00:00
+231,Ethiopia,2010,Import,310210,Urea,World,70682.83,188557022.0,Comtrade API (authenticated),2026-03-10T13:45:54.687432+00:00
+266,Gabon,2010,Import,310210,Urea,World,760.75,1252840.0,Comtrade API (authenticated),2026-03-10T13:45:54.687488+00:00
+270,Gambia,2010,Import,310210,Urea,World,0.87,4300.0,Comtrade API (authenticated),2026-03-10T13:45:54.687543+00:00
+288,Ghana,2010,Import,310210,Urea,World,5490.98,14025364.5,Comtrade API (authenticated),2026-03-10T13:45:54.687629+00:00
+384,Cote dIvoire,2010,Import,310210,Urea,World,13255.79,39897942.0,Comtrade API (authenticated),2026-03-10T13:45:54.687688+00:00
+404,Kenya,2010,Import,310210,Urea,World,24138.81,62983638.0,Comtrade API (authenticated),2026-03-10T13:45:54.687745+00:00
+426,Lesotho,2010,Import,310210,Urea,World,107.5,160995.913,Comtrade API (authenticated),2026-03-10T13:45:54.687800+00:00
+450,Madagascar,2010,Import,310210,Urea,World,2979.38,5775900.0,Comtrade API (authenticated),2026-03-10T13:45:54.687855+00:00
+454,Malawi,2010,Import,310210,Urea,World,62994.2,nan,Comtrade API (authenticated),2026-03-10T13:45:54.687911+00:00
+466,Mali,2010,Import,310210,Urea,World,37526.92,116341544.0,Comtrade API (authenticated),2026-03-10T13:45:54.687965+00:00
+478,Mauritania,2010,Import,310210,Urea,World,1862.59,8527408.0,Comtrade API (authenticated),2026-03-10T13:45:54.688026+00:00
+480,Mauritius,2010,Import,310210,Urea,World,2308.04,6568669.0,Comtrade API (authenticated),2026-03-10T13:45:54.688083+00:00
+504,Morocco,2010,Import,310210,Urea,World,27006.85,83620670.0,Comtrade API (authenticated),2026-03-10T13:45:54.688137+00:00
+508,Mozambique,2010,Import,310210,Urea,World,26670.74,85099061.0,Comtrade API (authenticated),2026-03-10T13:45:54.688190+00:00
+516,Namibia,2010,Import,310210,Urea,World,85.93,112670.0,Comtrade API (authenticated),2026-03-10T13:45:54.688244+00:00
+562,Niger,2010,Import,310210,Urea,World,3051.84,7906595.0,Comtrade API (authenticated),2026-03-10T13:45:54.688297+00:00
+566,Nigeria,2010,Import,310210,Urea,World,58857.02,11942723.0,Comtrade API (authenticated),2026-03-10T13:45:54.688351+00:00
+646,Rwanda,2010,Import,310210,Urea,World,266.34,383293.0,Comtrade API (authenticated),2026-03-10T13:45:54.688407+00:00
+678,Sao Tome and Principe,2010,Import,310210,Urea,World,18.49,29168.0,Comtrade API (authenticated),2026-03-10T13:45:54.688461+00:00
+686,Senegal,2010,Import,310210,Urea,World,24441.48,64307738.0,Comtrade API (authenticated),2026-03-10T13:45:54.688514+00:00
+690,Seychelles,2010,Import,310210,Urea,World,25.54,0.0,Comtrade API (authenticated),2026-03-10T13:45:54.688584+00:00
+710,South Africa,2010,Import,310210,Urea,World,211290.33,678980825.35,Comtrade API (authenticated),2026-03-10T13:45:54.688645+00:00
+716,Zimbabwe,2010,Import,310210,Urea,World,32089.64,116924042.387,Comtrade API (authenticated),2026-03-10T13:45:54.688699+00:00
+748,Eswatini,2010,Import,310210,Urea,World,7786.31,23223234.425,Comtrade API (authenticated),2026-03-10T13:45:54.688752+00:00
+768,Togo,2010,Import,310210,Urea,World,5965.34,18097810.0,Comtrade API (authenticated),2026-03-10T13:45:54.688805+00:00
+788,Tunisia,2010,Import,310210,Urea,World,1596.69,3457893.0,Comtrade API (authenticated),2026-03-10T13:45:54.688858+00:00
+800,Uganda,2010,Import,310210,Urea,World,3127.25,6477762.0,Comtrade API (authenticated),2026-03-10T13:45:54.688911+00:00
+818,Egypt,2010,Import,310210,Urea,World,261.17,851312.0,Comtrade API (authenticated),2026-03-10T13:45:54.688964+00:00
+834,Tanzania,2010,Import,310210,Urea,World,39994.9,104104069.0,Comtrade API (authenticated),2026-03-10T13:45:54.689016+00:00
+854,Burkina Faso,2010,Import,310210,Urea,World,33262.47,72590698.0,Comtrade API (authenticated),2026-03-10T13:45:54.689068+00:00
+894,Zambia,2010,Import,310210,Urea,World,64466.88,196560288.188,Comtrade API (authenticated),2026-03-10T13:45:54.689121+00:00
+120,Cameroon,2010,Export,310210,Urea,World,752.08,2343000.0,Comtrade API (authenticated),2026-03-10T13:45:54.689175+00:00
+288,Ghana,2010,Export,310210,Urea,World,422.47,1000000.0,Comtrade API (authenticated),2026-03-10T13:45:54.689230+00:00
+384,Cote dIvoire,2010,Export,310210,Urea,World,1079.37,2324525.0,Comtrade API (authenticated),2026-03-10T13:45:54.689284+00:00
+404,Kenya,2010,Export,310210,Urea,World,4464.37,8549736.0,Comtrade API (authenticated),2026-03-10T13:45:54.689338+00:00
+466,Mali,2010,Export,310210,Urea,World,25.64,66000.0,Comtrade API (authenticated),2026-03-10T13:45:54.689392+00:00
+480,Mauritius,2010,Export,310210,Urea,World,155.52,337300.0,Comtrade API (authenticated),2026-03-10T13:45:54.689446+00:00
+504,Morocco,2010,Export,310210,Urea,World,26.51,72500.0,Comtrade API (authenticated),2026-03-10T13:45:54.689500+00:00
+516,Namibia,2010,Export,310210,Urea,World,2.33,3502.0,Comtrade API (authenticated),2026-03-10T13:45:54.689553+00:00
+566,Nigeria,2010,Export,310210,Urea,World,211.74,98200.0,Comtrade API (authenticated),2026-03-10T13:45:54.689626+00:00
+646,Rwanda,2010,Export,310210,Urea,World,39.59,77700.0,Comtrade API (authenticated),2026-03-10T13:45:54.689684+00:00
+686,Senegal,2010,Export,310210,Urea,World,3666.54,10331825.0,Comtrade API (authenticated),2026-03-10T13:45:54.689738+00:00
+710,South Africa,2010,Export,310210,Urea,World,21791.47,41972771.23,Comtrade API (authenticated),2026-03-10T13:45:54.689793+00:00
+716,Zimbabwe,2010,Export,310210,Urea,World,275.91,568000.0,Comtrade API (authenticated),2026-03-10T13:45:54.689846+00:00
+748,Eswatini,2010,Export,310210,Urea,World,35.36,nan,Comtrade API (authenticated),2026-03-10T13:45:54.689900+00:00
+768,Togo,2010,Export,310210,Urea,World,339.32,785250.0,Comtrade API (authenticated),2026-03-10T13:45:54.689954+00:00
+788,Tunisia,2010,Export,310210,Urea,World,6.5,6000.0,Comtrade API (authenticated),2026-03-10T13:45:54.690008+00:00
+800,Uganda,2010,Export,310210,Urea,World,0.38,500.0,Comtrade API (authenticated),2026-03-10T13:45:54.690064+00:00
+818,Egypt,2010,Export,310210,Urea,World,1037188.3,3939888036.0,Comtrade API (authenticated),2026-03-10T13:45:54.690120+00:00
+834,Tanzania,2010,Export,310210,Urea,World,14103.1,26205240.0,Comtrade API (authenticated),2026-03-10T13:45:54.690174+00:00
+854,Burkina Faso,2010,Export,310210,Urea,World,970.66,1975000.0,Comtrade API (authenticated),2026-03-10T13:45:54.690228+00:00
+894,Zambia,2010,Export,310210,Urea,World,2165.15,nan,Comtrade API (authenticated),2026-03-10T13:45:54.690282+00:00
+12,Algeria,2011,Import,310210,Urea,World,38915.29,81131008.0,Comtrade API (authenticated),2026-03-10T13:45:54.690333+00:00
+24,Angola,2011,Import,310210,Urea,World,4339.05,7029418.0,Comtrade API (authenticated),2026-03-10T13:45:54.690385+00:00
+72,Botswana,2011,Import,310210,Urea,World,289.51,367433.614,Comtrade API (authenticated),2026-03-10T13:45:54.690437+00:00
+108,Burundi,2011,Import,310210,Urea,World,2198.57,3911050.0,Comtrade API (authenticated),2026-03-10T13:45:54.690490+00:00
+120,Cameroon,2011,Import,310210,Urea,World,33158.65,60348341.0,Comtrade API (authenticated),2026-03-10T13:45:54.690544+00:00
+132,Cabo Verde,2011,Import,310210,Urea,World,91.97,118549.0,Comtrade API (authenticated),2026-03-10T13:45:54.690617+00:00
+140,Central African Republic,2011,Import,310210,Urea,World,487.25,805000.0,Comtrade API (authenticated),2026-03-10T13:45:54.690685+00:00
+178,Congo Rep,2011,Import,310210,Urea,World,172.9,220850.0,Comtrade API (authenticated),2026-03-10T13:45:54.690743+00:00
+204,Benin,2011,Import,310210,Urea,World,1338.91,2175758.0,Comtrade API (authenticated),2026-03-10T13:45:54.690795+00:00
+231,Ethiopia,2011,Import,310210,Urea,World,82966.41,167614722.0,Comtrade API (authenticated),2026-03-10T13:45:54.690846+00:00
+266,Gabon,2011,Import,310210,Urea,World,202.52,320951.0,Comtrade API (authenticated),2026-03-10T13:45:54.690899+00:00
+270,Gambia,2011,Import,310210,Urea,World,356.14,762650.0,Comtrade API (authenticated),2026-03-10T13:45:54.690951+00:00
+288,Ghana,2011,Import,310210,Urea,World,5514.29,12363026.0,Comtrade API (authenticated),2026-03-10T13:45:54.691003+00:00
+384,Cote dIvoire,2011,Import,310210,Urea,World,26675.17,54482280.0,Comtrade API (authenticated),2026-03-10T13:45:54.691055+00:00
+426,Lesotho,2011,Import,310210,Urea,World,85.28,nan,Comtrade API (authenticated),2026-03-10T13:45:54.691106+00:00
+450,Madagascar,2011,Import,310210,Urea,World,3701.98,7124778.0,Comtrade API (authenticated),2026-03-10T13:45:54.691157+00:00
+454,Malawi,2011,Import,310210,Urea,World,90843.07,nan,Comtrade API (authenticated),2026-03-10T13:45:54.691209+00:00
+466,Mali,2011,Import,310210,Urea,World,63087.65,147213323.0,Comtrade API (authenticated),2026-03-10T13:45:54.691262+00:00
+478,Mauritania,2011,Import,310210,Urea,World,658.32,6170399.0,Comtrade API (authenticated),2026-03-10T13:45:54.691313+00:00
+480,Mauritius,2011,Import,310210,Urea,World,6925.6,14509562.0,Comtrade API (authenticated),2026-03-10T13:45:54.691364+00:00
+504,Morocco,2011,Import,310210,Urea,World,33710.48,71296488.0,Comtrade API (authenticated),2026-03-10T13:45:54.691415+00:00
+508,Mozambique,2011,Import,310210,Urea,World,30435.0,45004812.0,Comtrade API (authenticated),2026-03-10T13:45:54.691467+00:00
+516,Namibia,2011,Import,310210,Urea,World,361.37,586668.0,Comtrade API (authenticated),2026-03-10T13:45:54.691519+00:00
+562,Niger,2011,Import,310210,Urea,World,4751.09,9042463.0,Comtrade API (authenticated),2026-03-10T13:45:54.691587+00:00
+566,Nigeria,2011,Import,310210,Urea,World,23539.72,6170176.0,Comtrade API (authenticated),2026-03-10T13:45:54.691646+00:00
+646,Rwanda,2011,Import,310210,Urea,World,5.01,4000.0,Comtrade API (authenticated),2026-03-10T13:45:54.691699+00:00
+678,Sao Tome and Principe,2011,Import,310210,Urea,World,25.52,26600.0,Comtrade API (authenticated),2026-03-10T13:45:54.691751+00:00
+686,Senegal,2011,Import,310210,Urea,World,2011.28,4750913.0,Comtrade API (authenticated),2026-03-10T13:45:54.691803+00:00
+690,Seychelles,2011,Import,310210,Urea,World,17.46,0.0,Comtrade API (authenticated),2026-03-10T13:45:54.691855+00:00
+710,South Africa,2011,Import,310210,Urea,World,357958.89,773937734.93,Comtrade API (authenticated),2026-03-10T13:45:54.691907+00:00
+716,Zimbabwe,2011,Import,310210,Urea,World,7519.05,12222890.9,Comtrade API (authenticated),2026-03-10T13:45:54.691959+00:00
+748,Eswatini,2011,Import,310210,Urea,World,5965.43,10813782.104,Comtrade API (authenticated),2026-03-10T13:45:54.692011+00:00
+768,Togo,2011,Import,310210,Urea,World,12391.0,24845458.0,Comtrade API (authenticated),2026-03-10T13:45:54.692065+00:00
+788,Tunisia,2011,Import,310210,Urea,World,1715.41,2939667.0,Comtrade API (authenticated),2026-03-10T13:45:54.692117+00:00
+800,Uganda,2011,Import,310210,Urea,World,6382.25,10743158.0,Comtrade API (authenticated),2026-03-10T13:45:54.692169+00:00
+818,Egypt,2011,Import,310210,Urea,World,583.2,822491.0,Comtrade API (authenticated),2026-03-10T13:45:54.692221+00:00
+834,Tanzania,2011,Import,310210,Urea,World,51579.0,72816834.0,Comtrade API (authenticated),2026-03-10T13:45:54.692274+00:00
+854,Burkina Faso,2011,Import,310210,Urea,World,16065.99,36684897.0,Comtrade API (authenticated),2026-03-10T13:45:54.692326+00:00
+894,Zambia,2011,Import,310210,Urea,World,114317.53,246422071.805,Comtrade API (authenticated),2026-03-10T13:45:54.692379+00:00
+72,Botswana,2011,Export,310210,Urea,World,20.18,4000.0,Comtrade API (authenticated),2026-03-10T13:45:54.692432+00:00
+120,Cameroon,2011,Export,310210,Urea,World,719.49,1166103.0,Comtrade API (authenticated),2026-03-10T13:45:54.692485+00:00
+288,Ghana,2011,Export,310210,Urea,World,98.0,161000.0,Comtrade API (authenticated),2026-03-10T13:45:54.692539+00:00
+384,Cote dIvoire,2011,Export,310210,Urea,World,3874.89,9533500.0,Comtrade API (authenticated),2026-03-10T13:45:54.692611+00:00
+466,Mali,2011,Export,310210,Urea,World,12361.93,25305275.0,Comtrade API (authenticated),2026-03-10T13:45:54.692669+00:00
+480,Mauritius,2011,Export,310210,Urea,World,1009.91,1747000.0,Comtrade API (authenticated),2026-03-10T13:45:54.692723+00:00
+504,Morocco,2011,Export,310210,Urea,World,17.13,25500.0,Comtrade API (authenticated),2026-03-10T13:45:54.692777+00:00
+508,Mozambique,2011,Export,310210,Urea,World,78.0,150.0,Comtrade API (authenticated),2026-03-10T13:45:54.692831+00:00
+562,Niger,2011,Export,310210,Urea,World,2.03,4400.0,Comtrade API (authenticated),2026-03-10T13:45:54.692886+00:00
+566,Nigeria,2011,Export,310210,Urea,World,20488.53,41411100.0,Comtrade API (authenticated),2026-03-10T13:45:54.692941+00:00
+646,Rwanda,2011,Export,310210,Urea,World,29.55,32640.0,Comtrade API (authenticated),2026-03-10T13:45:54.692995+00:00
+686,Senegal,2011,Export,310210,Urea,World,478.55,1042750.0,Comtrade API (authenticated),2026-03-10T13:45:54.693048+00:00
+710,South Africa,2011,Export,310210,Urea,World,22413.13,42582520.2,Comtrade API (authenticated),2026-03-10T13:45:54.693102+00:00
+716,Zimbabwe,2011,Export,310210,Urea,World,2602.41,4434000.0,Comtrade API (authenticated),2026-03-10T13:45:54.693156+00:00
+768,Togo,2011,Export,310210,Urea,World,365.16,900000.0,Comtrade API (authenticated),2026-03-10T13:45:54.693209+00:00
+788,Tunisia,2011,Export,310210,Urea,World,13.94,140000.0,Comtrade API (authenticated),2026-03-10T13:45:54.693262+00:00
+818,Egypt,2011,Export,310210,Urea,World,1299231.68,4062341811.0,Comtrade API (authenticated),2026-03-10T13:45:54.693316+00:00
+834,Tanzania,2011,Export,310210,Urea,World,14676.07,23815500.0,Comtrade API (authenticated),2026-03-10T13:45:54.693370+00:00
+854,Burkina Faso,2011,Export,310210,Urea,World,2290.08,4400000.0,Comtrade API (authenticated),2026-03-10T13:45:54.693424+00:00
+894,Zambia,2011,Export,310210,Urea,World,245.06,556112.185,Comtrade API (authenticated),2026-03-10T13:45:54.693477+00:00
+12,Algeria,2012,Import,310210,Urea,World,47295.2,94597614.0,Comtrade API (authenticated),2026-03-10T13:45:54.693532+00:00
+24,Angola,2012,Import,310210,Urea,World,15005.36,12853505.0,Comtrade API (authenticated),2026-03-10T13:45:54.693602+00:00
+72,Botswana,2012,Import,310210,Urea,World,193.76,115207.817,Comtrade API (authenticated),2026-03-10T13:45:54.693659+00:00
+108,Burundi,2012,Import,310210,Urea,World,1809.88,2322800.0,Comtrade API (authenticated),2026-03-10T13:45:54.693712+00:00
+120,Cameroon,2012,Import,310210,Urea,World,17426.78,36815947.0,Comtrade API (authenticated),2026-03-10T13:45:54.693764+00:00
+132,Cabo Verde,2012,Import,310210,Urea,World,129.28,181612.0,Comtrade API (authenticated),2026-03-10T13:45:54.693815+00:00
+140,Central African Republic,2012,Import,310210,Urea,World,331.51,461840.0,Comtrade API (authenticated),2026-03-10T13:45:54.693867+00:00
+178,Congo Rep,2012,Import,310210,Urea,World,699.68,949677.0,Comtrade API (authenticated),2026-03-10T13:45:54.693918+00:00
+231,Ethiopia,2012,Import,310210,Urea,World,170692.67,311761264.51,Comtrade API (authenticated),2026-03-10T13:45:54.693969+00:00
+266,Gabon,2012,Import,310210,Urea,World,1164.7,1518352.0,Comtrade API (authenticated),2026-03-10T13:45:54.694022+00:00
+288,Ghana,2012,Import,310210,Urea,World,11751.65,20853587.0,Comtrade API (authenticated),2026-03-10T13:45:54.694073+00:00
+384,Cote dIvoire,2012,Import,310210,Urea,World,31806.09,61677115.0,Comtrade API (authenticated),2026-03-10T13:45:54.694125+00:00
+426,Lesotho,2012,Import,310210,Urea,World,258.95,529491.781,Comtrade API (authenticated),2026-03-10T13:45:54.694177+00:00
+450,Madagascar,2012,Import,310210,Urea,World,2242.46,4004222.0,Comtrade API (authenticated),2026-03-10T13:45:54.694230+00:00
+454,Malawi,2012,Import,310210,Urea,World,134869.44,nan,Comtrade API (authenticated),2026-03-10T13:45:54.694283+00:00
+466,Mali,2012,Import,310210,Urea,World,61827.5,165769963.0,Comtrade API (authenticated),2026-03-10T13:45:54.694334+00:00
+478,Mauritania,2012,Import,310210,Urea,World,1129.66,11177000.0,Comtrade API (authenticated),2026-03-10T13:45:54.694386+00:00
+480,Mauritius,2012,Import,310210,Urea,World,8005.71,15205806.0,Comtrade API (authenticated),2026-03-10T13:45:54.694437+00:00
+504,Morocco,2012,Import,310210,Urea,World,23111.65,52987886.0,Comtrade API (authenticated),2026-03-10T13:45:54.694489+00:00
+508,Mozambique,2012,Import,310210,Urea,World,19271.47,17047915.0,Comtrade API (authenticated),2026-03-10T13:45:54.694540+00:00
+516,Namibia,2012,Import,310210,Urea,World,555.21,731443.0,Comtrade API (authenticated),2026-03-10T13:45:54.694610+00:00
+562,Niger,2012,Import,310210,Urea,World,29919.56,20569709.0,Comtrade API (authenticated),2026-03-10T13:45:54.694665+00:00
+566,Nigeria,2012,Import,310210,Urea,World,44010.89,26010465.0,Comtrade API (authenticated),2026-03-10T13:45:54.694718+00:00
+646,Rwanda,2012,Import,310210,Urea,World,1466.98,2637000.0,Comtrade API (authenticated),2026-03-10T13:45:54.694770+00:00
+678,Sao Tome and Principe,2012,Import,310210,Urea,World,5.35,7020.0,Comtrade API (authenticated),2026-03-10T13:45:54.694822+00:00
+686,Senegal,2012,Import,310210,Urea,World,30226.27,54907379.0,Comtrade API (authenticated),2026-03-10T13:45:54.694875+00:00
+690,Seychelles,2012,Import,310210,Urea,World,0.48,13.23,Comtrade API (authenticated),2026-03-10T13:45:54.694927+00:00
+710,South Africa,2012,Import,310210,Urea,World,348445.72,800820755.43,Comtrade API (authenticated),2026-03-10T13:45:54.694980+00:00
+716,Zimbabwe,2012,Import,310210,Urea,World,6578.85,10289820.255,Comtrade API (authenticated),2026-03-10T13:45:54.695032+00:00
+729,Sudan,2012,Import,310210,Urea,World,19332.44,37154535.0,Comtrade API (authenticated),2026-03-10T13:45:54.695085+00:00
+748,Eswatini,2012,Import,310210,Urea,World,8236.31,14557574.368,Comtrade API (authenticated),2026-03-10T13:45:54.695137+00:00
+768,Togo,2012,Import,310210,Urea,World,4703.22,12699500.0,Comtrade API (authenticated),2026-03-10T13:45:54.695189+00:00
+788,Tunisia,2012,Import,310210,Urea,World,1951.54,3093202.0,Comtrade API (authenticated),2026-03-10T13:45:54.695240+00:00
+800,Uganda,2012,Import,310210,Urea,World,6660.28,9711399.0,Comtrade API (authenticated),2026-03-10T13:45:54.695292+00:00
+818,Egypt,2012,Import,310210,Urea,World,417.02,890101.0,Comtrade API (authenticated),2026-03-10T13:45:54.695344+00:00
+834,Tanzania,2012,Import,310210,Urea,World,57123.92,88281948.0,Comtrade API (authenticated),2026-03-10T13:45:54.695395+00:00
+854,Burkina Faso,2012,Import,310210,Urea,World,39182.41,67364175.0,Comtrade API (authenticated),2026-03-10T13:45:54.695447+00:00
+894,Zambia,2012,Import,310210,Urea,World,72319.01,154703004.558,Comtrade API (authenticated),2026-03-10T13:45:54.695498+00:00
+120,Cameroon,2012,Export,310210,Urea,World,2722.36,4076500.0,Comtrade API (authenticated),2026-03-10T13:45:54.695552+00:00
+288,Ghana,2012,Export,310210,Urea,World,23.83,61502.0,Comtrade API (authenticated),2026-03-10T13:45:54.695634+00:00
+384,Cote dIvoire,2012,Export,310210,Urea,World,4365.4,9265538.0,Comtrade API (authenticated),2026-03-10T13:45:54.695691+00:00
+454,Malawi,2012,Export,310210,Urea,World,6.65,15000.0,Comtrade API (authenticated),2026-03-10T13:45:54.695746+00:00
+466,Mali,2012,Export,310210,Urea,World,15631.06,30983350.0,Comtrade API (authenticated),2026-03-10T13:45:54.695800+00:00
+480,Mauritius,2012,Export,310210,Urea,World,495.74,717697.0,Comtrade API (authenticated),2026-03-10T13:45:54.695854+00:00
+504,Morocco,2012,Export,310210,Urea,World,247.36,434000.0,Comtrade API (authenticated),2026-03-10T13:45:54.695907+00:00
+508,Mozambique,2012,Export,310210,Urea,World,2245.83,2779000.0,Comtrade API (authenticated),2026-03-10T13:45:54.695961+00:00
+516,Namibia,2012,Export,310210,Urea,World,24.13,37000.0,Comtrade API (authenticated),2026-03-10T13:45:54.696013+00:00
+562,Niger,2012,Export,310210,Urea,World,17.58,78000.0,Comtrade API (authenticated),2026-03-10T13:45:54.696067+00:00
+566,Nigeria,2012,Export,310210,Urea,World,37378.94,85951560.0,Comtrade API (authenticated),2026-03-10T13:45:54.696120+00:00
+686,Senegal,2012,Export,310210,Urea,World,1336.04,2878710.0,Comtrade API (authenticated),2026-03-10T13:45:54.696173+00:00
+710,South Africa,2012,Export,310210,Urea,World,24966.75,41578988.903,Comtrade API (authenticated),2026-03-10T13:45:54.696227+00:00
+748,Eswatini,2012,Export,310210,Urea,World,0.1,150.0,Comtrade API (authenticated),2026-03-10T13:45:54.696281+00:00
+768,Togo,2012,Export,310210,Urea,World,1010.99,2550000.0,Comtrade API (authenticated),2026-03-10T13:45:54.696336+00:00
+788,Tunisia,2012,Export,310210,Urea,World,18.61,138000.0,Comtrade API (authenticated),2026-03-10T13:45:54.696391+00:00
+818,Egypt,2012,Export,310210,Urea,World,1132972.45,2604534576.0,Comtrade API (authenticated),2026-03-10T13:45:54.696446+00:00
+834,Tanzania,2012,Export,310210,Urea,World,18723.16,25871998.0,Comtrade API (authenticated),2026-03-10T13:45:54.696501+00:00
+854,Burkina Faso,2012,Export,310210,Urea,World,29.68,115000.0,Comtrade API (authenticated),2026-03-10T13:45:54.696555+00:00
+894,Zambia,2012,Export,310210,Urea,World,272.23,620427.64,Comtrade API (authenticated),2026-03-10T13:45:54.696649+00:00
+12,Algeria,2013,Import,310210,Urea,World,29519.13,63075613.0,Comtrade API (authenticated),2026-03-10T13:45:54.696712+00:00
+24,Angola,2013,Import,310210,Urea,World,6186.35,11331439.0,Comtrade API (authenticated),2026-03-10T13:45:54.696766+00:00
+72,Botswana,2013,Import,310210,Urea,World,276.05,538923.0,Comtrade API (authenticated),2026-03-10T13:45:54.696819+00:00
+108,Burundi,2013,Import,310210,Urea,World,2067.16,3079249.0,Comtrade API (authenticated),2026-03-10T13:45:54.696872+00:00
+120,Cameroon,2013,Import,310210,Urea,World,26038.58,57988537.0,Comtrade API (authenticated),2026-03-10T13:45:54.696924+00:00
+132,Cabo Verde,2013,Import,310210,Urea,World,94.56,121396.0,Comtrade API (authenticated),2026-03-10T13:45:54.696977+00:00
+178,Congo Rep,2013,Import,310210,Urea,World,482.28,670167.0,Comtrade API (authenticated),2026-03-10T13:45:54.697029+00:00
+204,Benin,2013,Import,310210,Urea,World,224.51,480004.0,Comtrade API (authenticated),2026-03-10T13:45:54.697081+00:00
+231,Ethiopia,2013,Import,310210,Urea,World,102854.54,229668129.09,Comtrade API (authenticated),2026-03-10T13:45:54.697132+00:00
+266,Gabon,2013,Import,310210,Urea,World,1312.9,1972206.515,Comtrade API (authenticated),2026-03-10T13:45:54.697184+00:00
+270,Gambia,2013,Import,310210,Urea,World,16.95,25250.0,Comtrade API (authenticated),2026-03-10T13:45:54.697235+00:00
+288,Ghana,2013,Import,310210,Urea,World,17713.48,35696500.0,Comtrade API (authenticated),2026-03-10T13:45:54.697287+00:00
+384,Cote dIvoire,2013,Import,310210,Urea,World,23183.82,52454848.322,Comtrade API (authenticated),2026-03-10T13:45:54.697338+00:00
+404,Kenya,2013,Import,310210,Urea,World,49634.14,118739410.0,Comtrade API (authenticated),2026-03-10T13:45:54.697390+00:00
+426,Lesotho,2013,Import,310210,Urea,World,484.62,1093154.179,Comtrade API (authenticated),2026-03-10T13:45:54.697441+00:00
+450,Madagascar,2013,Import,310210,Urea,World,3532.32,6399139.0,Comtrade API (authenticated),2026-03-10T13:45:54.697493+00:00
+454,Malawi,2013,Import,310210,Urea,World,136822.2,186524507.918,Comtrade API (authenticated),2026-03-10T13:45:54.697545+00:00
+478,Mauritania,2013,Import,310210,Urea,World,11277.12,23320700.0,Comtrade API (authenticated),2026-03-10T13:45:54.697618+00:00
+480,Mauritius,2013,Import,310210,Urea,World,3610.19,10096539.0,Comtrade API (authenticated),2026-03-10T13:45:54.697675+00:00
+504,Morocco,2013,Import,310210,Urea,World,31907.07,81750227.0,Comtrade API (authenticated),2026-03-10T13:45:54.697727+00:00
+508,Mozambique,2013,Import,310210,Urea,World,13327.42,38777184.0,Comtrade API (authenticated),2026-03-10T13:45:54.697779+00:00
+516,Namibia,2013,Import,310210,Urea,World,328.05,461562.0,Comtrade API (authenticated),2026-03-10T13:45:54.697830+00:00
+562,Niger,2013,Import,310210,Urea,World,4159.3,12615611.0,Comtrade API (authenticated),2026-03-10T13:45:54.697881+00:00
+566,Nigeria,2013,Import,310210,Urea,World,219983.58,31099923.0,Comtrade API (authenticated),2026-03-10T13:45:54.697935+00:00
+646,Rwanda,2013,Import,310210,Urea,World,6709.0,9674500.0,Comtrade API (authenticated),2026-03-10T13:45:54.697986+00:00
+678,Sao Tome and Principe,2013,Import,310210,Urea,World,16.01,18007.0,Comtrade API (authenticated),2026-03-10T13:45:54.698044+00:00
+686,Senegal,2013,Import,310210,Urea,World,26736.59,56843947.0,Comtrade API (authenticated),2026-03-10T13:45:54.698098+00:00
+690,Seychelles,2013,Import,310210,Urea,World,32.46,13524.0,Comtrade API (authenticated),2026-03-10T13:45:54.698151+00:00
+710,South Africa,2013,Import,310210,Urea,World,248167.22,646070574.27,Comtrade API (authenticated),2026-03-10T13:45:54.698203+00:00
+716,Zimbabwe,2013,Import,310210,Urea,World,15067.34,nan,Comtrade API (authenticated),2026-03-10T13:45:54.698256+00:00
+729,Sudan,2013,Import,310210,Urea,World,14609.44,0.0,Comtrade API (authenticated),2026-03-10T13:45:54.698308+00:00
+748,Eswatini,2013,Import,310210,Urea,World,7571.84,15809539.0,Comtrade API (authenticated),2026-03-10T13:45:54.698361+00:00
+768,Togo,2013,Import,310210,Urea,World,5306.28,11586400.0,Comtrade API (authenticated),2026-03-10T13:45:54.698413+00:00
+788,Tunisia,2013,Import,310210,Urea,World,1639.47,2664826.0,Comtrade API (authenticated),2026-03-10T13:45:54.698464+00:00
+800,Uganda,2013,Import,310210,Urea,World,19968.17,12943299.0,Comtrade API (authenticated),2026-03-10T13:45:54.698517+00:00
+818,Egypt,2013,Import,310210,Urea,World,2803.76,1768725.0,Comtrade API (authenticated),2026-03-10T13:45:54.698584+00:00
+834,Tanzania,2013,Import,310210,Urea,World,64778.32,155533349.0,Comtrade API (authenticated),2026-03-10T13:45:54.698643+00:00
+854,Burkina Faso,2013,Import,310210,Urea,World,30345.25,57331540.0,Comtrade API (authenticated),2026-03-10T13:45:54.698695+00:00
+894,Zambia,2013,Import,310210,Urea,World,107541.33,257736027.532,Comtrade API (authenticated),2026-03-10T13:45:54.698746+00:00
+12,Algeria,2013,Export,310210,Urea,World,21189.77,63418216.0,Comtrade API (authenticated),2026-03-10T13:45:54.698799+00:00
+120,Cameroon,2013,Export,310210,Urea,World,3615.63,5763000.0,Comtrade API (authenticated),2026-03-10T13:45:54.698853+00:00
+324,Guinea,2013,Export,310210,Urea,World,1.57,1400.0,Comtrade API (authenticated),2026-03-10T13:45:54.698907+00:00
+384,Cote dIvoire,2013,Export,310210,Urea,World,2168.02,7870000.0,Comtrade API (authenticated),2026-03-10T13:45:54.698979+00:00
+404,Kenya,2013,Export,310210,Urea,World,619.82,1031900.0,Comtrade API (authenticated),2026-03-10T13:45:54.699033+00:00
+454,Malawi,2013,Export,310210,Urea,World,2958.59,400000.0,Comtrade API (authenticated),2026-03-10T13:45:54.699087+00:00
+480,Mauritius,2013,Export,310210,Urea,World,424.5,644998.0,Comtrade API (authenticated),2026-03-10T13:45:54.699140+00:00
+504,Morocco,2013,Export,310210,Urea,World,321.6,411180.0,Comtrade API (authenticated),2026-03-10T13:45:54.699194+00:00
+508,Mozambique,2013,Export,310210,Urea,World,305.67,448875.0,Comtrade API (authenticated),2026-03-10T13:45:54.699248+00:00
+562,Niger,2013,Export,310210,Urea,World,0.81,3200.0,Comtrade API (authenticated),2026-03-10T13:45:54.699301+00:00
+566,Nigeria,2013,Export,310210,Urea,World,15973.47,532925.0,Comtrade API (authenticated),2026-03-10T13:45:54.699354+00:00
+686,Senegal,2013,Export,310210,Urea,World,1862.77,940222.0,Comtrade API (authenticated),2026-03-10T13:45:54.699407+00:00
+710,South Africa,2013,Export,310210,Urea,World,30631.7,nan,Comtrade API (authenticated),2026-03-10T13:45:54.699459+00:00
+768,Togo,2013,Export,310210,Urea,World,1297.49,2496700.0,Comtrade API (authenticated),2026-03-10T13:45:54.699512+00:00
+800,Uganda,2013,Export,310210,Urea,World,13.51,150000.0,Comtrade API (authenticated),2026-03-10T13:45:54.699578+00:00
+818,Egypt,2013,Export,310210,Urea,World,1014852.31,2646777067.0,Comtrade API (authenticated),2026-03-10T13:45:54.699639+00:00
+834,Tanzania,2013,Export,310210,Urea,World,1825.46,2668498.0,Comtrade API (authenticated),2026-03-10T13:45:54.699694+00:00
+894,Zambia,2013,Export,310210,Urea,World,584.07,1497740.995,Comtrade API (authenticated),2026-03-10T13:45:54.699748+00:00
+12,Algeria,2014,Import,310210,Urea,World,28820.06,60879310.0,Comtrade API (authenticated),2026-03-10T13:45:54.699800+00:00
+24,Angola,2014,Import,310210,Urea,World,9396.81,14269270.0,Comtrade API (authenticated),2026-03-10T13:45:54.699853+00:00
+72,Botswana,2014,Import,310210,Urea,World,343.35,414382.0,Comtrade API (authenticated),2026-03-10T13:45:54.699905+00:00
+108,Burundi,2014,Import,310210,Urea,World,1902.13,4117795.0,Comtrade API (authenticated),2026-03-10T13:45:54.699957+00:00
+120,Cameroon,2014,Import,310210,Urea,World,13280.12,31627161.0,Comtrade API (authenticated),2026-03-10T13:45:54.700009+00:00
+132,Cabo Verde,2014,Import,310210,Urea,World,69.16,102255.0,Comtrade API (authenticated),2026-03-10T13:45:54.700061+00:00
+178,Congo Rep,2014,Import,310210,Urea,World,109.17,nan,Comtrade API (authenticated),2026-03-10T13:45:54.700113+00:00
+204,Benin,2014,Import,310210,Urea,World,10441.57,24751010.0,Comtrade API (authenticated),2026-03-10T13:45:54.700164+00:00
+231,Ethiopia,2014,Import,310210,Urea,World,166050.29,nan,Comtrade API (authenticated),2026-03-10T13:45:54.700215+00:00
+266,Gabon,2014,Import,310210,Urea,World,1000.29,1733072.0,Comtrade API (authenticated),2026-03-10T13:45:54.700266+00:00
+270,Gambia,2014,Import,310210,Urea,World,3.59,10780.0,Comtrade API (authenticated),2026-03-10T13:45:54.700317+00:00
+288,Ghana,2014,Import,310210,Urea,World,778.78,950357.54,Comtrade API (authenticated),2026-03-10T13:45:54.700369+00:00
+324,Guinea,2014,Import,310210,Urea,World,414.7,1000000.0,Comtrade API (authenticated),2026-03-10T13:45:54.700423+00:00
+384,Cote dIvoire,2014,Import,310210,Urea,World,28840.94,74201894.0,Comtrade API (authenticated),2026-03-10T13:45:54.700476+00:00
+426,Lesotho,2014,Import,310210,Urea,World,15.81,104669.86,Comtrade API (authenticated),2026-03-10T13:45:54.700527+00:00
+450,Madagascar,2014,Import,310210,Urea,World,9128.1,17100849.7,Comtrade API (authenticated),2026-03-10T13:45:54.700595+00:00
+454,Malawi,2014,Import,310210,Urea,World,78755.49,152002530.0,Comtrade API (authenticated),2026-03-10T13:45:54.700652+00:00
+478,Mauritania,2014,Import,310210,Urea,World,4277.09,9472750.0,Comtrade API (authenticated),2026-03-10T13:45:54.700704+00:00
+480,Mauritius,2014,Import,310210,Urea,World,5601.72,14598461.0,Comtrade API (authenticated),2026-03-10T13:45:54.700756+00:00
+504,Morocco,2014,Import,310210,Urea,World,37546.33,100930261.0,Comtrade API (authenticated),2026-03-10T13:45:54.700808+00:00
+508,Mozambique,2014,Import,310210,Urea,World,23058.77,44635826.0,Comtrade API (authenticated),2026-03-10T13:45:54.700860+00:00
+516,Namibia,2014,Import,310210,Urea,World,219.95,416397.0,Comtrade API (authenticated),2026-03-10T13:45:54.700910+00:00
+562,Niger,2014,Import,310210,Urea,World,12341.66,21083136.0,Comtrade API (authenticated),2026-03-10T13:45:54.700963+00:00
+566,Nigeria,2014,Import,310210,Urea,World,118391.73,280205975.0,Comtrade API (authenticated),2026-03-10T13:45:54.701015+00:00
+646,Rwanda,2014,Import,310210,Urea,World,4397.86,8075695.0,Comtrade API (authenticated),2026-03-10T13:45:54.701067+00:00
+678,Sao Tome and Principe,2014,Import,310210,Urea,World,0.7,4075.0,Comtrade API (authenticated),2026-03-10T13:45:54.701119+00:00
+686,Senegal,2014,Import,310210,Urea,World,25792.81,60226221.0,Comtrade API (authenticated),2026-03-10T13:45:54.701172+00:00
+690,Seychelles,2014,Import,310210,Urea,World,76.07,0.0,Comtrade API (authenticated),2026-03-10T13:45:54.701226+00:00
+694,Sierra Leone,2014,Import,310210,Urea,World,1885.41,704870.0,Comtrade API (authenticated),2026-03-10T13:45:54.701278+00:00
+710,South Africa,2014,Import,310210,Urea,World,303535.65,905000473.23,Comtrade API (authenticated),2026-03-10T13:45:54.701329+00:00
+716,Zimbabwe,2014,Import,310210,Urea,World,16736.33,nan,Comtrade API (authenticated),2026-03-10T13:45:54.701381+00:00
+729,Sudan,2014,Import,310210,Urea,World,56212.13,nan,Comtrade API (authenticated),2026-03-10T13:45:54.701432+00:00
+748,Eswatini,2014,Import,310210,Urea,World,5502.3,13418555.205,Comtrade API (authenticated),2026-03-10T13:45:54.701483+00:00
+768,Togo,2014,Import,310210,Urea,World,1427.5,3643000.0,Comtrade API (authenticated),2026-03-10T13:45:54.701535+00:00
+788,Tunisia,2014,Import,310210,Urea,World,2205.97,3411697.0,Comtrade API (authenticated),2026-03-10T13:45:54.701606+00:00
+800,Uganda,2014,Import,310210,Urea,World,4118.73,6265980.0,Comtrade API (authenticated),2026-03-10T13:45:54.701663+00:00
+818,Egypt,2014,Import,310210,Urea,World,818.18,49219.0,Comtrade API (authenticated),2026-03-10T13:45:54.701715+00:00
+834,Tanzania,2014,Import,310210,Urea,World,39514.76,107694163.0,Comtrade API (authenticated),2026-03-10T13:45:54.701768+00:00
+854,Burkina Faso,2014,Import,310210,Urea,World,28684.99,63297750.0,Comtrade API (authenticated),2026-03-10T13:45:54.701821+00:00
+894,Zambia,2014,Import,310210,Urea,World,95385.38,255586256.895,Comtrade API (authenticated),2026-03-10T13:45:54.701872+00:00
+12,Algeria,2014,Export,310210,Urea,World,309878.44,883602187.0,Comtrade API (authenticated),2026-03-10T13:45:54.701925+00:00
+120,Cameroon,2014,Export,310210,Urea,World,4289.48,7219850.0,Comtrade API (authenticated),2026-03-10T13:45:54.701979+00:00
+266,Gabon,2014,Export,310210,Urea,World,14.76,14000.0,Comtrade API (authenticated),2026-03-10T13:45:54.702033+00:00
+288,Ghana,2014,Export,310210,Urea,World,57.16,142500.0,Comtrade API (authenticated),2026-03-10T13:45:54.702087+00:00
+384,Cote dIvoire,2014,Export,310210,Urea,World,2452.89,5752000.0,Comtrade API (authenticated),2026-03-10T13:45:54.702141+00:00
+454,Malawi,2014,Export,310210,Urea,World,6949.41,8000000.0,Comtrade API (authenticated),2026-03-10T13:45:54.702195+00:00
+480,Mauritius,2014,Export,310210,Urea,World,370.03,636411.0,Comtrade API (authenticated),2026-03-10T13:45:54.702248+00:00
+504,Morocco,2014,Export,310210,Urea,World,50.47,80350.0,Comtrade API (authenticated),2026-03-10T13:45:54.702302+00:00
+508,Mozambique,2014,Export,310210,Urea,World,4227.52,6698201.0,Comtrade API (authenticated),2026-03-10T13:45:54.702355+00:00
+516,Namibia,2014,Export,310210,Urea,World,9.83,32766.0,Comtrade API (authenticated),2026-03-10T13:45:54.702409+00:00
+562,Niger,2014,Export,310210,Urea,World,1.98,8000.0,Comtrade API (authenticated),2026-03-10T13:45:54.702464+00:00
+566,Nigeria,2014,Export,310210,Urea,World,3858.63,9804719.0,Comtrade API (authenticated),2026-03-10T13:45:54.702518+00:00
+646,Rwanda,2014,Export,310210,Urea,World,1.97,23500.0,Comtrade API (authenticated),2026-03-10T13:45:54.702586+00:00
+686,Senegal,2014,Export,310210,Urea,World,5231.01,12977749.0,Comtrade API (authenticated),2026-03-10T13:45:54.702645+00:00
+694,Sierra Leone,2014,Export,310210,Urea,World,0.0,nan,Comtrade API (authenticated),2026-03-10T13:45:54.702699+00:00
+710,South Africa,2014,Export,310210,Urea,World,22972.89,49602430.989,Comtrade API (authenticated),2026-03-10T13:45:54.702753+00:00
+768,Togo,2014,Export,310210,Urea,World,437.21,1000000.0,Comtrade API (authenticated),2026-03-10T13:45:54.702805+00:00
+800,Uganda,2014,Export,310210,Urea,World,2.66,33000.0,Comtrade API (authenticated),2026-03-10T13:45:54.702858+00:00
+818,Egypt,2014,Export,310210,Urea,World,583812.36,1816341336.0,Comtrade API (authenticated),2026-03-10T13:45:54.702911+00:00
+834,Tanzania,2014,Export,310210,Urea,World,2743.81,5516800.0,Comtrade API (authenticated),2026-03-10T13:45:54.702964+00:00
+894,Zambia,2014,Export,310210,Urea,World,20.84,58202.897,Comtrade API (authenticated),2026-03-10T13:45:54.703017+00:00
+12,Algeria,2015,Import,310210,Urea,World,23276.06,66940316.0,Comtrade API (authenticated),2026-03-10T13:45:54.703069+00:00
+24,Angola,2015,Import,310210,Urea,World,5320.5,32660583.811,Comtrade API (authenticated),2026-03-10T13:45:54.703120+00:00
+72,Botswana,2015,Import,310210,Urea,World,249.26,594609.2,Comtrade API (authenticated),2026-03-10T13:45:54.703171+00:00
+108,Burundi,2015,Import,310210,Urea,World,1268.86,2989400.0,Comtrade API (authenticated),2026-03-10T13:45:54.703222+00:00
+120,Cameroon,2015,Import,310210,Urea,World,18298.28,52580323.0,Comtrade API (authenticated),2026-03-10T13:45:54.703275+00:00
+132,Cabo Verde,2015,Import,310210,Urea,World,126.57,223359.0,Comtrade API (authenticated),2026-03-10T13:45:54.703327+00:00
+140,Central African Republic,2015,Import,310210,Urea,World,185.6,402000.0,Comtrade API (authenticated),2026-03-10T13:45:54.703378+00:00
+178,Congo Rep,2015,Import,310210,Urea,World,343.28,715552.0,Comtrade API (authenticated),2026-03-10T13:45:54.703430+00:00
+180,Congo Dem Rep,2015,Import,310210,Urea,World,8859.36,13952632.033,Comtrade API (authenticated),2026-03-10T13:45:54.703481+00:00
+204,Benin,2015,Import,310210,Urea,World,417.11,1473430.0,Comtrade API (authenticated),2026-03-10T13:45:54.703533+00:00
+231,Ethiopia,2015,Import,310210,Urea,World,115586.2,nan,Comtrade API (authenticated),2026-03-10T13:45:54.703602+00:00
+266,Gabon,2015,Import,310210,Urea,World,677.83,1489004.0,Comtrade API (authenticated),2026-03-10T13:45:54.703658+00:00
+288,Ghana,2015,Import,310210,Urea,World,8595.82,21437456.257,Comtrade API (authenticated),2026-03-10T13:45:54.703711+00:00
+324,Guinea,2015,Import,310210,Urea,World,119.51,354168.0,Comtrade API (authenticated),2026-03-10T13:45:54.703764+00:00
+384,Cote dIvoire,2015,Import,310210,Urea,World,22166.17,64820675.298,Comtrade API (authenticated),2026-03-10T13:45:54.703816+00:00
+404,Kenya,2015,Import,310210,Urea,World,14846.95,44278213.779,Comtrade API (authenticated),2026-03-10T13:45:54.703867+00:00
+426,Lesotho,2015,Import,310210,Urea,World,30.33,88917.691,Comtrade API (authenticated),2026-03-10T13:45:54.703919+00:00
+450,Madagascar,2015,Import,310210,Urea,World,2792.55,nan,Comtrade API (authenticated),2026-03-10T13:45:54.703970+00:00
+454,Malawi,2015,Import,310210,Urea,World,90405.26,150275070.0,Comtrade API (authenticated),2026-03-10T13:45:54.704021+00:00
+478,Mauritania,2015,Import,310210,Urea,World,8.7,14000.0,Comtrade API (authenticated),2026-03-10T13:45:54.704072+00:00
+480,Mauritius,2015,Import,310210,Urea,World,2132.38,6731072.0,Comtrade API (authenticated),2026-03-10T13:45:54.704123+00:00
+504,Morocco,2015,Import,310210,Urea,World,39911.96,128743624.69,Comtrade API (authenticated),2026-03-10T13:45:54.704174+00:00
+508,Mozambique,2015,Import,310210,Urea,World,7425.57,22411967.643,Comtrade API (authenticated),2026-03-10T13:45:54.704226+00:00
+516,Namibia,2015,Import,310210,Urea,World,335.38,641270.0,Comtrade API (authenticated),2026-03-10T13:45:54.704277+00:00
+562,Niger,2015,Import,310210,Urea,World,8170.89,14599804.0,Comtrade API (authenticated),2026-03-10T13:45:54.704328+00:00
+566,Nigeria,2015,Import,310210,Urea,World,43947.65,nan,Comtrade API (authenticated),2026-03-10T13:45:54.704380+00:00
+646,Rwanda,2015,Import,310210,Urea,World,4140.47,7351161.0,Comtrade API (authenticated),2026-03-10T13:45:54.704431+00:00
+678,Sao Tome and Principe,2015,Import,310210,Urea,World,20.18,31618.0,Comtrade API (authenticated),2026-03-10T13:45:54.704483+00:00
+686,Senegal,2015,Import,310210,Urea,World,15862.73,42886897.0,Comtrade API (authenticated),2026-03-10T13:45:54.704535+00:00
+690,Seychelles,2015,Import,310210,Urea,World,15.63,21690.646,Comtrade API (authenticated),2026-03-10T13:45:54.704604+00:00
+694,Sierra Leone,2015,Import,310210,Urea,World,180.21,366540.0,Comtrade API (authenticated),2026-03-10T13:45:54.704660+00:00
+710,South Africa,2015,Import,310210,Urea,World,188926.9,662788616.44,Comtrade API (authenticated),2026-03-10T13:45:54.704712+00:00
+716,Zimbabwe,2015,Import,310210,Urea,World,19200.52,39176245.0,Comtrade API (authenticated),2026-03-10T13:45:54.704764+00:00
+729,Sudan,2015,Import,310210,Urea,World,70246.05,160837961.0,Comtrade API (authenticated),2026-03-10T13:45:54.704815+00:00
+748,Eswatini,2015,Import,310210,Urea,World,7110.43,19777106.48,Comtrade API (authenticated),2026-03-10T13:45:54.704866+00:00
+768,Togo,2015,Import,310210,Urea,World,5295.18,nan,Comtrade API (authenticated),2026-03-10T13:45:54.704917+00:00
+788,Tunisia,2015,Import,310210,Urea,World,1416.96,3013439.0,Comtrade API (authenticated),2026-03-10T13:45:54.704968+00:00
+800,Uganda,2015,Import,310210,Urea,World,3178.66,7065793.0,Comtrade API (authenticated),2026-03-10T13:45:54.705020+00:00
+818,Egypt,2015,Import,310210,Urea,World,29053.11,87688484.307,Comtrade API (authenticated),2026-03-10T13:45:54.705071+00:00
+834,Tanzania,2015,Import,310210,Urea,World,31851.71,94008004.0,Comtrade API (authenticated),2026-03-10T13:45:54.705123+00:00
+854,Burkina Faso,2015,Import,310210,Urea,World,22646.65,55712253.0,Comtrade API (authenticated),2026-03-10T13:45:54.705174+00:00
+894,Zambia,2015,Import,310210,Urea,World,125356.69,378353238.369,Comtrade API (authenticated),2026-03-10T13:45:54.705226+00:00
+12,Algeria,2015,Export,310210,Urea,World,418798.85,1413452965.0,Comtrade API (authenticated),2026-03-10T13:45:54.705280+00:00
+24,Angola,2015,Export,310210,Urea,World,5.5,11250.0,Comtrade API (authenticated),2026-03-10T13:45:54.705334+00:00
+120,Cameroon,2015,Export,310210,Urea,World,2685.57,4447200.0,Comtrade API (authenticated),2026-03-10T13:45:54.705387+00:00
+266,Gabon,2015,Export,310210,Urea,World,30.37,36000.0,Comtrade API (authenticated),2026-03-10T13:45:54.705441+00:00
+384,Cote dIvoire,2015,Export,310210,Urea,World,3860.31,9924825.0,Comtrade API (authenticated),2026-03-10T13:45:54.705494+00:00
+404,Kenya,2015,Export,310210,Urea,World,2965.48,6631270.0,Comtrade API (authenticated),2026-03-10T13:45:54.705547+00:00
+480,Mauritius,2015,Export,310210,Urea,World,189.64,384500.0,Comtrade API (authenticated),2026-03-10T13:45:54.705621+00:00
+504,Morocco,2015,Export,310210,Urea,World,12.09,nan,Comtrade API (authenticated),2026-03-10T13:45:54.705677+00:00
+508,Mozambique,2015,Export,310210,Urea,World,582.01,1853482.99,Comtrade API (authenticated),2026-03-10T13:45:54.705731+00:00
+562,Niger,2015,Export,310210,Urea,World,19.36,76700.0,Comtrade API (authenticated),2026-03-10T13:45:54.705784+00:00
+566,Nigeria,2015,Export,310210,Urea,World,30898.43,98399883.904,Comtrade API (authenticated),2026-03-10T13:45:54.705838+00:00
+686,Senegal,2015,Export,310210,Urea,World,285.69,772600.0,Comtrade API (authenticated),2026-03-10T13:45:54.705891+00:00
+710,South Africa,2015,Export,310210,Urea,World,61263.42,nan,Comtrade API (authenticated),2026-03-10T13:45:54.705944+00:00
+716,Zimbabwe,2015,Export,310210,Urea,World,596.16,1350000.0,Comtrade API (authenticated),2026-03-10T13:45:54.705997+00:00
+748,Eswatini,2015,Export,310210,Urea,World,1.18,150620.0,Comtrade API (authenticated),2026-03-10T13:45:54.706050+00:00
+768,Togo,2015,Export,310210,Urea,World,810.14,2255000.0,Comtrade API (authenticated),2026-03-10T13:45:54.706121+00:00
+788,Tunisia,2015,Export,310210,Urea,World,15.46,10427.0,Comtrade API (authenticated),2026-03-10T13:45:54.706173+00:00
+800,Uganda,2015,Export,310210,Urea,World,41.02,55400.0,Comtrade API (authenticated),2026-03-10T13:45:54.706227+00:00
+818,Egypt,2015,Export,310210,Urea,World,279996.54,891683697.665,Comtrade API (authenticated),2026-03-10T13:45:54.706280+00:00
+834,Tanzania,2015,Export,310210,Urea,World,6870.12,12745886.0,Comtrade API (authenticated),2026-03-10T13:45:54.706332+00:00
+894,Zambia,2015,Export,310210,Urea,World,154.62,492392.295,Comtrade API (authenticated),2026-03-10T13:45:54.706385+00:00
+12,Algeria,2016,Import,310210,Urea,World,11664.61,41199373.0,Comtrade API (authenticated),2026-03-10T13:45:54.706437+00:00
+24,Angola,2016,Import,310210,Urea,World,7847.14,13658156.121,Comtrade API (authenticated),2026-03-10T13:45:54.706489+00:00
+72,Botswana,2016,Import,310210,Urea,World,247.86,492479.0,Comtrade API (authenticated),2026-03-10T13:45:54.706541+00:00
+108,Burundi,2016,Import,310210,Urea,World,3068.34,7057911.0,Comtrade API (authenticated),2026-03-10T13:45:54.706612+00:00
+120,Cameroon,2016,Import,310210,Urea,World,15888.38,56761000.0,Comtrade API (authenticated),2026-03-10T13:45:54.706667+00:00
+132,Cabo Verde,2016,Import,310210,Urea,World,148.16,265705.0,Comtrade API (authenticated),2026-03-10T13:45:54.706719+00:00
+140,Central African Republic,2016,Import,310210,Urea,World,153.47,427500.0,Comtrade API (authenticated),2026-03-10T13:45:54.706772+00:00
+178,Congo Rep,2016,Import,310210,Urea,World,90.32,243793.0,Comtrade API (authenticated),2026-03-10T13:45:54.706824+00:00
+180,Congo Dem Rep,2016,Import,310210,Urea,World,5003.88,9063802.0,Comtrade API (authenticated),2026-03-10T13:45:54.706876+00:00
+204,Benin,2016,Import,310210,Urea,World,12250.73,42079510.0,Comtrade API (authenticated),2026-03-10T13:45:54.706929+00:00
+231,Ethiopia,2016,Import,310210,Urea,World,94464.0,279568850.0,Comtrade API (authenticated),2026-03-10T13:45:54.706981+00:00
+266,Gabon,2016,Import,310210,Urea,World,826.68,2881602.0,Comtrade API (authenticated),2026-03-10T13:45:54.707032+00:00
+288,Ghana,2016,Import,310210,Urea,World,6642.59,23247510.0,Comtrade API (authenticated),2026-03-10T13:45:54.707084+00:00
+324,Guinea,2016,Import,310210,Urea,World,745.52,2543577.407,Comtrade API (authenticated),2026-03-10T13:45:54.707136+00:00
+384,Cote dIvoire,2016,Import,310210,Urea,World,18146.66,nan,Comtrade API (authenticated),2026-03-10T13:45:54.707188+00:00
+404,Kenya,2016,Import,310210,Urea,World,21901.35,87521787.316,Comtrade API (authenticated),2026-03-10T13:45:54.707239+00:00
+426,Lesotho,2016,Import,310210,Urea,World,0.54,1070.0,Comtrade API (authenticated),2026-03-10T13:45:54.707290+00:00
+434,Libya,2016,Import,310210,Urea,World,915.56,2798319.0,Comtrade API (authenticated),2026-03-10T13:45:54.707342+00:00
+450,Madagascar,2016,Import,310210,Urea,World,3515.74,11234760.0,Comtrade API (authenticated),2026-03-10T13:45:54.707393+00:00
+454,Malawi,2016,Import,310210,Urea,World,47136.2,92972280.213,Comtrade API (authenticated),2026-03-10T13:45:54.707444+00:00
+466,Mali,2016,Import,310210,Urea,World,67483.12,254045512.0,Comtrade API (authenticated),2026-03-10T13:45:54.707495+00:00
+478,Mauritania,2016,Import,310210,Urea,World,3.96,14403.0,Comtrade API (authenticated),2026-03-10T13:45:54.707547+00:00
+480,Mauritius,2016,Import,310210,Urea,World,2547.81,9709419.0,Comtrade API (authenticated),2026-03-10T13:45:54.707617+00:00
+504,Morocco,2016,Import,310210,Urea,World,25035.21,110161573.0,Comtrade API (authenticated),2026-03-10T13:45:54.707671+00:00
+508,Mozambique,2016,Import,310210,Urea,World,6800.28,24641225.92,Comtrade API (authenticated),2026-03-10T13:45:54.707723+00:00
+516,Namibia,2016,Import,310210,Urea,World,622.08,1712874.0,Comtrade API (authenticated),2026-03-10T13:45:54.707775+00:00
+562,Niger,2016,Import,310210,Urea,World,5767.16,nan,Comtrade API (authenticated),2026-03-10T13:45:54.707827+00:00
+566,Nigeria,2016,Import,310210,Urea,World,11542.99,34264654.0,Comtrade API (authenticated),2026-03-10T13:45:54.707878+00:00
+646,Rwanda,2016,Import,310210,Urea,World,722.92,1607361.0,Comtrade API (authenticated),2026-03-10T13:45:54.707931+00:00
+678,Sao Tome and Principe,2016,Import,310210,Urea,World,17.46,27340.0,Comtrade API (authenticated),2026-03-10T13:45:54.707983+00:00
+686,Senegal,2016,Import,310210,Urea,World,17331.94,59802966.0,Comtrade API (authenticated),2026-03-10T13:45:54.708039+00:00
+690,Seychelles,2016,Import,310210,Urea,World,4.37,5071.11,Comtrade API (authenticated),2026-03-10T13:45:54.708092+00:00
+694,Sierra Leone,2016,Import,310210,Urea,World,518.72,884926.0,Comtrade API (authenticated),2026-03-10T13:45:54.708144+00:00
+710,South Africa,2016,Import,310210,Urea,World,171554.77,877638820.26,Comtrade API (authenticated),2026-03-10T13:45:54.708195+00:00
+716,Zimbabwe,2016,Import,310210,Urea,World,17216.93,42696380.0,Comtrade API (authenticated),2026-03-10T13:45:54.708246+00:00
+729,Sudan,2016,Import,310210,Urea,World,86455.97,262747212.895,Comtrade API (authenticated),2026-03-10T13:45:54.708298+00:00
+748,Eswatini,2016,Import,310210,Urea,World,4640.82,15602598.27,Comtrade API (authenticated),2026-03-10T13:45:54.708349+00:00
+768,Togo,2016,Import,310210,Urea,World,2493.32,9757800.0,Comtrade API (authenticated),2026-03-10T13:45:54.708400+00:00
+788,Tunisia,2016,Import,310210,Urea,World,1611.57,3725974.0,Comtrade API (authenticated),2026-03-10T13:45:54.708452+00:00
+800,Uganda,2016,Import,310210,Urea,World,3646.22,9814720.0,Comtrade API (authenticated),2026-03-10T13:45:54.708503+00:00
+818,Egypt,2016,Import,310210,Urea,World,236.21,942612.387,Comtrade API (authenticated),2026-03-10T13:45:54.708554+00:00
+834,Tanzania,2016,Import,310210,Urea,World,35027.81,138572929.0,Comtrade API (authenticated),2026-03-10T13:45:54.708626+00:00
+854,Burkina Faso,2016,Import,310210,Urea,World,21439.21,68056229.0,Comtrade API (authenticated),2026-03-10T13:45:54.708681+00:00
+894,Zambia,2016,Import,310210,Urea,World,69520.8,277429698.739,Comtrade API (authenticated),2026-03-10T13:45:54.708733+00:00
+12,Algeria,2016,Export,310210,Urea,World,446074.7,2067666154.0,Comtrade API (authenticated),2026-03-10T13:45:54.708785+00:00
+24,Angola,2016,Export,310210,Urea,World,4.09,140.0,Comtrade API (authenticated),2026-03-10T13:45:54.708838+00:00
+120,Cameroon,2016,Export,310210,Urea,World,63.79,177075.0,Comtrade API (authenticated),2026-03-10T13:45:54.708891+00:00
+266,Gabon,2016,Export,310210,Urea,World,12.09,14000.0,Comtrade API (authenticated),2026-03-10T13:45:54.708944+00:00
+384,Cote dIvoire,2016,Export,310210,Urea,World,2744.0,7525245.0,Comtrade API (authenticated),2026-03-10T13:45:54.708997+00:00
+404,Kenya,2016,Export,310210,Urea,World,4207.69,12047960.0,Comtrade API (authenticated),2026-03-10T13:45:54.709050+00:00
+434,Libya,2016,Export,310210,Urea,World,42058.76,164721690.0,Comtrade API (authenticated),2026-03-10T13:45:54.709103+00:00
+466,Mali,2016,Export,310210,Urea,World,9627.15,33159456.0,Comtrade API (authenticated),2026-03-10T13:45:54.709157+00:00
+480,Mauritius,2016,Export,310210,Urea,World,210.92,526663.0,Comtrade API (authenticated),2026-03-10T13:45:54.709210+00:00
+504,Morocco,2016,Export,310210,Urea,World,39.6,50000.0,Comtrade API (authenticated),2026-03-10T13:45:54.709263+00:00
+508,Mozambique,2016,Export,310210,Urea,World,663.71,1710000.0,Comtrade API (authenticated),2026-03-10T13:45:54.709315+00:00
+566,Nigeria,2016,Export,310210,Urea,World,70077.97,230573471.0,Comtrade API (authenticated),2026-03-10T13:45:54.709368+00:00
+686,Senegal,2016,Export,310210,Urea,World,33.7,90000.0,Comtrade API (authenticated),2026-03-10T13:45:54.709421+00:00
+710,South Africa,2016,Export,310210,Urea,World,34851.18,95698927.22,Comtrade API (authenticated),2026-03-10T13:45:54.709474+00:00
+748,Eswatini,2016,Export,310210,Urea,World,3.9,521840.0,Comtrade API (authenticated),2026-03-10T13:45:54.709528+00:00
+768,Togo,2016,Export,310210,Urea,World,2532.33,8031000.0,Comtrade API (authenticated),2026-03-10T13:45:54.709597+00:00
+788,Tunisia,2016,Export,310210,Urea,World,16.41,20212.0,Comtrade API (authenticated),2026-03-10T13:45:54.709657+00:00
+800,Uganda,2016,Export,310210,Urea,World,3.92,30000.0,Comtrade API (authenticated),2026-03-10T13:45:54.709711+00:00
+818,Egypt,2016,Export,310210,Urea,World,716502.75,2925412853.547,Comtrade API (authenticated),2026-03-10T13:45:54.709766+00:00
+834,Tanzania,2016,Export,310210,Urea,World,8891.9,18154465.0,Comtrade API (authenticated),2026-03-10T13:45:54.709821+00:00
+894,Zambia,2016,Export,310210,Urea,World,17.5,71465.886,Comtrade API (authenticated),2026-03-10T13:45:54.709876+00:00
+12,Algeria,2017,Import,310210,Urea,World,11033.32,35834490.0,Comtrade API (authenticated),2026-03-10T13:45:54.709928+00:00
+24,Angola,2017,Import,310210,Urea,World,12600.47,24600037.615,Comtrade API (authenticated),2026-03-10T13:45:54.709980+00:00
+72,Botswana,2017,Import,310210,Urea,World,52.72,107825.0,Comtrade API (authenticated),2026-03-10T13:45:54.710073+00:00
+108,Burundi,2017,Import,310210,Urea,World,3565.63,8187731.223,Comtrade API (authenticated),2026-03-10T13:45:54.710129+00:00
+120,Cameroon,2017,Import,310210,Urea,World,22139.88,74057137.0,Comtrade API (authenticated),2026-03-10T13:45:54.710181+00:00
+132,Cabo Verde,2017,Import,310210,Urea,World,151.1,273896.0,Comtrade API (authenticated),2026-03-10T13:45:54.710232+00:00
+140,Central African Republic,2017,Import,310210,Urea,World,177.27,40108.0,Comtrade API (authenticated),2026-03-10T13:45:54.710284+00:00
+174,Comoros,2017,Import,310210,Urea,World,1.22,4000.0,Comtrade API (authenticated),2026-03-10T13:45:54.710336+00:00
+178,Congo Rep,2017,Import,310210,Urea,World,191.56,426000.0,Comtrade API (authenticated),2026-03-10T13:45:54.710387+00:00
+180,Congo Dem Rep,2017,Import,310210,Urea,World,4375.43,8818874.0,Comtrade API (authenticated),2026-03-10T13:45:54.710439+00:00
+204,Benin,2017,Import,310210,Urea,World,15443.57,57779750.0,Comtrade API (authenticated),2026-03-10T13:45:54.710492+00:00
+231,Ethiopia,2017,Import,310210,Urea,World,69521.78,nan,Comtrade API (authenticated),2026-03-10T13:45:54.710544+00:00
+266,Gabon,2017,Import,310210,Urea,World,599.81,1432622.0,Comtrade API (authenticated),2026-03-10T13:45:54.710615+00:00
+270,Gambia,2017,Import,310210,Urea,World,50.35,24500.0,Comtrade API (authenticated),2026-03-10T13:45:54.710670+00:00
+288,Ghana,2017,Import,310210,Urea,World,25757.5,nan,Comtrade API (authenticated),2026-03-10T13:45:54.710723+00:00
+384,Cote dIvoire,2017,Import,310210,Urea,World,12140.69,43364753.0,Comtrade API (authenticated),2026-03-10T13:45:54.710775+00:00
+404,Kenya,2017,Import,310210,Urea,World,20570.51,76786407.565,Comtrade API (authenticated),2026-03-10T13:45:54.710826+00:00
+426,Lesotho,2017,Import,310210,Urea,World,0.02,50.0,Comtrade API (authenticated),2026-03-10T13:45:54.710878+00:00
+430,Liberia,2017,Import,310210,Urea,World,390.8,552537.0,Comtrade API (authenticated),2026-03-10T13:45:54.710931+00:00
+434,Libya,2017,Import,310210,Urea,World,5851.46,18431338.0,Comtrade API (authenticated),2026-03-10T13:45:54.710982+00:00
+450,Madagascar,2017,Import,310210,Urea,World,4466.42,12995245.61,Comtrade API (authenticated),2026-03-10T13:45:54.711035+00:00
+454,Malawi,2017,Import,310210,Urea,World,53865.22,118687442.0,Comtrade API (authenticated),2026-03-10T13:45:54.711087+00:00
+466,Mali,2017,Import,310210,Urea,World,55695.06,nan,Comtrade API (authenticated),2026-03-10T13:45:54.711138+00:00
+478,Mauritania,2017,Import,310210,Urea,World,32.51,101120.0,Comtrade API (authenticated),2026-03-10T13:45:54.711190+00:00
+480,Mauritius,2017,Import,310210,Urea,World,2077.29,7402158.0,Comtrade API (authenticated),2026-03-10T13:45:54.711242+00:00
+504,Morocco,2017,Import,310210,Urea,World,32385.57,122401929.869,Comtrade API (authenticated),2026-03-10T13:45:54.711293+00:00
+508,Mozambique,2017,Import,310210,Urea,World,5990.84,22780789.583,Comtrade API (authenticated),2026-03-10T13:45:54.711344+00:00
+516,Namibia,2017,Import,310210,Urea,World,393.12,802702.84,Comtrade API (authenticated),2026-03-10T13:45:54.711396+00:00
+562,Niger,2017,Import,310210,Urea,World,5035.53,18352000.0,Comtrade API (authenticated),2026-03-10T13:45:54.711448+00:00
+566,Nigeria,2017,Import,310210,Urea,World,2.27,8662.394,Comtrade API (authenticated),2026-03-10T13:45:54.711500+00:00
+624,Guinea-Bissau,2017,Import,310210,Urea,World,25.19,84950.0,Comtrade API (authenticated),2026-03-10T13:45:54.711552+00:00
+646,Rwanda,2017,Import,310210,Urea,World,1886.05,4666335.0,Comtrade API (authenticated),2026-03-10T13:45:54.711623+00:00
+678,Sao Tome and Principe,2017,Import,310210,Urea,World,18.86,24495.0,Comtrade API (authenticated),2026-03-10T13:45:54.711677+00:00
+686,Senegal,2017,Import,310210,Urea,World,20106.64,81833113.0,Comtrade API (authenticated),2026-03-10T13:45:54.711731+00:00
+690,Seychelles,2017,Import,310210,Urea,World,13.37,20600.85,Comtrade API (authenticated),2026-03-10T13:45:54.711782+00:00
+694,Sierra Leone,2017,Import,310210,Urea,World,1281.97,1886769.27,Comtrade API (authenticated),2026-03-10T13:45:54.711834+00:00
+710,South Africa,2017,Import,310210,Urea,World,223085.24,923762349.21,Comtrade API (authenticated),2026-03-10T13:45:54.711885+00:00
+716,Zimbabwe,2017,Import,310210,Urea,World,31499.83,73027271.0,Comtrade API (authenticated),2026-03-10T13:45:54.711936+00:00
+729,Sudan,2017,Import,310210,Urea,World,89764.19,343039491.103,Comtrade API (authenticated),2026-03-10T13:45:54.711987+00:00
+748,Eswatini,2017,Import,310210,Urea,World,3068.09,9282254.1,Comtrade API (authenticated),2026-03-10T13:45:54.712039+00:00
+768,Togo,2017,Import,310210,Urea,World,3633.98,8589800.0,Comtrade API (authenticated),2026-03-10T13:45:54.712090+00:00
+788,Tunisia,2017,Import,310210,Urea,World,1116.38,2720284.0,Comtrade API (authenticated),2026-03-10T13:45:54.712140+00:00
+800,Uganda,2017,Import,310210,Urea,World,3538.75,9814041.0,Comtrade API (authenticated),2026-03-10T13:45:54.712191+00:00
+818,Egypt,2017,Import,310210,Urea,World,949.55,3610749.556,Comtrade API (authenticated),2026-03-10T13:45:54.712242+00:00
+834,Tanzania,2017,Import,310210,Urea,World,35777.32,132553006.429,Comtrade API (authenticated),2026-03-10T13:45:54.712293+00:00
+854,Burkina Faso,2017,Import,310210,Urea,World,19577.81,60271800.0,Comtrade API (authenticated),2026-03-10T13:45:54.712345+00:00
+894,Zambia,2017,Import,310210,Urea,World,126314.66,480324438.842,Comtrade API (authenticated),2026-03-10T13:45:54.712396+00:00
+12,Algeria,2017,Export,310210,Urea,World,322077.8,1350636390.0,Comtrade API (authenticated),2026-03-10T13:45:54.712451+00:00
+24,Angola,2017,Export,310210,Urea,World,8.64,596.0,Comtrade API (authenticated),2026-03-10T13:45:54.712505+00:00
+120,Cameroon,2017,Export,310210,Urea,World,349.28,845100.0,Comtrade API (authenticated),2026-03-10T13:45:54.712559+00:00
+384,Cote dIvoire,2017,Export,310210,Urea,World,668.72,1521000.0,Comtrade API (authenticated),2026-03-10T13:45:54.712634+00:00
+404,Kenya,2017,Export,310210,Urea,World,2114.59,5216914.0,Comtrade API (authenticated),2026-03-10T13:45:54.712689+00:00
+434,Libya,2017,Export,310210,Urea,World,42058.76,164721690.0,Comtrade API (authenticated),2026-03-10T13:45:54.712743+00:00
+454,Malawi,2017,Export,310210,Urea,World,2183.15,3500000.0,Comtrade API (authenticated),2026-03-10T13:45:54.712796+00:00
+466,Mali,2017,Export,310210,Urea,World,9274.45,30450850.0,Comtrade API (authenticated),2026-03-10T13:45:54.712849+00:00
+480,Mauritius,2017,Export,310210,Urea,World,249.7,590547.0,Comtrade API (authenticated),2026-03-10T13:45:54.712902+00:00
+504,Morocco,2017,Export,310210,Urea,World,570.1,1540000.0,Comtrade API (authenticated),2026-03-10T13:45:54.712955+00:00
+508,Mozambique,2017,Export,310210,Urea,World,1019.65,2990232.0,Comtrade API (authenticated),2026-03-10T13:45:54.713009+00:00
+562,Niger,2017,Export,310210,Urea,World,26.78,112000.0,Comtrade API (authenticated),2026-03-10T13:45:54.713063+00:00
+566,Nigeria,2017,Export,310210,Urea,World,165723.6,614951651.326,Comtrade API (authenticated),2026-03-10T13:45:54.713116+00:00
+686,Senegal,2017,Export,310210,Urea,World,193.46,553000.0,Comtrade API (authenticated),2026-03-10T13:45:54.713170+00:00
+710,South Africa,2017,Export,310210,Urea,World,38721.91,0.0,Comtrade API (authenticated),2026-03-10T13:45:54.713223+00:00
+768,Togo,2017,Export,310210,Urea,World,514.07,1541800.0,Comtrade API (authenticated),2026-03-10T13:45:54.713276+00:00
+800,Uganda,2017,Export,310210,Urea,World,103.72,136375.0,Comtrade API (authenticated),2026-03-10T13:45:54.713329+00:00
+818,Egypt,2017,Export,310210,Urea,World,938326.45,3599169211.513,Comtrade API (authenticated),2026-03-10T13:45:54.713383+00:00
+834,Tanzania,2017,Export,310210,Urea,World,11141.04,22407000.0,Comtrade API (authenticated),2026-03-10T13:45:54.713436+00:00
+894,Zambia,2017,Export,310210,Urea,World,165.99,636678.372,Comtrade API (authenticated),2026-03-10T13:45:54.713490+00:00
+24,Angola,2018,Import,310210,Urea,World,9170.06,16953118.21,Comtrade API (authenticated),2026-03-10T13:45:54.713542+00:00
+72,Botswana,2018,Import,310210,Urea,World,97.47,208462.22,Comtrade API (authenticated),2026-03-10T13:45:54.713612+00:00
+108,Burundi,2018,Import,310210,Urea,World,6096.07,12575045.0,Comtrade API (authenticated),2026-03-10T13:45:54.713668+00:00
+120,Cameroon,2018,Import,310210,Urea,World,18144.03,59808289.0,Comtrade API (authenticated),2026-03-10T13:45:54.713720+00:00
+132,Cabo Verde,2018,Import,310210,Urea,World,203.32,362685.0,Comtrade API (authenticated),2026-03-10T13:45:54.713771+00:00
+140,Central African Republic,2018,Import,310210,Urea,World,176.4,405000.0,Comtrade API (authenticated),2026-03-10T13:45:54.713823+00:00
+174,Comoros,2018,Import,310210,Urea,World,0.42,500.0,Comtrade API (authenticated),2026-03-10T13:45:54.713875+00:00
+178,Congo Rep,2018,Import,310210,Urea,World,117.34,240707.0,Comtrade API (authenticated),2026-03-10T13:45:54.713927+00:00
+180,Congo Dem Rep,2018,Import,310210,Urea,World,3999.55,0.0,Comtrade API (authenticated),2026-03-10T13:45:54.713979+00:00
+204,Benin,2018,Import,310210,Urea,World,12771.74,44858976.0,Comtrade API (authenticated),2026-03-10T13:45:54.714030+00:00
+231,Ethiopia,2018,Import,310210,Urea,World,170791.1,491137056.836,Comtrade API (authenticated),2026-03-10T13:45:54.714082+00:00
+266,Gabon,2018,Import,310210,Urea,World,609.34,1526673.0,Comtrade API (authenticated),2026-03-10T13:45:54.714137+00:00
+270,Gambia,2018,Import,310210,Urea,World,1213.93,2705303.0,Comtrade API (authenticated),2026-03-10T13:45:54.714189+00:00
+288,Ghana,2018,Import,310210,Urea,World,10037.86,35927365.61,Comtrade API (authenticated),2026-03-10T13:45:54.714241+00:00
+384,Cote dIvoire,2018,Import,310210,Urea,World,12296.06,42941928.0,Comtrade API (authenticated),2026-03-10T13:45:54.714292+00:00
+404,Kenya,2018,Import,310210,Urea,World,23056.94,74038085.0,Comtrade API (authenticated),2026-03-10T13:45:54.714343+00:00
+426,Lesotho,2018,Import,310210,Urea,World,25.64,2150.0,Comtrade API (authenticated),2026-03-10T13:45:54.714395+00:00
+430,Liberia,2018,Import,310210,Urea,World,1016.44,350003.0,Comtrade API (authenticated),2026-03-10T13:45:54.714446+00:00
+434,Libya,2018,Import,310210,Urea,World,1601.12,5465850.3,Comtrade API (authenticated),2026-03-10T13:45:54.714498+00:00
+450,Madagascar,2018,Import,310210,Urea,World,4952.07,12919427.36,Comtrade API (authenticated),2026-03-10T13:45:54.714549+00:00
+454,Malawi,2018,Import,310210,Urea,World,82505.26,144064643.696,Comtrade API (authenticated),2026-03-10T13:45:54.714641+00:00
+466,Mali,2018,Import,310210,Urea,World,35840.22,0.0,Comtrade API (authenticated),2026-03-10T13:45:54.714695+00:00
+478,Mauritania,2018,Import,310210,Urea,World,27.44,59517.0,Comtrade API (authenticated),2026-03-10T13:45:54.714746+00:00
+480,Mauritius,2018,Import,310210,Urea,World,2431.98,7466655.0,Comtrade API (authenticated),2026-03-10T13:45:54.714798+00:00
+504,Morocco,2018,Import,310210,Urea,World,37082.81,nan,Comtrade API (authenticated),2026-03-10T13:45:54.714849+00:00
+508,Mozambique,2018,Import,310210,Urea,World,4933.47,13223357.0,Comtrade API (authenticated),2026-03-10T13:45:54.714900+00:00
+516,Namibia,2018,Import,310210,Urea,World,484.1,1715856.529,Comtrade API (authenticated),2026-03-10T13:45:54.714952+00:00
+562,Niger,2018,Import,310210,Urea,World,5948.06,17271890.0,Comtrade API (authenticated),2026-03-10T13:45:54.715002+00:00
+566,Nigeria,2018,Import,310210,Urea,World,65.55,24020.0,Comtrade API (authenticated),2026-03-10T13:45:54.715053+00:00
+624,Guinea-Bissau,2018,Import,310210,Urea,World,2.93,7600.0,Comtrade API (authenticated),2026-03-10T13:45:54.715105+00:00
+646,Rwanda,2018,Import,310210,Urea,World,2522.79,5481303.0,Comtrade API (authenticated),2026-03-10T13:45:54.715159+00:00
+678,Sao Tome and Principe,2018,Import,310210,Urea,World,20.99,32703.0,Comtrade API (authenticated),2026-03-10T13:45:54.715211+00:00
+686,Senegal,2018,Import,310210,Urea,World,11424.35,38954867.983,Comtrade API (authenticated),2026-03-10T13:45:54.715262+00:00
+690,Seychelles,2018,Import,310210,Urea,World,3.32,0.0,Comtrade API (authenticated),2026-03-10T13:45:54.715314+00:00
+694,Sierra Leone,2018,Import,310210,Urea,World,2464.89,3475665.28,Comtrade API (authenticated),2026-03-10T13:45:54.715365+00:00
+710,South Africa,2018,Import,310210,Urea,World,234996.57,808631532.35,Comtrade API (authenticated),2026-03-10T13:45:54.715416+00:00
+716,Zimbabwe,2018,Import,310210,Urea,World,45903.84,nan,Comtrade API (authenticated),2026-03-10T13:45:54.715467+00:00
+729,Sudan,2018,Import,310210,Urea,World,72934.68,208829744.924,Comtrade API (authenticated),2026-03-10T13:45:54.715517+00:00
+748,Eswatini,2018,Import,310210,Urea,World,4072.6,10656547.0,Comtrade API (authenticated),2026-03-10T13:45:54.715584+00:00
+768,Togo,2018,Import,310210,Urea,World,4131.57,14963950.0,Comtrade API (authenticated),2026-03-10T13:45:54.715642+00:00
+788,Tunisia,2018,Import,310210,Urea,World,1752.61,3794845.0,Comtrade API (authenticated),2026-03-10T13:45:54.715693+00:00
+800,Uganda,2018,Import,310210,Urea,World,5459.05,13725298.5,Comtrade API (authenticated),2026-03-10T13:45:54.715744+00:00
+818,Egypt,2018,Import,310210,Urea,World,683.99,2424383.217,Comtrade API (authenticated),2026-03-10T13:45:54.715795+00:00
+834,Tanzania,2018,Import,310210,Urea,World,52732.3,153226502.0,Comtrade API (authenticated),2026-03-10T13:45:54.715845+00:00
+854,Burkina Faso,2018,Import,310210,Urea,World,23659.03,71933120.0,Comtrade API (authenticated),2026-03-10T13:45:54.715895+00:00
+894,Zambia,2018,Import,310210,Urea,World,85902.24,276496016.44,Comtrade API (authenticated),2026-03-10T13:45:54.715946+00:00
+24,Angola,2018,Export,310210,Urea,World,120.89,115417.0,Comtrade API (authenticated),2026-03-10T13:45:54.715998+00:00
+120,Cameroon,2018,Export,310210,Urea,World,4429.08,10601000.0,Comtrade API (authenticated),2026-03-10T13:45:54.716052+00:00
+266,Gabon,2018,Export,310210,Urea,World,33.05,40000.0,Comtrade API (authenticated),2026-03-10T13:45:54.716105+00:00
+288,Ghana,2018,Export,310210,Urea,World,3.22,4000.0,Comtrade API (authenticated),2026-03-10T13:45:54.716159+00:00
+384,Cote dIvoire,2018,Export,310210,Urea,World,1046.84,3368494.0,Comtrade API (authenticated),2026-03-10T13:45:54.716212+00:00
+404,Kenya,2018,Export,310210,Urea,World,5347.89,12955990.0,Comtrade API (authenticated),2026-03-10T13:45:54.716265+00:00
+434,Libya,2018,Export,310210,Urea,World,68656.77,247257956.306,Comtrade API (authenticated),2026-03-10T13:45:54.716318+00:00
+454,Malawi,2018,Export,310210,Urea,World,326.88,654000.0,Comtrade API (authenticated),2026-03-10T13:45:54.716371+00:00
+466,Mali,2018,Export,310210,Urea,World,1146.46,3480183.0,Comtrade API (authenticated),2026-03-10T13:45:54.716424+00:00
+480,Mauritius,2018,Export,310210,Urea,World,144.97,278850.0,Comtrade API (authenticated),2026-03-10T13:45:54.716477+00:00
+504,Morocco,2018,Export,310210,Urea,World,126.28,261000.0,Comtrade API (authenticated),2026-03-10T13:45:54.716530+00:00
+508,Mozambique,2018,Export,310210,Urea,World,37.66,100000.0,Comtrade API (authenticated),2026-03-10T13:45:54.716600+00:00
+566,Nigeria,2018,Export,310210,Urea,World,199529.85,717724900.0,Comtrade API (authenticated),2026-03-10T13:45:54.716658+00:00
+686,Senegal,2018,Export,310210,Urea,World,5684.39,18808100.0,Comtrade API (authenticated),2026-03-10T13:45:54.716713+00:00
+710,South Africa,2018,Export,310210,Urea,World,36611.7,91649621.44,Comtrade API (authenticated),2026-03-10T13:45:54.716767+00:00
+768,Togo,2018,Export,310210,Urea,World,818.07,2540000.0,Comtrade API (authenticated),2026-03-10T13:45:54.716821+00:00
+800,Uganda,2018,Export,310210,Urea,World,41.62,66800.0,Comtrade API (authenticated),2026-03-10T13:45:54.716875+00:00
+818,Egypt,2018,Export,310210,Urea,World,1135149.83,4088086489.9,Comtrade API (authenticated),2026-03-10T13:45:54.716928+00:00
+834,Tanzania,2018,Export,310210,Urea,World,6.75,nan,Comtrade API (authenticated),2026-03-10T13:45:54.716982+00:00
+854,Burkina Faso,2018,Export,310210,Urea,World,46.83,120013.0,Comtrade API (authenticated),2026-03-10T13:45:54.717035+00:00
+894,Zambia,2018,Export,310210,Urea,World,69.04,139410.256,Comtrade API (authenticated),2026-03-10T13:45:54.717089+00:00
+24,Angola,2019,Import,310210,Urea,World,4734.22,8912497.05,Comtrade API (authenticated),2026-03-10T13:45:54.717141+00:00
+72,Botswana,2019,Import,310210,Urea,World,924.26,1694192.0,Comtrade API (authenticated),2026-03-10T13:45:54.717193+00:00
+108,Burundi,2019,Import,310210,Urea,World,3393.84,7292641.5,Comtrade API (authenticated),2026-03-10T13:45:54.717244+00:00
+120,Cameroon,2019,Import,310210,Urea,World,23988.94,74180350.0,Comtrade API (authenticated),2026-03-10T13:45:54.717296+00:00
+132,Cabo Verde,2019,Import,310210,Urea,World,166.22,296171.0,Comtrade API (authenticated),2026-03-10T13:45:54.717349+00:00
+140,Central African Republic,2019,Import,310210,Urea,World,169.94,397000.0,Comtrade API (authenticated),2026-03-10T13:45:54.717408+00:00
+178,Congo Rep,2019,Import,310210,Urea,World,182.78,1093153.0,Comtrade API (authenticated),2026-03-10T13:45:54.717460+00:00
+180,Congo Dem Rep,2019,Import,310210,Urea,World,4125.94,7683060.0,Comtrade API (authenticated),2026-03-10T13:45:54.717511+00:00
+204,Benin,2019,Import,310210,Urea,World,23012.15,81223948.012,Comtrade API (authenticated),2026-03-10T13:45:54.717578+00:00
+231,Ethiopia,2019,Import,310210,Urea,World,201376.04,0.0,Comtrade API (authenticated),2026-03-10T13:45:54.717637+00:00
+266,Gabon,2019,Import,310210,Urea,World,656.02,1545519.0,Comtrade API (authenticated),2026-03-10T13:45:54.717690+00:00
+270,Gambia,2019,Import,310210,Urea,World,0.44,2885.0,Comtrade API (authenticated),2026-03-10T13:45:54.717742+00:00
+288,Ghana,2019,Import,310210,Urea,World,24554.47,76987478.08,Comtrade API (authenticated),2026-03-10T13:45:54.717794+00:00
+384,Cote dIvoire,2019,Import,310210,Urea,World,27670.53,88496455.0,Comtrade API (authenticated),2026-03-10T13:45:54.717845+00:00
+404,Kenya,2019,Import,310210,Urea,World,24416.78,80255899.163,Comtrade API (authenticated),2026-03-10T13:45:54.717898+00:00
+426,Lesotho,2019,Import,310210,Urea,World,13.31,33900.0,Comtrade API (authenticated),2026-03-10T13:45:54.717950+00:00
+430,Liberia,2019,Import,310210,Urea,World,39.55,86080.0,Comtrade API (authenticated),2026-03-10T13:45:54.718001+00:00
+434,Libya,2019,Import,310210,Urea,World,4522.83,14438590.0,Comtrade API (authenticated),2026-03-10T13:45:54.718059+00:00
+450,Madagascar,2019,Import,310210,Urea,World,7223.49,18104492.153,Comtrade API (authenticated),2026-03-10T13:45:54.718111+00:00
+454,Malawi,2019,Import,310210,Urea,World,64852.01,106670750.0,Comtrade API (authenticated),2026-03-10T13:45:54.718162+00:00
+466,Mali,2019,Import,310210,Urea,World,72205.97,284961165.0,Comtrade API (authenticated),2026-03-10T13:45:54.718221+00:00
+478,Mauritania,2019,Import,310210,Urea,World,3.86,12000.0,Comtrade API (authenticated),2026-03-10T13:45:54.718272+00:00
+480,Mauritius,2019,Import,310210,Urea,World,3343.71,8927313.0,Comtrade API (authenticated),2026-03-10T13:45:54.718323+00:00
+504,Morocco,2019,Import,310210,Urea,World,30438.65,0.0,Comtrade API (authenticated),2026-03-10T13:45:54.718374+00:00
+508,Mozambique,2019,Import,310210,Urea,World,19783.46,nan,Comtrade API (authenticated),2026-03-10T13:45:54.718425+00:00
+516,Namibia,2019,Import,310210,Urea,World,301.65,508692.94,Comtrade API (authenticated),2026-03-10T13:45:54.718519+00:00
+562,Niger,2019,Import,310210,Urea,World,4467.79,12215000.0,Comtrade API (authenticated),2026-03-10T13:45:54.718597+00:00
+566,Nigeria,2019,Import,310210,Urea,World,0.46,30.0,Comtrade API (authenticated),2026-03-10T13:45:54.718655+00:00
+646,Rwanda,2019,Import,310210,Urea,World,2224.66,4180697.0,Comtrade API (authenticated),2026-03-10T13:45:54.718708+00:00
+678,Sao Tome and Principe,2019,Import,310210,Urea,World,12.45,25520.0,Comtrade API (authenticated),2026-03-10T13:45:54.718760+00:00
+686,Senegal,2019,Import,310210,Urea,World,18454.14,61062579.0,Comtrade API (authenticated),2026-03-10T13:45:54.718812+00:00
+690,Seychelles,2019,Import,310210,Urea,World,11.11,16148.66,Comtrade API (authenticated),2026-03-10T13:45:54.718864+00:00
+710,South Africa,2019,Import,310210,Urea,World,219668.43,809067007.03,Comtrade API (authenticated),2026-03-10T13:45:54.718916+00:00
+716,Zimbabwe,2019,Import,310210,Urea,World,35595.62,70862120.0,Comtrade API (authenticated),2026-03-10T13:45:54.718968+00:00
+748,Eswatini,2019,Import,310210,Urea,World,6607.77,18398193.0,Comtrade API (authenticated),2026-03-10T13:45:54.719019+00:00
+768,Togo,2019,Import,310210,Urea,World,4752.96,17831315.0,Comtrade API (authenticated),2026-03-10T13:45:54.719073+00:00
+788,Tunisia,2019,Import,310210,Urea,World,965.09,2020929.0,Comtrade API (authenticated),2026-03-10T13:45:54.719124+00:00
+800,Uganda,2019,Import,310210,Urea,World,6027.09,13273788.0,Comtrade API (authenticated),2026-03-10T13:45:54.719176+00:00
+818,Egypt,2019,Import,310210,Urea,World,1655.67,5464477.989,Comtrade API (authenticated),2026-03-10T13:45:54.719229+00:00
+834,Tanzania,2019,Import,310210,Urea,World,20403.88,66581361.0,Comtrade API (authenticated),2026-03-10T13:45:54.719280+00:00
+854,Burkina Faso,2019,Import,310210,Urea,World,8917.61,34967524.0,Comtrade API (authenticated),2026-03-10T13:45:54.719331+00:00
+894,Zambia,2019,Import,310210,Urea,World,94613.17,312266672.035,Comtrade API (authenticated),2026-03-10T13:45:54.719382+00:00
+24,Angola,2019,Export,310210,Urea,World,0.14,2800.0,Comtrade API (authenticated),2026-03-10T13:45:54.719435+00:00
+72,Botswana,2019,Export,310210,Urea,World,0.38,190.0,Comtrade API (authenticated),2026-03-10T13:45:54.719488+00:00
+120,Cameroon,2019,Export,310210,Urea,World,2928.91,6865000.0,Comtrade API (authenticated),2026-03-10T13:45:54.719541+00:00
+266,Gabon,2019,Export,310210,Urea,World,42.89,54573.0,Comtrade API (authenticated),2026-03-10T13:45:54.719613+00:00
+384,Cote dIvoire,2019,Export,310210,Urea,World,407.37,1340000.0,Comtrade API (authenticated),2026-03-10T13:45:54.719671+00:00
+404,Kenya,2019,Export,310210,Urea,World,1089.14,2436950.0,Comtrade API (authenticated),2026-03-10T13:45:54.719724+00:00
+434,Libya,2019,Export,310210,Urea,World,6889.03,0.0,Comtrade API (authenticated),2026-03-10T13:45:54.719777+00:00
+454,Malawi,2019,Export,310210,Urea,World,227.84,150000.0,Comtrade API (authenticated),2026-03-10T13:45:54.719830+00:00
+466,Mali,2019,Export,310210,Urea,World,3186.78,8406190.0,Comtrade API (authenticated),2026-03-10T13:45:54.719883+00:00
+480,Mauritius,2019,Export,310210,Urea,World,111.33,233062.0,Comtrade API (authenticated),2026-03-10T13:45:54.719936+00:00
+504,Morocco,2019,Export,310210,Urea,World,59.81,114920.0,Comtrade API (authenticated),2026-03-10T13:45:54.719989+00:00
+508,Mozambique,2019,Export,310210,Urea,World,760.51,3837620.0,Comtrade API (authenticated),2026-03-10T13:45:54.720042+00:00
+516,Namibia,2019,Export,310210,Urea,World,0.08,50.0,Comtrade API (authenticated),2026-03-10T13:45:54.720095+00:00
+562,Niger,2019,Export,310210,Urea,World,64.86,380000.0,Comtrade API (authenticated),2026-03-10T13:45:54.720148+00:00
+566,Nigeria,2019,Export,310210,Urea,World,151903.96,664967560.0,Comtrade API (authenticated),2026-03-10T13:45:54.720201+00:00
+686,Senegal,2019,Export,310210,Urea,World,9535.5,15597500.0,Comtrade API (authenticated),2026-03-10T13:45:54.720253+00:00
+710,South Africa,2019,Export,310210,Urea,World,21306.7,53274928.79,Comtrade API (authenticated),2026-03-10T13:45:54.720305+00:00
+716,Zimbabwe,2019,Export,310210,Urea,World,24.71,60000.0,Comtrade API (authenticated),2026-03-10T13:45:54.720357+00:00
+748,Eswatini,2019,Export,310210,Urea,World,6.24,15100.0,Comtrade API (authenticated),2026-03-10T13:45:54.720410+00:00
+768,Togo,2019,Export,310210,Urea,World,427.22,1125000.0,Comtrade API (authenticated),2026-03-10T13:45:54.720461+00:00
+818,Egypt,2019,Export,310210,Urea,World,1109916.08,3785903366.58,Comtrade API (authenticated),2026-03-10T13:45:54.720514+00:00
+834,Tanzania,2019,Export,310210,Urea,World,2927.31,7463620.0,Comtrade API (authenticated),2026-03-10T13:45:54.720582+00:00
+894,Zambia,2019,Export,310210,Urea,World,2076.02,7081268.565,Comtrade API (authenticated),2026-03-10T13:45:54.720641+00:00
+24,Angola,2020,Import,310210,Urea,World,7301.73,14745539.988,Comtrade API (authenticated),2026-03-10T13:45:54.720693+00:00
+72,Botswana,2020,Import,310210,Urea,World,1462.62,3210964.43,Comtrade API (authenticated),2026-03-10T13:45:54.720745+00:00
+108,Burundi,2020,Import,310210,Urea,World,87.0,296500.0,Comtrade API (authenticated),2026-03-10T13:45:54.720797+00:00
+120,Cameroon,2020,Import,310210,Urea,World,20579.93,68526481.73,Comtrade API (authenticated),2026-03-10T13:45:54.720849+00:00
+132,Cabo Verde,2020,Import,310210,Urea,World,164.51,281150.0,Comtrade API (authenticated),2026-03-10T13:45:54.720901+00:00
+140,Central African Republic,2020,Import,310210,Urea,World,169.07,395000.0,Comtrade API (authenticated),2026-03-10T13:45:54.720952+00:00
+178,Congo Rep,2020,Import,310210,Urea,World,424.09,933964.0,Comtrade API (authenticated),2026-03-10T13:45:54.721003+00:00
+180,Congo Dem Rep,2020,Import,310210,Urea,World,7163.83,11341082.19,Comtrade API (authenticated),2026-03-10T13:45:54.721055+00:00
+204,Benin,2020,Import,310210,Urea,World,19221.65,71772293.45,Comtrade API (authenticated),2026-03-10T13:45:54.721106+00:00
+231,Ethiopia,2020,Import,310210,Urea,World,183558.84,578889035.7,Comtrade API (authenticated),2026-03-10T13:45:54.721158+00:00
+266,Gabon,2020,Import,310210,Urea,World,644.8,1624238.0,Comtrade API (authenticated),2026-03-10T13:45:54.721209+00:00
+270,Gambia,2020,Import,310210,Urea,World,16.07,23100.0,Comtrade API (authenticated),2026-03-10T13:45:54.721260+00:00
+384,Cote dIvoire,2020,Import,310210,Urea,World,28514.88,98603080.0,Comtrade API (authenticated),2026-03-10T13:45:54.721312+00:00
+404,Kenya,2020,Import,310210,Urea,World,42848.83,nan,Comtrade API (authenticated),2026-03-10T13:45:54.721363+00:00
+426,Lesotho,2020,Import,310210,Urea,World,0.54,1253.0,Comtrade API (authenticated),2026-03-10T13:45:54.721415+00:00
+430,Liberia,2020,Import,310210,Urea,World,8.38,nan,Comtrade API (authenticated),2026-03-10T13:45:54.721466+00:00
+450,Madagascar,2020,Import,310210,Urea,World,5424.75,15434159.0,Comtrade API (authenticated),2026-03-10T13:45:54.721517+00:00
+454,Malawi,2020,Import,310210,Urea,World,92228.11,nan,Comtrade API (authenticated),2026-03-10T13:45:54.721583+00:00
+466,Mali,2020,Import,310210,Urea,World,52955.92,206606590.0,Comtrade API (authenticated),2026-03-10T13:45:54.721640+00:00
+478,Mauritania,2020,Import,310210,Urea,World,146.24,351000.0,Comtrade API (authenticated),2026-03-10T13:45:54.721692+00:00
+480,Mauritius,2020,Import,310210,Urea,World,2044.65,5749177.0,Comtrade API (authenticated),2026-03-10T13:45:54.721743+00:00
+504,Morocco,2020,Import,310210,Urea,World,38579.99,0.0,Comtrade API (authenticated),2026-03-10T13:45:54.721794+00:00
+508,Mozambique,2020,Import,310210,Urea,World,15184.7,44927455.0,Comtrade API (authenticated),2026-03-10T13:45:54.721845+00:00
+516,Namibia,2020,Import,310210,Urea,World,138.04,297054.021,Comtrade API (authenticated),2026-03-10T13:45:54.721896+00:00
+562,Niger,2020,Import,310210,Urea,World,3254.8,7461600.0,Comtrade API (authenticated),2026-03-10T13:45:54.721948+00:00
+646,Rwanda,2020,Import,310210,Urea,World,2516.4,4690625.0,Comtrade API (authenticated),2026-03-10T13:45:54.722008+00:00
+678,Sao Tome and Principe,2020,Import,310210,Urea,World,20.6,34600.0,Comtrade API (authenticated),2026-03-10T13:45:54.722059+00:00
+686,Senegal,2020,Import,310210,Urea,World,20538.56,76653416.883,Comtrade API (authenticated),2026-03-10T13:45:54.722111+00:00
+690,Seychelles,2020,Import,310210,Urea,World,12.07,14071.32,Comtrade API (authenticated),2026-03-10T13:45:54.722172+00:00
+710,South Africa,2020,Import,310210,Urea,World,202425.55,791618896.23,Comtrade API (authenticated),2026-03-10T13:45:54.722234+00:00
+716,Zimbabwe,2020,Import,310210,Urea,World,33507.53,74504895.0,Comtrade API (authenticated),2026-03-10T13:45:54.722285+00:00
+748,Eswatini,2020,Import,310210,Urea,World,5967.81,19003698.0,Comtrade API (authenticated),2026-03-10T13:45:54.722335+00:00
+768,Togo,2020,Import,310210,Urea,World,7631.8,25564435.0,Comtrade API (authenticated),2026-03-10T13:45:54.722386+00:00
+788,Tunisia,2020,Import,310210,Urea,World,1310.78,3085419.122,Comtrade API (authenticated),2026-03-10T13:45:54.722437+00:00
+800,Uganda,2020,Import,310210,Urea,World,1588.05,0.0,Comtrade API (authenticated),2026-03-10T13:45:54.722488+00:00
+818,Egypt,2020,Import,310210,Urea,World,544.48,1942416.782,Comtrade API (authenticated),2026-03-10T13:45:54.722539+00:00
+834,Tanzania,2020,Import,310210,Urea,World,63955.34,222019635.0,Comtrade API (authenticated),2026-03-10T13:45:54.722608+00:00
+854,Burkina Faso,2020,Import,310210,Urea,World,10934.47,0.0,Comtrade API (authenticated),2026-03-10T13:45:54.722663+00:00
+894,Zambia,2020,Import,310210,Urea,World,97129.81,346505777.232,Comtrade API (authenticated),2026-03-10T13:45:54.722716+00:00
+24,Angola,2020,Export,310210,Urea,World,10.58,3040.0,Comtrade API (authenticated),2026-03-10T13:45:54.722769+00:00
+120,Cameroon,2020,Export,310210,Urea,World,839.82,1979500.0,Comtrade API (authenticated),2026-03-10T13:45:54.722823+00:00
+266,Gabon,2020,Export,310210,Urea,World,2.33,3031.0,Comtrade API (authenticated),2026-03-10T13:45:54.722877+00:00
+384,Cote dIvoire,2020,Export,310210,Urea,World,4766.15,18023000.0,Comtrade API (authenticated),2026-03-10T13:45:54.722930+00:00
+404,Kenya,2020,Export,310210,Urea,World,1153.75,2088625.0,Comtrade API (authenticated),2026-03-10T13:45:54.722984+00:00
+454,Malawi,2020,Export,310210,Urea,World,1.26,3050.0,Comtrade API (authenticated),2026-03-10T13:45:54.723038+00:00
+466,Mali,2020,Export,310210,Urea,World,5878.92,15879000.0,Comtrade API (authenticated),2026-03-10T13:45:54.723090+00:00
+480,Mauritius,2020,Export,310210,Urea,World,101.52,201750.0,Comtrade API (authenticated),2026-03-10T13:45:54.723143+00:00
+504,Morocco,2020,Export,310210,Urea,World,1020.86,2741331.2,Comtrade API (authenticated),2026-03-10T13:45:54.723196+00:00
+508,Mozambique,2020,Export,310210,Urea,World,2041.81,2886405.0,Comtrade API (authenticated),2026-03-10T13:45:54.723248+00:00
+566,Nigeria,2020,Export,310210,Urea,World,180472.51,0.0,Comtrade API (authenticated),2026-03-10T13:45:54.723300+00:00
+686,Senegal,2020,Export,310210,Urea,World,2592.41,8328595.0,Comtrade API (authenticated),2026-03-10T13:45:54.723355+00:00
+710,South Africa,2020,Export,310210,Urea,World,21553.61,0.0,Comtrade API (authenticated),2026-03-10T13:45:54.723409+00:00
+716,Zimbabwe,2020,Export,310210,Urea,World,713.19,1770000.0,Comtrade API (authenticated),2026-03-10T13:45:54.723463+00:00
+768,Togo,2020,Export,310210,Urea,World,2424.37,7694000.0,Comtrade API (authenticated),2026-03-10T13:45:54.723516+00:00
+800,Uganda,2020,Export,310210,Urea,World,1.74,1095.0,Comtrade API (authenticated),2026-03-10T13:45:54.723583+00:00
+818,Egypt,2020,Export,310210,Urea,World,1107024.42,3943191065.785,Comtrade API (authenticated),2026-03-10T13:45:54.723642+00:00
+834,Tanzania,2020,Export,310210,Urea,World,3675.54,9285500.0,Comtrade API (authenticated),2026-03-10T13:45:54.723696+00:00
+894,Zambia,2020,Export,310210,Urea,World,2203.35,7848290.686,Comtrade API (authenticated),2026-03-10T13:45:54.723749+00:00
+24,Angola,2021,Import,310210,Urea,World,8364.96,13469328.862,Comtrade API (authenticated),2026-03-10T13:45:54.723801+00:00
+72,Botswana,2021,Import,310210,Urea,World,533.22,886508.0,Comtrade API (authenticated),2026-03-10T13:45:54.723861+00:00
+108,Burundi,2021,Import,310210,Urea,World,175.52,266868.0,Comtrade API (authenticated),2026-03-10T13:45:54.723912+00:00
+120,Cameroon,2021,Import,310210,Urea,World,20060.7,62917632.78,Comtrade API (authenticated),2026-03-10T13:45:54.723963+00:00
+132,Cabo Verde,2021,Import,310210,Urea,World,153.14,226046.0,Comtrade API (authenticated),2026-03-10T13:45:54.724015+00:00
+140,Central African Republic,2021,Import,310210,Urea,World,157.85,412500.0,Comtrade API (authenticated),2026-03-10T13:45:54.724066+00:00
+178,Congo Rep,2021,Import,310210,Urea,World,216.73,349753.53,Comtrade API (authenticated),2026-03-10T13:45:54.724117+00:00
+180,Congo Dem Rep,2021,Import,310210,Urea,World,4307.7,5297625.0,Comtrade API (authenticated),2026-03-10T13:45:54.724169+00:00
+204,Benin,2021,Import,310210,Urea,World,27897.99,63539669.9,Comtrade API (authenticated),2026-03-10T13:45:54.724219+00:00
+231,Ethiopia,2021,Import,310210,Urea,World,200127.32,531052450.0,Comtrade API (authenticated),2026-03-10T13:45:54.724270+00:00
+262,Djibouti,2021,Import,310210,Urea,World,636.26,1767940.0,Comtrade API (authenticated),2026-03-10T13:45:54.724322+00:00
+266,Gabon,2021,Import,310210,Urea,World,795.87,1467940.0,Comtrade API (authenticated),2026-03-10T13:45:54.724380+00:00
+270,Gambia,2021,Import,310210,Urea,World,194.42,333000.0,Comtrade API (authenticated),2026-03-10T13:45:54.724432+00:00
+288,Ghana,2021,Import,310210,Urea,World,1513.22,4271996.255,Comtrade API (authenticated),2026-03-10T13:45:54.724484+00:00
+384,Cote dIvoire,2021,Import,310210,Urea,World,51159.44,nan,Comtrade API (authenticated),2026-03-10T13:45:54.724535+00:00
+404,Kenya,2021,Import,310210,Urea,World,48929.86,111702257.323,Comtrade API (authenticated),2026-03-10T13:45:54.724604+00:00
+426,Lesotho,2021,Import,310210,Urea,World,1.2,1343.0,Comtrade API (authenticated),2026-03-10T13:45:54.724660+00:00
+430,Liberia,2021,Import,310210,Urea,World,0.2,120.0,Comtrade API (authenticated),2026-03-10T13:45:54.724711+00:00
+450,Madagascar,2021,Import,310210,Urea,World,5751.71,9921276.0,Comtrade API (authenticated),2026-03-10T13:45:54.724762+00:00
+454,Malawi,2021,Import,310210,Urea,World,90914.19,146677138.5,Comtrade API (authenticated),2026-03-10T13:45:54.724814+00:00
+466,Mali,2021,Import,310210,Urea,World,38975.14,168321192.0,Comtrade API (authenticated),2026-03-10T13:45:54.724865+00:00
+478,Mauritania,2021,Import,310210,Urea,World,23047.24,26137600.0,Comtrade API (authenticated),2026-03-10T13:45:54.724916+00:00
+480,Mauritius,2021,Import,310210,Urea,World,1625.84,2739920.0,Comtrade API (authenticated),2026-03-10T13:45:54.724967+00:00
+504,Morocco,2021,Import,310210,Urea,World,21657.4,49370832.64,Comtrade API (authenticated),2026-03-10T13:45:54.725018+00:00
+508,Mozambique,2021,Import,310210,Urea,World,31535.5,63215175.582,Comtrade API (authenticated),2026-03-10T13:45:54.725069+00:00
+516,Namibia,2021,Import,310210,Urea,World,205.59,353465.181,Comtrade API (authenticated),2026-03-10T13:45:54.725120+00:00
+562,Niger,2021,Import,310210,Urea,World,3371.1,10874359.0,Comtrade API (authenticated),2026-03-10T13:45:54.725171+00:00
+566,Nigeria,2021,Import,310210,Urea,World,161.82,0.0,Comtrade API (authenticated),2026-03-10T13:45:54.725223+00:00
+646,Rwanda,2021,Import,310210,Urea,World,2873.42,4000236.0,Comtrade API (authenticated),2026-03-10T13:45:54.725276+00:00
+678,Sao Tome and Principe,2021,Import,310210,Urea,World,20.67,32380.0,Comtrade API (authenticated),2026-03-10T13:45:54.725328+00:00
+686,Senegal,2021,Import,310210,Urea,World,7240.19,17654206.0,Comtrade API (authenticated),2026-03-10T13:45:54.725386+00:00
+690,Seychelles,2021,Import,310210,Urea,World,11.96,nan,Comtrade API (authenticated),2026-03-10T13:45:54.725444+00:00
+710,South Africa,2021,Import,310210,Urea,World,467255.45,1008136171.86,Comtrade API (authenticated),2026-03-10T13:45:54.725497+00:00
+716,Zimbabwe,2021,Import,310210,Urea,World,99669.77,160910316.7,Comtrade API (authenticated),2026-03-10T13:45:54.725550+00:00
+748,Eswatini,2021,Import,310210,Urea,World,7643.17,14490800.0,Comtrade API (authenticated),2026-03-10T13:45:54.725622+00:00
+768,Togo,2021,Import,310210,Urea,World,764.03,nan,Comtrade API (authenticated),2026-03-10T13:45:54.725677+00:00
+788,Tunisia,2021,Import,310210,Urea,World,1917.81,3432002.0,Comtrade API (authenticated),2026-03-10T13:45:54.725729+00:00
+800,Uganda,2021,Import,310210,Urea,World,4557.88,10056755.0,Comtrade API (authenticated),2026-03-10T13:45:54.725782+00:00
+818,Egypt,2021,Import,310210,Urea,World,282.2,656709.896,Comtrade API (authenticated),2026-03-10T13:45:54.725834+00:00
+834,Tanzania,2021,Import,310210,Urea,World,49700.9,80478715.0,Comtrade API (authenticated),2026-03-10T13:45:54.725886+00:00
+854,Burkina Faso,2021,Import,310210,Urea,World,14870.86,0.0,Comtrade API (authenticated),2026-03-10T13:45:54.725938+00:00
+894,Zambia,2021,Import,310210,Urea,World,138486.51,221543694.0,Comtrade API (authenticated),2026-03-10T13:45:54.726001+00:00
+72,Botswana,2021,Export,310210,Urea,World,0.24,140.0,Comtrade API (authenticated),2026-03-10T13:45:54.726055+00:00
+120,Cameroon,2021,Export,310210,Urea,World,384.96,948000.0,Comtrade API (authenticated),2026-03-10T13:45:54.726109+00:00
+262,Djibouti,2021,Export,310210,Urea,World,1012.21,1767940.0,Comtrade API (authenticated),2026-03-10T13:45:54.726164+00:00
+266,Gabon,2021,Export,310210,Urea,World,20.14,19920.0,Comtrade API (authenticated),2026-03-10T13:45:54.726218+00:00
+288,Ghana,2021,Export,310210,Urea,World,49.47,260785.0,Comtrade API (authenticated),2026-03-10T13:45:54.726271+00:00
+384,Cote dIvoire,2021,Export,310210,Urea,World,5015.28,8363600.0,Comtrade API (authenticated),2026-03-10T13:45:54.726324+00:00
+404,Kenya,2021,Export,310210,Urea,World,4014.2,8027601.0,Comtrade API (authenticated),2026-03-10T13:45:54.726378+00:00
+454,Malawi,2021,Export,310210,Urea,World,291.99,63500.0,Comtrade API (authenticated),2026-03-10T13:45:54.726431+00:00
+466,Mali,2021,Export,310210,Urea,World,4702.71,5509000.0,Comtrade API (authenticated),2026-03-10T13:45:54.726484+00:00
+480,Mauritius,2021,Export,310210,Urea,World,10.94,15500.0,Comtrade API (authenticated),2026-03-10T13:45:54.726545+00:00
+504,Morocco,2021,Export,310210,Urea,World,29.43,31630.8,Comtrade API (authenticated),2026-03-10T13:45:54.726618+00:00
+508,Mozambique,2021,Export,310210,Urea,World,5908.2,11664760.0,Comtrade API (authenticated),2026-03-10T13:45:54.726675+00:00
+516,Namibia,2021,Export,310210,Urea,World,14.73,29000.0,Comtrade API (authenticated),2026-03-10T13:45:54.726729+00:00
+566,Nigeria,2021,Export,310210,Urea,World,906350.45,1330632967.345,Comtrade API (authenticated),2026-03-10T13:45:54.726782+00:00
+686,Senegal,2021,Export,310210,Urea,World,3852.62,8142330.0,Comtrade API (authenticated),2026-03-10T13:45:54.726835+00:00
+710,South Africa,2021,Export,310210,Urea,World,53649.24,0.0,Comtrade API (authenticated),2026-03-10T13:45:54.726889+00:00
+788,Tunisia,2021,Export,310210,Urea,World,0.12,40.0,Comtrade API (authenticated),2026-03-10T13:45:54.726942+00:00
+800,Uganda,2021,Export,310210,Urea,World,12.64,16075.0,Comtrade API (authenticated),2026-03-10T13:45:54.726997+00:00
+818,Egypt,2021,Export,310210,Urea,World,1581116.3,3781357016.199,Comtrade API (authenticated),2026-03-10T13:45:54.727050+00:00
+834,Tanzania,2021,Export,310210,Urea,World,869.91,1170000.0,Comtrade API (authenticated),2026-03-10T13:45:54.727111+00:00
+854,Burkina Faso,2021,Export,310210,Urea,World,65.66,391000.0,Comtrade API (authenticated),2026-03-10T13:45:54.727164+00:00
+894,Zambia,2021,Export,310210,Urea,World,32.84,20000.0,Comtrade API (authenticated),2026-03-10T13:45:54.727216+00:00
+24,Angola,2022,Import,310210,Urea,World,14012.67,11338053.448,Comtrade API (authenticated),2026-03-10T13:45:54.727268+00:00
+72,Botswana,2022,Import,310210,Urea,World,1204.14,1627259.03,Comtrade API (authenticated),2026-03-10T13:45:54.727320+00:00
+108,Burundi,2022,Import,310210,Urea,World,137.63,123421.8,Comtrade API (authenticated),2026-03-10T13:45:54.727372+00:00
+120,Cameroon,2022,Import,310210,Urea,World,37932.56,46970169.64,Comtrade API (authenticated),2026-03-10T13:45:54.727424+00:00
+132,Cabo Verde,2022,Import,310210,Urea,World,223.33,180878.0,Comtrade API (authenticated),2026-03-10T13:45:54.727475+00:00
+140,Central African Republic,2022,Import,310210,Urea,World,8.23,40000.0,Comtrade API (authenticated),2026-03-10T13:45:54.727526+00:00
+178,Congo Rep,2022,Import,310210,Urea,World,1504.46,1181992.78,Comtrade API (authenticated),2026-03-10T13:45:54.727598+00:00
+180,Congo Dem Rep,2022,Import,310210,Urea,World,9246.34,9090781.0,Comtrade API (authenticated),2026-03-10T13:45:54.727664+00:00
+204,Benin,2022,Import,310210,Urea,World,7079.1,10697125.0,Comtrade API (authenticated),2026-03-10T13:45:54.727718+00:00
+231,Ethiopia,2022,Import,310210,Urea,World,515560.54,501852666.41,Comtrade API (authenticated),2026-03-10T13:45:54.727771+00:00
+262,Djibouti,2022,Import,310210,Urea,World,1421.54,2705392.0,Comtrade API (authenticated),2026-03-10T13:45:54.727823+00:00
+266,Gabon,2022,Import,310210,Urea,World,1250.14,1176110.0,Comtrade API (authenticated),2026-03-10T13:45:54.727875+00:00
+288,Ghana,2022,Import,310210,Urea,World,12794.84,nan,Comtrade API (authenticated),2026-03-10T13:45:54.727926+00:00
+384,Cote dIvoire,2022,Import,310210,Urea,World,70238.73,101264128.0,Comtrade API (authenticated),2026-03-10T13:45:54.727978+00:00
+404,Kenya,2022,Import,310210,Urea,World,60974.55,80638714.29,Comtrade API (authenticated),2026-03-10T13:45:54.728034+00:00
+426,Lesotho,2022,Import,310210,Urea,World,15.02,5100.0,Comtrade API (authenticated),2026-03-10T13:45:54.728087+00:00
+430,Liberia,2022,Import,310210,Urea,World,6.34,48000.0,Comtrade API (authenticated),2026-03-10T13:45:54.728140+00:00
+450,Madagascar,2022,Import,310210,Urea,World,6797.73,6997532.76,Comtrade API (authenticated),2026-03-10T13:45:54.728200+00:00
+454,Malawi,2022,Import,310210,Urea,World,102288.25,99127615.0,Comtrade API (authenticated),2026-03-10T13:45:54.728251+00:00
+466,Mali,2022,Import,310210,Urea,World,52282.31,183963970.0,Comtrade API (authenticated),2026-03-10T13:45:54.728309+00:00
+478,Mauritania,2022,Import,310210,Urea,World,22973.24,23477384.0,Comtrade API (authenticated),2026-03-10T13:45:54.728362+00:00
+480,Mauritius,2022,Import,310210,Urea,World,4717.48,4779958.0,Comtrade API (authenticated),2026-03-10T13:45:54.728413+00:00
+504,Morocco,2022,Import,310210,Urea,World,53003.34,69834351.18,Comtrade API (authenticated),2026-03-10T13:45:54.728464+00:00
+508,Mozambique,2022,Import,310210,Urea,World,36051.49,44102195.0,Comtrade API (authenticated),2026-03-10T13:45:54.728516+00:00
+516,Namibia,2022,Import,310210,Urea,World,151.37,164514.055,Comtrade API (authenticated),2026-03-10T13:45:54.728583+00:00
+562,Niger,2022,Import,310210,Urea,World,795.79,3439111.0,Comtrade API (authenticated),2026-03-10T13:45:54.728640+00:00
+566,Nigeria,2022,Import,310210,Urea,World,2882.87,nan,Comtrade API (authenticated),2026-03-10T13:45:54.728692+00:00
+646,Rwanda,2022,Import,310210,Urea,World,10638.68,10612850.0,Comtrade API (authenticated),2026-03-10T13:45:54.728750+00:00
+678,Sao Tome and Principe,2022,Import,310210,Urea,World,40.47,30495.0,Comtrade API (authenticated),2026-03-10T13:45:54.728801+00:00
+686,Senegal,2022,Import,310210,Urea,World,71845.03,81614354.0,Comtrade API (authenticated),2026-03-10T13:45:54.728853+00:00
+690,Seychelles,2022,Import,310210,Urea,World,2.48,3345.82,Comtrade API (authenticated),2026-03-10T13:45:54.728904+00:00
+710,South Africa,2022,Import,310210,Urea,World,631183.55,850641138.3,Comtrade API (authenticated),2026-03-10T13:45:54.728956+00:00
+716,Zimbabwe,2022,Import,310210,Urea,World,46235.72,44658989.0,Comtrade API (authenticated),2026-03-10T13:45:54.729007+00:00
+748,Eswatini,2022,Import,310210,Urea,World,11595.47,15088959.5,Comtrade API (authenticated),2026-03-10T13:45:54.729058+00:00
+768,Togo,2022,Import,310210,Urea,World,40269.94,47590366.0,Comtrade API (authenticated),2026-03-10T13:45:54.729109+00:00
+788,Tunisia,2022,Import,310210,Urea,World,2432.58,2222548.0,Comtrade API (authenticated),2026-03-10T13:45:54.729159+00:00
+800,Uganda,2022,Import,310210,Urea,World,11901.35,13814929.28,Comtrade API (authenticated),2026-03-10T13:45:54.729210+00:00
+818,Egypt,2022,Import,310210,Urea,World,18.59,23213.112,Comtrade API (authenticated),2026-03-10T13:45:54.729268+00:00
+834,Tanzania,2022,Import,310210,Urea,World,147178.0,177505206.0,Comtrade API (authenticated),2026-03-10T13:45:54.729320+00:00
+854,Burkina Faso,2022,Import,310210,Urea,World,21418.89,69101675.0,Comtrade API (authenticated),2026-03-10T13:45:54.729372+00:00
+894,Zambia,2022,Import,310210,Urea,World,179407.92,184348409.45,Comtrade API (authenticated),2026-03-10T13:45:54.729424+00:00
+72,Botswana,2022,Export,310210,Urea,World,0.01,3.5,Comtrade API (authenticated),2026-03-10T13:45:54.729477+00:00
+120,Cameroon,2022,Export,310210,Urea,World,3076.76,2720000.0,Comtrade API (authenticated),2026-03-10T13:45:54.729530+00:00
+262,Djibouti,2022,Export,310210,Urea,World,1421.54,2705392.0,Comtrade API (authenticated),2026-03-10T13:45:54.729605+00:00
+266,Gabon,2022,Export,310210,Urea,World,0.81,1036.0,Comtrade API (authenticated),2026-03-10T13:45:54.729668+00:00
+288,Ghana,2022,Export,310210,Urea,World,90.17,81000.0,Comtrade API (authenticated),2026-03-10T13:45:54.729722+00:00
+384,Cote dIvoire,2022,Export,310210,Urea,World,16557.27,37030542.0,Comtrade API (authenticated),2026-03-10T13:45:54.729775+00:00
+404,Kenya,2022,Export,310210,Urea,World,3665.49,3733711.0,Comtrade API (authenticated),2026-03-10T13:45:54.729835+00:00
+454,Malawi,2022,Export,310210,Urea,World,3557.7,5000000.0,Comtrade API (authenticated),2026-03-10T13:45:54.729889+00:00
+466,Mali,2022,Export,310210,Urea,World,1025.72,2377300.0,Comtrade API (authenticated),2026-03-10T13:45:54.729941+00:00
+480,Mauritius,2022,Export,310210,Urea,World,10.43,8500.0,Comtrade API (authenticated),2026-03-10T13:45:54.729995+00:00
+504,Morocco,2022,Export,310210,Urea,World,1688.34,2141575.0,Comtrade API (authenticated),2026-03-10T13:45:54.730047+00:00
+508,Mozambique,2022,Export,310210,Urea,World,14815.01,15729289.0,Comtrade API (authenticated),2026-03-10T13:45:54.730100+00:00
+516,Namibia,2022,Export,310210,Urea,World,52.04,42950.0,Comtrade API (authenticated),2026-03-10T13:45:54.730153+00:00
+566,Nigeria,2022,Export,310210,Urea,World,1917537.35,2863349730.0,Comtrade API (authenticated),2026-03-10T13:45:54.730207+00:00
+686,Senegal,2022,Export,310210,Urea,World,3126.75,3005560.0,Comtrade API (authenticated),2026-03-10T13:45:54.730274+00:00
+710,South Africa,2022,Export,310210,Urea,World,81651.37,nan,Comtrade API (authenticated),2026-03-10T13:45:54.730329+00:00
+748,Eswatini,2022,Export,310210,Urea,World,95.41,147520.0,Comtrade API (authenticated),2026-03-10T13:45:54.730388+00:00
+768,Togo,2022,Export,310210,Urea,World,8840.7,8990000.0,Comtrade API (authenticated),2026-03-10T13:45:54.730442+00:00
+818,Egypt,2022,Export,310210,Urea,World,2511835.87,3048344501.214,Comtrade API (authenticated),2026-03-10T13:45:54.730495+00:00
+834,Tanzania,2022,Export,310210,Urea,World,2063.68,2204000.0,Comtrade API (authenticated),2026-03-10T13:45:54.730549+00:00
+854,Burkina Faso,2022,Export,310210,Urea,World,1268.63,7955000.0,Comtrade API (authenticated),2026-03-10T13:45:54.730623+00:00
+894,Zambia,2022,Export,310210,Urea,World,575.17,544199.0,Comtrade API (authenticated),2026-03-10T13:45:54.730680+00:00
+24,Angola,2023,Import,310210,Urea,World,11425.33,12606494.88,Comtrade API (authenticated),2026-03-10T13:45:54.730733+00:00
+72,Botswana,2023,Import,310210,Urea,World,721.93,1235027.11,Comtrade API (authenticated),2026-03-10T13:45:54.730785+00:00
+108,Burundi,2023,Import,310210,Urea,World,11904.44,25183348.053,Comtrade API (authenticated),2026-03-10T13:45:54.730837+00:00
+120,Cameroon,2023,Import,310210,Urea,World,37286.71,69973156.1,Comtrade API (authenticated),2026-03-10T13:45:54.730889+00:00
+132,Cabo Verde,2023,Import,310210,Urea,World,133.94,161329.0,Comtrade API (authenticated),2026-03-10T13:45:54.730948+00:00
+178,Congo Rep,2023,Import,310210,Urea,World,443.68,538839.68,Comtrade API (authenticated),2026-03-10T13:45:54.731000+00:00
+180,Congo Dem Rep,2023,Import,310210,Urea,World,10943.97,11499309.0,Comtrade API (authenticated),2026-03-10T13:45:54.731051+00:00
+204,Benin,2023,Import,310210,Urea,World,58146.67,118305701.0,Comtrade API (authenticated),2026-03-10T13:45:54.731103+00:00
+231,Ethiopia,2023,Import,310210,Urea,World,489132.23,765254365.4,Comtrade API (authenticated),2026-03-10T13:45:54.731155+00:00
+262,Djibouti,2023,Import,310210,Urea,World,24.31,47312.0,Comtrade API (authenticated),2026-03-10T13:45:54.731206+00:00
+266,Gabon,2023,Import,310210,Urea,World,1515.5,2538311.0,Comtrade API (authenticated),2026-03-10T13:45:54.731257+00:00
+270,Gambia,2023,Import,310210,Urea,World,6495.8,10501181.255,Comtrade API (authenticated),2026-03-10T13:45:54.731308+00:00
+288,Ghana,2023,Import,310210,Urea,World,23845.72,nan,Comtrade API (authenticated),2026-03-10T13:45:54.731359+00:00
+384,Cote dIvoire,2023,Import,310210,Urea,World,79373.03,157175685.0,Comtrade API (authenticated),2026-03-10T13:45:54.731409+00:00
+404,Kenya,2023,Import,310210,Urea,World,51778.59,128252990.448,Comtrade API (authenticated),2026-03-10T13:45:54.731467+00:00
+426,Lesotho,2023,Import,310210,Urea,World,0.29,995.0,Comtrade API (authenticated),2026-03-10T13:45:54.731518+00:00
+430,Liberia,2023,Import,310210,Urea,World,2600.72,3375682.0,Comtrade API (authenticated),2026-03-10T13:45:54.731586+00:00
+450,Madagascar,2023,Import,310210,Urea,World,5921.12,7813100.0,Comtrade API (authenticated),2026-03-10T13:45:54.731643+00:00
+454,Malawi,2023,Import,310210,Urea,World,144923.55,190235928.0,Comtrade API (authenticated),2026-03-10T13:45:54.731695+00:00
+466,Mali,2023,Import,310210,Urea,World,90642.6,232305100.0,Comtrade API (authenticated),2026-03-10T13:45:54.731746+00:00
+478,Mauritania,2023,Import,310210,Urea,World,410.15,657730.0,Comtrade API (authenticated),2026-03-10T13:45:54.731828+00:00
+480,Mauritius,2023,Import,310210,Urea,World,2872.72,2238560.0,Comtrade API (authenticated),2026-03-10T13:45:54.731918+00:00
+504,Morocco,2023,Import,310210,Urea,World,48946.62,109654074.546,Comtrade API (authenticated),2026-03-10T13:45:54.731983+00:00
+508,Mozambique,2023,Import,310210,Urea,World,47539.0,94316519.0,Comtrade API (authenticated),2026-03-10T13:45:54.732036+00:00
+516,Namibia,2023,Import,310210,Urea,World,493.78,325236.37,Comtrade API (authenticated),2026-03-10T13:45:54.732096+00:00
+562,Niger,2023,Import,310210,Urea,World,875.11,3351095.0,Comtrade API (authenticated),2026-03-10T13:45:54.732148+00:00
+566,Nigeria,2023,Import,310210,Urea,World,27422.28,nan,Comtrade API (authenticated),2026-03-10T13:45:54.732212+00:00
+678,Sao Tome and Principe,2023,Import,310210,Urea,World,9.07,11600.0,Comtrade API (authenticated),2026-03-10T13:45:54.732264+00:00
+686,Senegal,2023,Import,310210,Urea,World,55643.86,104247308.0,Comtrade API (authenticated),2026-03-10T13:45:54.732316+00:00
+690,Seychelles,2023,Import,310210,Urea,World,41.32,31602.026,Comtrade API (authenticated),2026-03-10T13:45:54.732373+00:00
+710,South Africa,2023,Import,310210,Urea,World,340893.7,914678238.99,Comtrade API (authenticated),2026-03-10T13:45:54.732426+00:00
+716,Zimbabwe,2023,Import,310210,Urea,World,47032.59,72995707.0,Comtrade API (authenticated),2026-03-10T13:45:54.732477+00:00
+748,Eswatini,2023,Import,310210,Urea,World,8991.26,18412640.0,Comtrade API (authenticated),2026-03-10T13:45:54.732528+00:00
+768,Togo,2023,Import,310210,Urea,World,39378.04,nan,Comtrade API (authenticated),2026-03-10T13:45:54.732598+00:00
+788,Tunisia,2023,Import,310210,Urea,World,3170.24,3907101.0,Comtrade API (authenticated),2026-03-10T13:45:54.732662+00:00
+800,Uganda,2023,Import,310210,Urea,World,8027.83,13196030.541,Comtrade API (authenticated),2026-03-10T13:45:54.732714+00:00
+818,Egypt,2023,Import,310210,Urea,World,19.14,40498.08,Comtrade API (authenticated),2026-03-10T13:45:54.732766+00:00
+834,Tanzania,2023,Import,310210,Urea,World,84885.8,177636363.98,Comtrade API (authenticated),2026-03-10T13:45:54.732818+00:00
+854,Burkina Faso,2023,Import,310210,Urea,World,23606.64,62929762.0,Comtrade API (authenticated),2026-03-10T13:45:54.732870+00:00
+894,Zambia,2023,Import,310210,Urea,World,219488.49,287528069.4,Comtrade API (authenticated),2026-03-10T13:45:54.732921+00:00
+24,Angola,2023,Export,310210,Urea,World,0.02,72.0,Comtrade API (authenticated),2026-03-10T13:45:54.732974+00:00
+72,Botswana,2023,Export,310210,Urea,World,13.82,34000.0,Comtrade API (authenticated),2026-03-10T13:45:54.733027+00:00
+120,Cameroon,2023,Export,310210,Urea,World,801.39,828000.0,Comtrade API (authenticated),2026-03-10T13:45:54.733080+00:00
+262,Djibouti,2023,Export,310210,Urea,World,24.31,47312.0,Comtrade API (authenticated),2026-03-10T13:45:54.733133+00:00
+266,Gabon,2023,Export,310210,Urea,World,18.95,20160.0,Comtrade API (authenticated),2026-03-10T13:45:54.733192+00:00
+384,Cote dIvoire,2023,Export,310210,Urea,World,7001.66,26380140.0,Comtrade API (authenticated),2026-03-10T13:45:54.733245+00:00
+404,Kenya,2023,Export,310210,Urea,World,4583.77,7377040.0,Comtrade API (authenticated),2026-03-10T13:45:54.733298+00:00
+454,Malawi,2023,Export,310210,Urea,World,300.75,566000.0,Comtrade API (authenticated),2026-03-10T13:45:54.733350+00:00
+466,Mali,2023,Export,310210,Urea,World,7692.09,13717100.0,Comtrade API (authenticated),2026-03-10T13:45:54.733403+00:00
+480,Mauritius,2023,Export,310210,Urea,World,3.84,4482.0,Comtrade API (authenticated),2026-03-10T13:45:54.733456+00:00
+504,Morocco,2023,Export,310210,Urea,World,88.23,61705.56,Comtrade API (authenticated),2026-03-10T13:45:54.733509+00:00
+508,Mozambique,2023,Export,310210,Urea,World,16834.0,nan,Comtrade API (authenticated),2026-03-10T13:45:54.733562+00:00
+516,Namibia,2023,Export,310210,Urea,World,32.32,35050.0,Comtrade API (authenticated),2026-03-10T13:45:54.733636+00:00
+566,Nigeria,2023,Export,310210,Urea,World,1067751.9,3036560737.415,Comtrade API (authenticated),2026-03-10T13:45:54.733692+00:00
+686,Senegal,2023,Export,310210,Urea,World,21342.58,43921000.0,Comtrade API (authenticated),2026-03-10T13:45:54.733752+00:00
+710,South Africa,2023,Export,310210,Urea,World,35143.99,63323978.02,Comtrade API (authenticated),2026-03-10T13:45:54.733806+00:00
+748,Eswatini,2023,Export,310210,Urea,World,133.86,206000.0,Comtrade API (authenticated),2026-03-10T13:45:54.733859+00:00
+788,Tunisia,2023,Export,310210,Urea,World,0.16,48.0,Comtrade API (authenticated),2026-03-10T13:45:54.733912+00:00
+800,Uganda,2023,Export,310210,Urea,World,49.04,30161.0,Comtrade API (authenticated),2026-03-10T13:45:54.733966+00:00
+818,Egypt,2023,Export,310210,Urea,World,1729834.49,3466570437.053,Comtrade API (authenticated),2026-03-10T13:45:54.734019+00:00
+834,Tanzania,2023,Export,310210,Urea,World,20957.92,18165832.811,Comtrade API (authenticated),2026-03-10T13:45:54.734073+00:00
+854,Burkina Faso,2023,Export,310210,Urea,World,26.38,160000.0,Comtrade API (authenticated),2026-03-10T13:45:54.734126+00:00
+894,Zambia,2023,Export,310210,Urea,World,329.19,324750.0,Comtrade API (authenticated),2026-03-10T13:45:54.734179+00:00
+24,Angola,2024,Import,310210,Urea,World,7297.8,15461489.59,Comtrade API (authenticated),2026-03-10T13:45:54.734230+00:00
+132,Cabo Verde,2024,Import,310210,Urea,World,263.65,311936.0,Comtrade API (authenticated),2026-03-10T13:45:54.734287+00:00
+140,Central African Republic,2024,Import,310210,Urea,World,28.26,41968.0,Comtrade API (authenticated),2026-03-10T13:45:54.734338+00:00
+204,Benin,2024,Import,310210,Urea,World,24981.61,61885283.83,Comtrade API (authenticated),2026-03-10T13:45:54.734390+00:00
+270,Gambia,2024,Import,310210,Urea,World,0.95,500.0,Comtrade API (authenticated),2026-03-10T13:45:54.734441+00:00
+384,Cote dIvoire,2024,Import,310210,Urea,World,61814.12,170926582.0,Comtrade API (authenticated),2026-03-10T13:45:54.734492+00:00
+404,Kenya,2024,Import,310210,Urea,World,54061.56,133208413.73,Comtrade API (authenticated),2026-03-10T13:45:54.734543+00:00
+426,Lesotho,2024,Import,310210,Urea,World,42.89,72720.1,Comtrade API (authenticated),2026-03-10T13:45:54.734613+00:00
+450,Madagascar,2024,Import,310210,Urea,World,6524.31,10639151.39,Comtrade API (authenticated),2026-03-10T13:45:54.734668+00:00
+454,Malawi,2024,Import,310210,Urea,World,104160.95,141691050.0,Comtrade API (authenticated),2026-03-10T13:45:54.734721+00:00
+478,Mauritania,2024,Import,310210,Urea,World,442.55,552320.9,Comtrade API (authenticated),2026-03-10T13:45:54.734772+00:00
+480,Mauritius,2024,Import,310210,Urea,World,3409.52,6591375.0,Comtrade API (authenticated),2026-03-10T13:45:54.734831+00:00
+504,Morocco,2024,Import,310210,Urea,World,42307.5,nan,Comtrade API (authenticated),2026-03-10T13:45:54.734883+00:00
+508,Mozambique,2024,Import,310210,Urea,World,64269.03,158885721.569,Comtrade API (authenticated),2026-03-10T13:45:54.734934+00:00
+516,Namibia,2024,Import,310210,Urea,World,36764.32,79672569.93,Comtrade API (authenticated),2026-03-10T13:45:54.734985+00:00
+562,Niger,2024,Import,310210,Urea,World,391.77,1609845.0,Comtrade API (authenticated),2026-03-10T13:45:54.735035+00:00
+686,Senegal,2024,Import,310210,Urea,World,27988.37,nan,Comtrade API (authenticated),2026-03-10T13:45:54.735086+00:00
+690,Seychelles,2024,Import,310210,Urea,World,10.25,12995.1,Comtrade API (authenticated),2026-03-10T13:45:54.735137+00:00
+710,South Africa,2024,Import,310210,Urea,World,323127.53,934649710.53,Comtrade API (authenticated),2026-03-10T13:45:54.735189+00:00
+716,Zimbabwe,2024,Import,310210,Urea,World,48049.31,80421505.67,Comtrade API (authenticated),2026-03-10T13:45:54.735240+00:00
+768,Togo,2024,Import,310210,Urea,World,76075.65,66419623.0,Comtrade API (authenticated),2026-03-10T13:45:54.735291+00:00
+788,Tunisia,2024,Import,310210,Urea,World,2131.39,5269219.484,Comtrade API (authenticated),2026-03-10T13:45:54.735348+00:00
+800,Uganda,2024,Import,310210,Urea,World,10237.58,24682234.8,Comtrade API (authenticated),2026-03-10T13:45:54.735400+00:00
+818,Egypt,2024,Import,310210,Urea,World,66.37,163484.53,Comtrade API (authenticated),2026-03-10T13:45:54.735451+00:00
+834,Tanzania,2024,Import,310210,Urea,World,58794.37,148911847.4,Comtrade API (authenticated),2026-03-10T13:45:54.735503+00:00
+854,Burkina Faso,2024,Import,310210,Urea,World,22359.09,nan,Comtrade API (authenticated),2026-03-10T13:45:54.735554+00:00
+894,Zambia,2024,Import,310210,Urea,World,160751.37,268429574.46,Comtrade API (authenticated),2026-03-10T13:45:54.735626+00:00
+270,Gambia,2024,Export,310210,Urea,World,129.04,220000.0,Comtrade API (authenticated),2026-03-10T13:45:54.735680+00:00
+384,Cote dIvoire,2024,Export,310210,Urea,World,18371.72,69110995.0,Comtrade API (authenticated),2026-03-10T13:45:54.735734+00:00
+404,Kenya,2024,Export,310210,Urea,World,2911.58,8938205.8,Comtrade API (authenticated),2026-03-10T13:45:54.735787+00:00
+454,Malawi,2024,Export,310210,Urea,World,245.08,389520.0,Comtrade API (authenticated),2026-03-10T13:45:54.735840+00:00
+480,Mauritius,2024,Export,310210,Urea,World,149.62,234395.0,Comtrade API (authenticated),2026-03-10T13:45:54.735898+00:00
+504,Morocco,2024,Export,310210,Urea,World,121.84,243098.0,Comtrade API (authenticated),2026-03-10T13:45:54.735952+00:00
+508,Mozambique,2024,Export,310210,Urea,World,16273.86,37494121.243,Comtrade API (authenticated),2026-03-10T13:45:54.736006+00:00
+516,Namibia,2024,Export,310210,Urea,World,18634.63,2333488.0,Comtrade API (authenticated),2026-03-10T13:45:54.736059+00:00
+566,Nigeria,2024,Export,310210,Urea,World,850328.23,3076845807.986,Comtrade API (authenticated),2026-03-10T13:45:54.736113+00:00
+686,Senegal,2024,Export,310210,Urea,World,2230.95,7618200.0,Comtrade API (authenticated),2026-03-10T13:45:54.736166+00:00
+710,South Africa,2024,Export,310210,Urea,World,40882.91,nan,Comtrade API (authenticated),2026-03-10T13:45:54.736218+00:00
+800,Uganda,2024,Export,310210,Urea,World,55.23,88000.0,Comtrade API (authenticated),2026-03-10T13:45:54.736270+00:00
+818,Egypt,2024,Export,310210,Urea,World,1407246.9,3216412439.345,Comtrade API (authenticated),2026-03-10T13:45:54.736322+00:00
+834,Tanzania,2024,Export,310210,Urea,World,2422.66,4264000.0,Comtrade API (authenticated),2026-03-10T13:45:54.736375+00:00
+854,Burkina Faso,2024,Export,310210,Urea,World,86.42,530000.0,Comtrade API (authenticated),2026-03-10T13:45:54.736435+00:00
+894,Zambia,2024,Export,310210,Urea,World,238.59,330000.0,Comtrade API (authenticated),2026-03-10T13:45:54.736488+00:00
