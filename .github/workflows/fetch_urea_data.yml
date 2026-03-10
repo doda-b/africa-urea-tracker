@@ -36,7 +36,7 @@ jobs:
           python-version: '3.12'
       
       - name: Install dependencies
-        run: pip install requests
+        run: pip install requests comtradeapicall pandas
       
       - name: Fetch urea trade data
         run: python scripts/fetch_urea_data.py
