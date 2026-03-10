@@ -1,0 +1,58 @@
+# .github/workflows/fetch_urea_data.yml
+#
+# This workflow:
+# 1. Fetches urea (HS 310210) trade data for all African countries
+# 2. Sends the data to Claude API for intelligent analysis
+# 3. Commits the results (CSV + analysis report) back to the repo
+#
+# Runs weekly on Monday at 6 AM UTC, or manually via workflow_dispatch.
+# NOTE: The Comtrade API has rate limits. Full fetch for 54 countries x 15 years x 2 flows 
+#       = ~1620 requests at 1/sec = ~27 minutes. Well within GitHub Actions limits.
+
+name: Fetch African Urea Trade Data
+
+on:
+  workflow_dispatch:       # Manual trigger only — go to Actions tab → Run workflow
+    inputs:
+      skip_analysis:
+        description: 'Skip Claude analysis step'
+        required: false
+        default: 'false'
+
+jobs:
+  fetch-and-analyze:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write  # Needed to commit results back to repo
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      
+      - name: Install dependencies
+        run: pip install requests
+      
+      - name: Fetch urea trade data
+        run: python scripts/fetch_urea_data.py
+        env:
+          COMTRADE_API_KEY: ${{ secrets.COMTRADE_API_KEY }}
+      
+      - name: Analyze with Claude
+        if: ${{ github.event.inputs.skip_analysis != 'true' }}
+        run: python scripts/analyze_with_claude.py
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      
+      - name: Commit and push results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --staged --quiet || git commit -m "Update urea data: $(date +%Y-%m-%d)"
+          git push
