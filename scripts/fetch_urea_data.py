@@ -1,234 +1,255 @@
 """
-Fetch urea (HS 310210) import/export data for African countries from UN Comtrade Plus API.
-
-Uses the 'preview' endpoint which requires NO API key (max 500 records per call).
-For urea by single country/year, this is more than enough.
+Fetch urea (HS 310210) import/export data for African countries.
+Uses the official comtradeapicall package with authenticated endpoint.
 
 Usage:
     python scripts/fetch_urea_data.py
 
 Environment variables:
-    COMTRADE_API_KEY  - Optional (for higher limits via getFinalData endpoint)
+    COMTRADE_API_KEY  - Required (get free key at comtradedeveloper.un.org)
+    ANTHROPIC_API_KEY - Used by analyze_with_claude.py (not needed here)
 """
 
 import os
+import sys
 import json
 import time
 import csv
-import requests
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 
+try:
+    import comtradeapicall
+except ImportError:
+    print("Installing comtradeapicall...")
+    import subprocess
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "comtradeapicall", "-q"])
+    import comtradeapicall
+
+try:
+    import pandas as pd
+except ImportError:
+    print("Installing pandas...")
+    import subprocess
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "pandas", "-q"])
+    import pandas as pd
+
 # ---------------------------------------------------------------------------
-# African country UN numeric codes (Comtrade uses these, not ISO3)
+# Config
 # ---------------------------------------------------------------------------
-AFRICAN_COUNTRIES = {
-    "12": ("DZA", "Algeria"), "24": ("AGO", "Angola"), "204": ("BEN", "Benin"),
-    "72": ("BWA", "Botswana"), "854": ("BFA", "Burkina Faso"), "108": ("BDI", "Burundi"),
-    "132": ("CPV", "Cabo Verde"), "120": ("CMR", "Cameroon"),
-    "140": ("CAF", "Central African Republic"), "148": ("TCD", "Chad"),
-    "174": ("COM", "Comoros"), "178": ("COG", "Congo, Rep."),
-    "180": ("COD", "Congo, Dem. Rep."), "384": ("CIV", "Cote d'Ivoire"),
-    "262": ("DJI", "Djibouti"), "818": ("EGY", "Egypt"),
-    "226": ("GNQ", "Equatorial Guinea"), "232": ("ERI", "Eritrea"),
-    "748": ("SWZ", "Eswatini"), "231": ("ETH", "Ethiopia"),
-    "266": ("GAB", "Gabon"), "270": ("GMB", "Gambia"),
-    "288": ("GHA", "Ghana"), "324": ("GIN", "Guinea"),
-    "624": ("GNB", "Guinea-Bissau"), "404": ("KEN", "Kenya"),
-    "426": ("LSO", "Lesotho"), "430": ("LBR", "Liberia"),
-    "434": ("LBY", "Libya"), "450": ("MDG", "Madagascar"),
-    "454": ("MWI", "Malawi"), "466": ("MLI", "Mali"),
-    "478": ("MRT", "Mauritania"), "480": ("MUS", "Mauritius"),
-    "504": ("MAR", "Morocco"), "508": ("MOZ", "Mozambique"),
-    "516": ("NAM", "Namibia"), "562": ("NER", "Niger"),
-    "566": ("NGA", "Nigeria"), "646": ("RWA", "Rwanda"),
-    "678": ("STP", "Sao Tome and Principe"), "686": ("SEN", "Senegal"),
-    "690": ("SYC", "Seychelles"), "694": ("SLE", "Sierra Leone"),
-    "706": ("SOM", "Somalia"), "710": ("ZAF", "South Africa"),
-    "728": ("SSD", "South Sudan"), "729": ("SDN", "Sudan"),
-    "834": ("TZA", "Tanzania"), "768": ("TGO", "Togo"),
-    "788": ("TUN", "Tunisia"), "800": ("UGA", "Uganda"),
-    "894": ("ZMB", "Zambia"), "716": ("ZWE", "Zimbabwe")
-}
+SUBSCRIPTION_KEY = os.environ.get("COMTRADE_API_KEY", "")
+if not SUBSCRIPTION_KEY:
+    print("ERROR: COMTRADE_API_KEY environment variable not set.")
+    print("Get a free key at https://comtradedeveloper.un.org")
+    sys.exit(1)
 
 PRODUCT_CODE = "310210"  # HS6 code for Urea
 YEARS = list(range(2010, 2025))  # 2010-2024
 BASE_DIR = Path(__file__).parent.parent / "data"
 
-# New Comtrade Plus API endpoints
-COMTRADE_PREVIEW_URL = "https://comtradeapi.un.org/public/v1/preview/C/A/HS"
-COMTRADE_FINAL_URL = "https://comtradeapi.un.org/data/v1/get/C/A/HS"
+# African country UN numeric codes
+AFRICAN_COUNTRIES = {
+    "12": "Algeria", "24": "Angola", "204": "Benin",
+    "72": "Botswana", "854": "Burkina Faso", "108": "Burundi",
+    "132": "Cabo Verde", "120": "Cameroon",
+    "140": "Central African Republic", "148": "Chad",
+    "174": "Comoros", "178": "Congo Rep",
+    "180": "Congo Dem Rep", "384": "Cote dIvoire",
+    "262": "Djibouti", "818": "Egypt",
+    "226": "Equatorial Guinea", "232": "Eritrea",
+    "748": "Eswatini", "231": "Ethiopia",
+    "266": "Gabon", "270": "Gambia",
+    "288": "Ghana", "324": "Guinea",
+    "624": "Guinea-Bissau", "404": "Kenya",
+    "426": "Lesotho", "430": "Liberia",
+    "434": "Libya", "450": "Madagascar",
+    "454": "Malawi", "466": "Mali",
+    "478": "Mauritania", "480": "Mauritius",
+    "504": "Morocco", "508": "Mozambique",
+    "516": "Namibia", "562": "Niger",
+    "566": "Nigeria", "646": "Rwanda",
+    "678": "Sao Tome and Principe", "686": "Senegal",
+    "690": "Seychelles", "694": "Sierra Leone",
+    "706": "Somalia", "710": "South Africa",
+    "728": "South Sudan", "729": "Sudan",
+    "834": "Tanzania", "768": "Togo",
+    "788": "Tunisia", "800": "Uganda",
+    "894": "Zambia", "716": "Zimbabwe"
+}
 
 
-def fetch_comtrade_preview(reporter_code: str, year: int, flow_code: str = "M") -> list:
+def fetch_year_batch(year: int, flow_code: str) -> pd.DataFrame:
     """
-    Fetch trade data using Comtrade Plus preview API (NO key required).
-    Limited to 500 records per call.
+    Fetch urea data for ALL African reporters in a single API call for one year/flow.
+    This is much more efficient than one call per country.
     
     flow_code: 'M' = imports, 'X' = exports
-    Returns list of matching records.
     """
-    params = {
-        "reporterCode": reporter_code,
-        "period": str(year),
-        "partnerCode": "0",       # 0 = World
-        "cmdCode": PRODUCT_CODE,
-        "flowCode": flow_code,
-        "maxRecords": 500,
-        "format": "JSON",
-        "breakdownMode": "classic",
-        "includeDesc": "true",
-    }
+    reporter_codes = ",".join(AFRICAN_COUNTRIES.keys())
+    flow_name = "Import" if flow_code == "M" else "Export"
+    
+    print(f"  Fetching {year} {flow_name}s for all African countries...", flush=True)
     
     try:
-        resp = requests.get(COMTRADE_PREVIEW_URL, params=params, timeout=30)
-        if resp.status_code == 200:
-            data = resp.json()
-            if data.get("data") and len(data["data"]) > 0:
-                return data["data"]
-            else:
-                return []
-        elif resp.status_code == 429:
-            print(f"    Rate limited, waiting 5s...")
-            time.sleep(5)
-            return fetch_comtrade_preview(reporter_code, year, flow_code)
+        df = comtradeapicall.getFinalData(
+            SUBSCRIPTION_KEY,
+            typeCode='C',
+            freqCode='A',
+            clCode='HS',
+            period=str(year),
+            reporterCode=reporter_codes,
+            cmdCode=PRODUCT_CODE,
+            flowCode=flow_code,
+            partnerCode='0',  # World
+            partner2Code=None,
+            customsCode=None,
+            motCode=None,
+            maxRecords=2500,
+            format_output='JSON',
+            aggregateBy=None,
+            breakdownMode='classic',
+            countOnly=None,
+            includeDesc=True
+        )
+        
+        if df is not None and not df.empty:
+            print(f"    Got {len(df)} records", flush=True)
+            return df
         else:
-            print(f"    HTTP {resp.status_code}: {resp.text[:200]}")
-    except requests.exceptions.Timeout:
-        print(f"    Timeout for {reporter_code}/{year}")
-    except json.JSONDecodeError:
-        print(f"    Invalid JSON response for {reporter_code}/{year}")
+            print(f"    No data", flush=True)
+            return pd.DataFrame()
+            
     except Exception as e:
-        print(f"    Error for {reporter_code}/{year}: {e}")
-    
-    return []
+        print(f"    ERROR: {e}", flush=True)
+        return pd.DataFrame()
 
 
-def fetch_all_african_urea_data():
-    """
-    Main function: iterate over all African countries and years,
-    fetching import and export data for urea (310210).
-    """
+def fetch_all_data():
+    """Fetch all urea trade data using batched API calls (one per year/flow)."""
     
-    results = []
-    countries = sorted(AFRICAN_COUNTRIES.items(), key=lambda x: x[1][1])  # Sort by name
-    total_requests = len(countries) * len(YEARS) * 2
+    all_frames = []
+    total_calls = len(YEARS) * 2
     completed = 0
     
-    print(f"Fetching urea trade data for {len(countries)} African countries")
+    print(f"Fetching urea (HS {PRODUCT_CODE}) trade data")
+    print(f"Countries: {len(AFRICAN_COUNTRIES)} African nations")
     print(f"Years: {YEARS[0]}-{YEARS[-1]}")
-    print(f"Product: {PRODUCT_CODE} (Urea)")
-    print(f"API: Comtrade Plus preview (no key required)")
-    print(f"Total API calls needed: ~{total_requests}")
-    print("=" * 60)
+    print(f"API calls needed: {total_calls} (batched by year)")
+    print(f"API: Authenticated Comtrade endpoint")
+    print("=" * 60, flush=True)
     
-    for un_code, (iso3, country_name) in countries:
-        print(f"\n{country_name} ({iso3}, UN:{un_code})...")
+    for year in YEARS:
+        print(f"\n{year}:", flush=True)
         
-        for year in YEARS:
-            for flow, flow_code in [("Import", "M"), ("Export", "X")]:
-                completed += 1
-                
-                row = {
-                    "country_iso3": iso3,
-                    "country_un_code": un_code,
-                    "country_name": country_name,
-                    "year": year,
-                    "trade_flow": flow,
-                    "product_code": PRODUCT_CODE,
-                    "product_description": "Urea",
-                    "partner": "World",
-                    "trade_value_1000usd": None,
-                    "quantity_kg": None,
-                    "data_source": None,
-                    "fetch_timestamp": datetime.utcnow().isoformat(),
-                }
-                
-                records = fetch_comtrade_preview(un_code, year, flow_code)
-                
-                if records:
-                    rec = records[0]
-                    trade_val = rec.get("primaryValue")
-                    if trade_val is not None:
-                        row["trade_value_1000usd"] = round(trade_val / 1000, 2)
-                    row["quantity_kg"] = rec.get("netWgt")
-                    row["data_source"] = "Comtrade Plus API"
-                    
-                    val_str = f"${row['trade_value_1000usd']:,.1f}K" if row['trade_value_1000usd'] else "N/A"
-                    qty_str = f"{row['quantity_kg']:,.0f} Kg" if row.get('quantity_kg') else "no qty"
-                    print(f"  {year} {flow}: {val_str} ({qty_str})")
-                else:
-                    row["data_source"] = "no_data"
-                
-                results.append(row)
-                
-                # Rate limiting
-                time.sleep(1.2)
-                
-                if completed % 100 == 0:
-                    print(f"  ... Progress: {completed}/{total_requests} requests")
+        for flow_code in ["M", "X"]:
+            completed += 1
+            df = fetch_year_batch(year, flow_code)
+            
+            if not df.empty:
+                all_frames.append(df)
+            
+            # Rate limiting: 1 call per 2 seconds to be safe
+            time.sleep(2)
+        
+        print(f"  Progress: {completed}/{total_calls} calls done", flush=True)
     
-    return results
+    if all_frames:
+        combined = pd.concat(all_frames, ignore_index=True)
+        print(f"\nTotal records fetched: {len(combined)}", flush=True)
+        return combined
+    else:
+        print("\nNo data fetched at all!", flush=True)
+        return pd.DataFrame()
 
 
-def save_results(results: list):
-    """Save results to CSV and JSON."""
+def process_and_save(df: pd.DataFrame):
+    """Process the raw Comtrade data and save as clean CSV."""
     
     BASE_DIR.mkdir(parents=True, exist_ok=True)
-    timestamp = datetime.utcnow().strftime("%Y%m%d")
+    timestamp = datetime.now(timezone.utc).strftime("%Y%m%d")
     
+    if df.empty:
+        print("No data to save.")
+        return
+    
+    # Save raw data first
+    raw_path = BASE_DIR / f"africa_urea_raw_{timestamp}.csv"
+    df.to_csv(raw_path, index=False)
+    print(f"\nRaw data saved: {raw_path}")
+    
+    # Build clean output
+    rows = []
+    for _, rec in df.iterrows():
+        reporter_code = str(rec.get("reporterCode", ""))
+        country_name = AFRICAN_COUNTRIES.get(reporter_code, rec.get("reporterDesc", "Unknown"))
+        
+        flow_desc = rec.get("flowDesc", "")
+        if "import" in str(flow_desc).lower() or rec.get("flowCode") == "M":
+            trade_flow = "Import"
+        else:
+            trade_flow = "Export"
+        
+        rows.append({
+            "country_un_code": reporter_code,
+            "country_name": country_name,
+            "year": rec.get("period", ""),
+            "trade_flow": trade_flow,
+            "product_code": PRODUCT_CODE,
+            "product_description": "Urea",
+            "partner": "World",
+            "trade_value_1000usd": round(rec.get("primaryValue", 0) / 1000, 2) if rec.get("primaryValue") else None,
+            "quantity_kg": rec.get("netWgt"),
+            "data_source": "Comtrade API (authenticated)",
+            "fetch_timestamp": datetime.now(timezone.utc).isoformat(),
+        })
+    
+    # Save clean CSV
     csv_path = BASE_DIR / f"africa_urea_trade_{timestamp}.csv"
-    if results:
-        fieldnames = results[0].keys()
-        with open(csv_path, "w", newline="", encoding="utf-8") as f:
-            writer = csv.DictWriter(f, fieldnames=fieldnames)
-            writer.writeheader()
-            writer.writerows(results)
-        print(f"\nSaved CSV: {csv_path}")
+    fieldnames = rows[0].keys()
+    with open(csv_path, "w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer.writeheader()
+        writer.writerows(rows)
+    print(f"Clean data saved: {csv_path}")
     
+    # Save JSON
     json_path = BASE_DIR / f"africa_urea_trade_{timestamp}.json"
     with open(json_path, "w", encoding="utf-8") as f:
-        json.dump(results, f, indent=2, ensure_ascii=False)
-    print(f"Saved JSON: {json_path}")
+        json.dump(rows, f, indent=2, ensure_ascii=False)
+    print(f"JSON saved: {json_path}")
     
+    # Latest copies
     import shutil
     shutil.copy2(csv_path, BASE_DIR / "africa_urea_trade_latest.csv")
     shutil.copy2(json_path, BASE_DIR / "africa_urea_trade_latest.json")
     
-    return csv_path, json_path
-
-
-def print_summary(results: list):
-    """Print a quick summary of what was fetched."""
-    
-    imports = [r for r in results if r["trade_flow"] == "Import" and r["trade_value_1000usd"]]
-    exports = [r for r in results if r["trade_flow"] == "Export" and r["trade_value_1000usd"]]
-    no_data = [r for r in results if r["data_source"] == "no_data"]
-    
+    # Print summary
     print("\n" + "=" * 60)
-    print("FETCH SUMMARY")
+    print("SUMMARY")
     print("=" * 60)
-    print(f"Total records: {len(results)}")
-    print(f"Import records with data: {len(imports)}")
-    print(f"Export records with data: {len(exports)}")
-    print(f"Records with no data: {len(no_data)}")
     
-    if imports:
-        countries_with_imports = set(r["country_name"] for r in imports)
-        print(f"\nCountries with import data: {len(countries_with_imports)}")
-        
-        latest_year = max(r["year"] for r in imports)
-        latest_imports = [r for r in imports if r["year"] == latest_year]
-        latest_imports.sort(key=lambda x: x["trade_value_1000usd"] or 0, reverse=True)
-        
+    import_rows = [r for r in rows if r["trade_flow"] == "Import" and r["trade_value_1000usd"]]
+    export_rows = [r for r in rows if r["trade_flow"] == "Export" and r["trade_value_1000usd"]]
+    
+    print(f"Import records: {len(import_rows)}")
+    print(f"Export records: {len(export_rows)}")
+    print(f"Countries with imports: {len(set(r['country_name'] for r in import_rows))}")
+    print(f"Countries with exports: {len(set(r['country_name'] for r in export_rows))}")
+    
+    if import_rows:
+        latest_year = max(r["year"] for r in import_rows)
+        latest = sorted(
+            [r for r in import_rows if r["year"] == latest_year],
+            key=lambda x: x["trade_value_1000usd"] or 0,
+            reverse=True
+        )
         print(f"\nTop 10 African urea importers ({latest_year}):")
-        for i, r in enumerate(latest_imports[:10], 1):
-            val = f"${r['trade_value_1000usd']:,.1f}K" if r['trade_value_1000usd'] else "N/A"
+        for i, r in enumerate(latest[:10], 1):
+            val = f"${r['trade_value_1000usd']:,.1f}K"
             qty = f"{r['quantity_kg']:,.0f} Kg" if r.get('quantity_kg') else "no qty"
             print(f"  {i}. {r['country_name']}: {val} ({qty})")
 
 
 if __name__ == "__main__":
-    results = fetch_all_african_urea_data()
-    csv_path, json_path = save_results(results)
-    print_summary(results)
+    df = fetch_all_data()
+    process_and_save(df)
