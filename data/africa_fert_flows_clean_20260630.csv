@@ -1,0 +1,865 @@
+nutrient,hs_code,importer_code,importer,source_code,source,year,value_usd,qty_kg,source_is_african
+Urea (N),310210,24,Angola,76,Brazil,2023,126.33,199.0,False
+Urea (N),310210,24,Angola,156,China,2023,10483523.06,10382136.89,False
+Urea (N),310210,24,Angola,504,Morocco,2023,624930.65,601740.0,True
+Urea (N),310210,24,Angola,516,Namibia,2023,282.87,50.0,True
+Urea (N),310210,24,Angola,528,Netherlands,2023,2857.56,21030.0,False
+Urea (N),310210,24,Angola,620,Portugal,2023,303374.99,338566.99,False
+Urea (N),310210,24,Angola,643,Russian Federation,2023,171250.06,250000.0,False
+Urea (N),310210,24,Angola,699,India,2023,97052.41,210000.0,False
+Urea (N),310210,24,Angola,704,Viet Nam,2023,220581.53,300000.0,False
+Urea (N),310210,24,Angola,710,South Africa,2023,205759.56,317851.0,True
+Urea (N),310210,24,Angola,788,Tunisia,2023,98190.21,100600.0,True
+Urea (N),310210,24,Angola,818,Egypt,2023,59350.66,84320.0,True
+Urea (N),310210,72,Botswana,276,Germany,2023,18.225,4.1,False
+Urea (N),310210,72,Botswana,710,South Africa,2023,721909.067,1235023.01,True
+Urea (N),310210,108,Burundi,404,Kenya,2023,13209.131,27943.362,True
+Urea (N),310210,108,Burundi,682,Saudi Arabia,2023,1951742.052,4128828.367,False
+Urea (N),310210,108,Burundi,699,India,2023,6668.681,14107.314,False
+Urea (N),310210,108,Burundi,834,United Rep. of Tanzania,2023,9932221.904,21011198.431,True
+Urea (N),310210,108,Burundi,894,Zambia,2023,600.616,1270.578,True
+Urea (N),310210,120,Cameroon,56,Belgium,2023,664.864,290.0,False
+Urea (N),310210,120,Cameroon,246,Finland,2023,9341667.503,24799600.0,False
+Urea (N),310210,120,Cameroon,251,France,2023,3022.804,1742.1,False
+Urea (N),310210,120,Cameroon,434,Libya,2023,3399432.972,7695410.0,True
+Urea (N),310210,120,Cameroon,458,Malaysia,2023,648388.082,616000.0,False
+Urea (N),310210,120,Cameroon,566,Nigeria,2023,7287254.536,13393700.0,True
+Urea (N),310210,120,Cameroon,634,Qatar,2023,2541509.361,5500000.0,False
+Urea (N),310210,120,Cameroon,643,Russian Federation,2023,4090840.045,5500000.0,False
+Urea (N),310210,120,Cameroon,699,India,2023,217.244,5000.0,False
+Urea (N),310210,120,Cameroon,724,Spain,2023,320.056,14.0,False
+Urea (N),310210,120,Cameroon,784,United Arab Emirates,2023,9973392.366,12461400.0,False
+Urea (N),310210,132,Cabo Verde,620,Portugal,2023,73708.392,85124.0,False
+Urea (N),310210,132,Cabo Verde,724,Spain,2023,55613.242,72670.0,False
+Urea (N),310210,132,Cabo Verde,784,United Arab Emirates,2023,4616.354,3535.0,False
+Urea (N),310210,178,Congo Rep,24,Angola,2023,78.381,27.0,True
+Urea (N),310210,178,Congo Rep,251,France,2023,372.789,112.68,False
+Urea (N),310210,178,Congo Rep,276,Germany,2023,1851.191,1200.0,False
+Urea (N),310210,178,Congo Rep,699,India,2023,156590.885,172000.0,False
+Urea (N),310210,178,Congo Rep,784,United Arab Emirates,2023,125533.155,134500.0,False
+Urea (N),310210,178,Congo Rep,818,Egypt,2023,159250.088,231000.0,True
+Urea (N),310210,180,Congo Dem Rep,12,Algeria,2023,1279421.36,1693000.0,True
+Urea (N),310210,180,Congo Dem Rep,56,Belgium,2023,33728.35,55120.0,False
+Urea (N),310210,180,Congo Dem Rep,156,China,2023,99369.12,335719.0,False
+Urea (N),310210,180,Congo Dem Rep,508,Mozambique,2023,631949.13,615060.0,True
+Urea (N),310210,180,Congo Dem Rep,643,Russian Federation,2023,21403.89,19250.0,False
+Urea (N),310210,180,Congo Dem Rep,682,Saudi Arabia,2023,2102764.57,1738000.0,False
+Urea (N),310210,180,Congo Dem Rep,710,South Africa,2023,4164738.04,4458270.0,True
+Urea (N),310210,180,Congo Dem Rep,818,Egypt,2023,637535.88,483000.0,True
+Urea (N),310210,180,Congo Dem Rep,894,Zambia,2023,1973057.09,2101890.0,True
+Urea (N),310210,204,Benin,251,France,2023,86.375,109.0,False
+Urea (N),310210,204,Benin,440,Lithuania,2023,2379.141,4592.0,False
+Urea (N),310210,204,Benin,842,USA,2023,58144205.2,118301000.0,False
+Urea (N),310210,231,Ethiopia,156,China,2023,38803859.284,50464400.4,False
+Urea (N),310210,231,Ethiopia,276,Germany,2023,16052.615,20000.0,False
+Urea (N),310210,231,Ethiopia,368,Iraq,2023,90165.024,215000.0,False
+Urea (N),310210,231,Ethiopia,380,Italy,2023,24360.463,45000.0,False
+Urea (N),310210,231,Ethiopia,404,Kenya,2023,6784.661,1250.0,True
+Urea (N),310210,231,Ethiopia,512,Oman,2023,98358684.008,160646500.0,False
+Urea (N),310210,231,Ethiopia,528,Netherlands,2023,112625.835,36030.0,False
+Urea (N),310210,231,Ethiopia,566,Nigeria,2023,35363808.821,47543000.0,True
+Urea (N),310210,231,Ethiopia,634,Qatar,2023,81264.041,93200.0,False
+Urea (N),310210,231,Ethiopia,643,Russian Federation,2023,14413.798,23250.0,False
+Urea (N),310210,231,Ethiopia,699,India,2023,2201.624,165.0,False
+Urea (N),310210,231,Ethiopia,724,Spain,2023,13413.306,168.0,False
+Urea (N),310210,231,Ethiopia,784,United Arab Emirates,2023,33790.202,28400.0,False
+Urea (N),310210,231,Ethiopia,818,Egypt,2023,316210761.849,506138000.0,True
+Urea (N),310210,231,Ethiopia,842,USA,2023,41.976,2.0,False
+Urea (N),310210,262,Djibouti,512,Oman,2023,24305.624,47312.0,False
+Urea (N),310210,266,Gabon,56,Belgium,2023,97725.733,101375.0,False
+Urea (N),310210,266,Gabon,76,Brazil,2023,160.683,8.0,False
+Urea (N),310210,266,Gabon,120,Cameroon,2023,57432.472,64000.0,True
+Urea (N),310210,266,Gabon,156,China,2023,1164241.777,2187500.0,False
+Urea (N),310210,266,Gabon,251,France,2023,1564.929,97.0,False
+Urea (N),310210,266,Gabon,484,Mexico,2023,438.322,28.0,False
+Urea (N),310210,266,Gabon,528,Netherlands,2023,1882.15,676.0,False
+Urea (N),310210,266,Gabon,699,India,2023,2122.522,2000.0,False
+Urea (N),310210,266,Gabon,784,United Arab Emirates,2023,25369.773,15017.0,False
+Urea (N),310210,266,Gabon,818,Egypt,2023,158759.754,165600.0,True
+Urea (N),310210,266,Gabon,899,"Areas, nes",2023,5804.983,2010.0,False
+Urea (N),310210,270,Gambia,156,China,2023,6495375.118,10500246.255,False
+Urea (N),310210,270,Gambia,724,Spain,2023,166.735,450.0,False
+Urea (N),310210,270,Gambia,784,United Arab Emirates,2023,178.745,235.0,False
+Urea (N),310210,270,Gambia,842,USA,2023,80.563,250.0,False
+Urea (N),310210,288,Ghana,156,China,2023,1907784.532,3186526.6,False
+Urea (N),310210,288,Ghana,251,France,2023,17866.201,19535.0,False
+Urea (N),310210,288,Ghana,276,Germany,2023,2599.467,nan,False
+Urea (N),310210,288,Ghana,376,Israel,2023,16440.902,17000.0,False
+Urea (N),310210,288,Ghana,384,Côte d'Ivoire,2023,142977.295,120000.0,True
+Urea (N),310210,288,Ghana,410,Rep. of Korea,2023,30761.719,50000.0,False
+Urea (N),310210,288,Ghana,434,Libya,2023,8593401.663,20687900.0,True
+Urea (N),310210,288,Ghana,458,Malaysia,2023,222730.854,198900.0,False
+Urea (N),310210,288,Ghana,528,Netherlands,2023,541589.516,625750.0,False
+Urea (N),310210,288,Ghana,566,Nigeria,2023,2490863.175,5000677.5,True
+Urea (N),310210,288,Ghana,634,Qatar,2023,3808175.182,8800000.0,False
+Urea (N),310210,288,Ghana,643,Russian Federation,2023,5642416.369,13488000.0,False
+Urea (N),310210,288,Ghana,699,India,2023,981.64,68.0,False
+Urea (N),310210,288,Ghana,710,South Africa,2023,3455.898,2525.0,True
+Urea (N),310210,288,Ghana,757,Switzerland,2023,58784.586,52448.8,False
+Urea (N),310210,288,Ghana,784,United Arab Emirates,2023,56878.285,70200.0,False
+Urea (N),310210,288,Ghana,792,Türkiye,2023,36996.039,50140.0,False
+Urea (N),310210,288,Ghana,818,Egypt,2023,194075.337,300000.0,True
+Urea (N),310210,288,Ghana,826,United Kingdom,2023,71710.345,14004.77,False
+Urea (N),310210,288,Ghana,842,USA,2023,5235.919,444.7,False
+Urea (N),310210,384,Cote dIvoire,56,Belgium,2023,71.141,2.0,False
+Urea (N),310210,384,Cote dIvoire,156,China,2023,4176130.995,8182726.0,False
+Urea (N),310210,384,Cote dIvoire,246,Finland,2023,6071657.197,13727560.0,False
+Urea (N),310210,384,Cote dIvoire,251,France,2023,25243.816,5325.0,False
+Urea (N),310210,384,Cote dIvoire,276,Germany,2023,4420.724,5323.0,False
+Urea (N),310210,384,Cote dIvoire,300,Greece,2023,3235.56,3324.0,False
+Urea (N),310210,384,Cote dIvoire,360,Indonesia,2023,5520.903,7923.0,False
+Urea (N),310210,384,Cote dIvoire,392,Japan,2023,2350.871,1200.0,False
+Urea (N),310210,384,Cote dIvoire,528,Netherlands,2023,48535.943,69000.0,False
+Urea (N),310210,384,Cote dIvoire,566,Nigeria,2023,7449681.396,15501220.0,True
+Urea (N),310210,384,Cote dIvoire,643,Russian Federation,2023,36847034.986,71171330.0,False
+Urea (N),310210,384,Cote dIvoire,699,India,2023,37852.108,10000.0,False
+Urea (N),310210,384,Cote dIvoire,724,Spain,2023,4681.238,9621.0,False
+Urea (N),310210,384,Cote dIvoire,784,United Arab Emirates,2023,22583.642,28207.0,False
+Urea (N),310210,384,Cote dIvoire,792,Türkiye,2023,69316.912,32197.0,False
+Urea (N),310210,384,Cote dIvoire,795,Turkmenistan,2023,16221.404,17614.0,False
+Urea (N),310210,384,Cote dIvoire,818,Egypt,2023,24581655.766,48401000.0,True
+Urea (N),310210,384,Cote dIvoire,826,United Kingdom,2023,5032.906,1794.0,False
+Urea (N),310210,384,Cote dIvoire,899,"Areas, nes",2023,1800.512,319.0,False
+Urea (N),310210,404,Kenya,48,Bahrain,2023,6028561.574,17100000.0,False
+Urea (N),310210,404,Kenya,156,China,2023,99718.634,493413.2,False
+Urea (N),310210,404,Kenya,276,Germany,2023,1630.744,683.008,False
+Urea (N),310210,404,Kenya,364,Iran,2023,43970.31,100400.0,False
+Urea (N),310210,404,Kenya,380,Italy,2023,585.69,725.0,False
+Urea (N),310210,404,Kenya,410,Rep. of Korea,2023,28.302,12.0,False
+Urea (N),310210,404,Kenya,512,Oman,2023,766466.014,1501200.0,False
+Urea (N),310210,404,Kenya,528,Netherlands,2023,2251841.936,4590790.0,False
+Urea (N),310210,404,Kenya,634,Qatar,2023,26743642.548,68750000.0,False
+Urea (N),310210,404,Kenya,643,Russian Federation,2023,5863992.358,8656830.0,False
+Urea (N),310210,404,Kenya,682,Saudi Arabia,2023,9494959.967,26500000.0,False
+Urea (N),310210,404,Kenya,699,India,2023,107101.776,12782.24,False
+Urea (N),310210,404,Kenya,784,United Arab Emirates,2023,25234.221,43100.0,False
+Urea (N),310210,404,Kenya,792,Türkiye,2023,14439.802,20000.0,False
+Urea (N),310210,404,Kenya,818,Egypt,2023,336246.772,483000.0,True
+Urea (N),310210,404,Kenya,826,United Kingdom,2023,168.933,55.0,False
+Urea (N),310210,426,Lesotho,710,South Africa,2023,294.931,995.0,True
+Urea (N),310210,430,Liberia,156,China,2023,1918313.89,2352902.0,False
+Urea (N),310210,430,Liberia,364,Iran,2023,139562.0,249000.0,False
+Urea (N),310210,430,Liberia,458,Malaysia,2023,405000.0,502000.0,False
+Urea (N),310210,430,Liberia,792,Türkiye,2023,137839.27,271780.0,False
+Urea (N),310210,450,Madagascar,156,China,2023,5277622.027,7014000.0,False
+Urea (N),310210,450,Madagascar,251,France,2023,1136.733,600.0,False
+Urea (N),310210,450,Madagascar,344,"China, Hong Kong SAR",2023,119435.205,132000.0,False
+Urea (N),310210,450,Madagascar,508,Mozambique,2023,263486.177,312500.0,True
+Urea (N),310210,450,Madagascar,699,India,2023,13164.141,21500.0,False
+Urea (N),310210,450,Madagascar,704,Viet Nam,2023,97482.412,105000.0,False
+Urea (N),310210,450,Madagascar,710,South Africa,2023,135680.22,206500.0,True
+Urea (N),310210,450,Madagascar,818,Egypt,2023,13110.812,21000.0,True
+Urea (N),310210,454,Malawi,48,Bahrain,2023,3183283.95,6000000.0,False
+Urea (N),310210,454,Malawi,156,China,2023,876003.21,1797605.0,False
+Urea (N),310210,454,Malawi,360,Indonesia,2023,17899989.7,18514000.0,False
+Urea (N),310210,454,Malawi,508,Mozambique,2023,2802573.46,4682500.0,True
+Urea (N),310210,454,Malawi,512,Oman,2023,12838685.9,16638000.0,False
+Urea (N),310210,454,Malawi,643,Russian Federation,2023,756652.01,1030000.0,False
+Urea (N),310210,454,Malawi,682,Saudi Arabia,2023,25301856.6,33100000.0,False
+Urea (N),310210,454,Malawi,699,India,2023,474681.47,500125.0,False
+Urea (N),310210,454,Malawi,710,South Africa,2023,27592.34,32877.0,True
+Urea (N),310210,454,Malawi,784,United Arab Emirates,2023,80724112.0,107888320.0,False
+Urea (N),310210,454,Malawi,826,United Kingdom,2023,40.13,1.0,False
+Urea (N),310210,454,Malawi,834,United Rep. of Tanzania,2023,38078.61,52500.0,True
+Urea (N),310210,466,Mali,124,Canada,2023,181597.057,1101200.0,False
+Urea (N),310210,466,Mali,156,China,2023,179585.175,330000.0,False
+Urea (N),310210,466,Mali,246,Finland,2023,58252041.122,87354300.0,False
+Urea (N),310210,466,Mali,288,Ghana,2023,30385.812,81000.0,True
+Urea (N),310210,466,Mali,384,Côte d'Ivoire,2023,645827.129,1900000.0,True
+Urea (N),310210,466,Mali,440,Lithuania,2023,138407.051,853000.0,False
+Urea (N),310210,466,Mali,504,Morocco,2023,4981178.364,30707000.0,True
+Urea (N),310210,466,Mali,566,Nigeria,2023,221679.861,1344000.0,True
+Urea (N),310210,466,Mali,643,Russian Federation,2023,17802868.938,83966800.0,False
+Urea (N),310210,466,Mali,686,Senegal,2023,7930363.427,23801400.0,True
+Urea (N),310210,466,Mali,724,Spain,2023,52770.667,320000.0,False
+Urea (N),310210,466,Mali,842,USA,2023,225891.019,546400.0,False
+Urea (N),310210,478,Mauritania,686,Senegal,2023,79749.818,76000.0,True
+Urea (N),310210,478,Mauritania,842,USA,2023,330405.166,581730.0,False
+Urea (N),310210,480,Mauritius,56,Belgium,2023,219832.457,208000.0,False
+Urea (N),310210,480,Mauritius,156,China,2023,1333127.454,602393.0,False
+Urea (N),310210,480,Mauritius,251,France,2023,46530.513,57804.0,False
+Urea (N),310210,480,Mauritius,380,Italy,2023,8261.957,4960.0,False
+Urea (N),310210,480,Mauritius,528,Netherlands,2023,5661.754,196.0,False
+Urea (N),310210,480,Mauritius,699,India,2023,6308.889,2884.0,False
+Urea (N),310210,480,Mauritius,704,Viet Nam,2023,426277.13,189000.0,False
+Urea (N),310210,480,Mauritius,710,South Africa,2023,171866.667,231260.0,True
+Urea (N),310210,480,Mauritius,784,United Arab Emirates,2023,401000.905,460000.0,False
+Urea (N),310210,480,Mauritius,818,Egypt,2023,252267.744,481302.0,True
+Urea (N),310210,480,Mauritius,826,United Kingdom,2023,1589.339,761.0,False
+Urea (N),310210,504,Morocco,12,Algeria,2023,185351.187,288000.0,True
+Urea (N),310210,504,Morocco,56,Belgium,2023,16285.564,20990.0,False
+Urea (N),310210,504,Morocco,156,China,2023,679589.664,1016100.0,False
+Urea (N),310210,504,Morocco,251,France,2023,153460.713,197200.1,False
+Urea (N),310210,504,Morocco,276,Germany,2023,446467.023,477064.69,False
+Urea (N),310210,504,Morocco,380,Italy,2023,515.821,636.0,False
+Urea (N),310210,504,Morocco,428,Latvia,2023,225625.869,349980.0,False
+Urea (N),310210,504,Morocco,434,Libya,2023,4397803.059,13209500.0,True
+Urea (N),310210,504,Morocco,440,Lithuania,2023,84586.012,144163.4,False
+Urea (N),310210,504,Morocco,528,Netherlands,2023,62912.165,82500.001,False
+Urea (N),310210,504,Morocco,620,Portugal,2023,690713.467,1278029.0,False
+Urea (N),310210,504,Morocco,643,Russian Federation,2023,28852987.936,69277910.0,False
+Urea (N),310210,504,Morocco,699,India,2023,96.926,10.0,False
+Urea (N),310210,504,Morocco,703,Slovakia,2023,1192853.102,1463820.0,False
+Urea (N),310210,504,Morocco,705,Slovenia,2023,110202.147,162000.0,False
+Urea (N),310210,504,Morocco,724,Spain,2023,1498751.869,2883175.0,False
+Urea (N),310210,504,Morocco,784,United Arab Emirates,2023,394.811,44.0,False
+Urea (N),310210,504,Morocco,792,Türkiye,2023,378154.532,897908.5,False
+Urea (N),310210,504,Morocco,818,Egypt,2023,9961391.721,17900000.0,True
+Urea (N),310210,504,Morocco,826,United Kingdom,2023,124.069,212.229,False
+Urea (N),310210,504,Morocco,842,USA,2023,8355.19,4831.626,False
+Urea (N),310210,508,Mozambique,48,Bahrain,2023,2261000.0,5000000.0,False
+Urea (N),310210,508,Mozambique,76,Brazil,2023,6000.0,8000.0,False
+Urea (N),310210,508,Mozambique,96,Brunei Darussalam,2023,5271000.0,7000000.0,False
+Urea (N),310210,508,Mozambique,156,China,2023,425000.0,937992.0,False
+Urea (N),310210,508,Mozambique,414,Kuwait,2023,682000.0,1500000.0,False
+Urea (N),310210,508,Mozambique,480,Mauritius,2023,1585000.0,3159998.0,True
+Urea (N),310210,508,Mozambique,512,Oman,2023,1712000.0,2891330.0,False
+Urea (N),310210,508,Mozambique,566,Nigeria,2023,1565000.0,3000000.0,True
+Urea (N),310210,508,Mozambique,620,Portugal,2023,10000.0,4509.0,False
+Urea (N),310210,508,Mozambique,682,Saudi Arabia,2023,7301000.0,13388000.0,False
+Urea (N),310210,508,Mozambique,699,India,2023,8000.0,750.0,False
+Urea (N),310210,508,Mozambique,702,Singapore,2023,1291000.0,3000000.0,False
+Urea (N),310210,508,Mozambique,710,South Africa,2023,699000.0,9938940.0,True
+Urea (N),310210,508,Mozambique,784,United Arab Emirates,2023,24723000.0,44487000.0,False
+Urea (N),310210,516,Namibia,76,Brazil,2023,1702.978,1234.0,False
+Urea (N),310210,516,Namibia,276,Germany,2023,2171.978,1483.0,False
+Urea (N),310210,516,Namibia,380,Italy,2023,5428.397,379.47,False
+Urea (N),310210,516,Namibia,440,Lithuania,2023,156.653,327.0,False
+Urea (N),310210,516,Namibia,634,Qatar,2023,67.263,5.9,False
+Urea (N),310210,516,Namibia,710,South Africa,2023,484093.963,321687.0,True
+Urea (N),310210,516,Namibia,826,United Kingdom,2023,156.01,120.0,False
+Urea (N),310210,562,Niger,204,Benin,2023,410592.523,1463335.0,True
+Urea (N),310210,562,Niger,266,Gabon,2023,794.908,3200.0,True
+Urea (N),310210,562,Niger,288,Ghana,2023,9936.354,40000.0,True
+Urea (N),310210,562,Niger,566,Nigeria,2023,453783.364,1844560.0,True
+Urea (N),310210,566,Nigeria,818,Egypt,2023,27422276.219,nan,True
+Urea (N),310210,678,Sao Tome and Principe,620,Portugal,2023,9073.497,11600.0,False
+Urea (N),310210,686,Senegal,4,Afghanistan,2023,2755932.321,6050000.0,False
+Urea (N),310210,686,Senegal,12,Algeria,2023,6035064.961,12000000.0,True
+Urea (N),310210,686,Senegal,251,France,2023,3156.511,465.0,False
+Urea (N),310210,686,Senegal,276,Germany,2023,29441.602,22000.0,False
+Urea (N),310210,686,Senegal,422,Lebanon,2023,6882985.211,15840000.0,False
+Urea (N),310210,686,Senegal,528,Netherlands,2023,82839.795,127862.0,False
+Urea (N),310210,686,Senegal,566,Nigeria,2023,17999733.518,47644140.0,True
+Urea (N),310210,686,Senegal,643,Russian Federation,2023,4633576.744,4749360.0,False
+Urea (N),310210,686,Senegal,704,Viet Nam,2023,109057.584,200720.0,False
+Urea (N),310210,686,Senegal,724,Spain,2023,65725.444,112500.0,False
+Urea (N),310210,686,Senegal,818,Egypt,2023,17043070.669,17500000.0,True
+Urea (N),310210,686,Senegal,899,"Areas, nes",2023,3275.491,261.0,False
+Urea (N),310210,690,Seychelles,480,Mauritius,2023,1700.341,1270.0,True
+Urea (N),310210,690,Seychelles,784,United Arab Emirates,2023,39617.98,30332.026,False
+Urea (N),310210,710,South Africa,36,Australia,2023,133.386,4.84,False
+Urea (N),310210,710,South Africa,48,Bahrain,2023,33011584.031,85761100.0,False
+Urea (N),310210,710,South Africa,56,Belgium,2023,796390.219,2000000.2,False
+Urea (N),310210,710,South Africa,156,China,2023,1209257.98,2049226.3,False
+Urea (N),310210,710,South Africa,203,Czechia,2023,12900.913,3000.0,False
+Urea (N),310210,710,South Africa,251,France,2023,5719.111,6104.0,False
+Urea (N),310210,710,South Africa,276,Germany,2023,459210.074,335452.34,False
+Urea (N),310210,710,South Africa,360,Indonesia,2023,1736097.132,3422400.0,False
+Urea (N),310210,710,South Africa,376,Israel,2023,256097.261,507280.0,False
+Urea (N),310210,710,South Africa,428,Latvia,2023,51806.631,80255.8,False
+Urea (N),310210,710,South Africa,440,Lithuania,2023,95.771,218.0,False
+Urea (N),310210,710,South Africa,508,Mozambique,2023,22563.929,33600.0,True
+Urea (N),310210,710,South Africa,512,Oman,2023,64873697.475,201752400.0,False
+Urea (N),310210,710,South Africa,528,Netherlands,2023,364071.279,453766.67,False
+Urea (N),310210,710,South Africa,566,Nigeria,2023,17048989.434,46465000.0,True
+Urea (N),310210,710,South Africa,616,Poland,2023,533462.642,660000.0,False
+Urea (N),310210,710,South Africa,634,Qatar,2023,70855224.004,191696900.0,False
+Urea (N),310210,710,South Africa,643,Russian Federation,2023,31939300.607,100596700.0,False
+Urea (N),310210,710,South Africa,682,Saudi Arabia,2023,107359956.222,271203000.0,False
+Urea (N),310210,710,South Africa,699,India,2023,77.939,0.6,False
+Urea (N),310210,710,South Africa,702,Singapore,2023,25693.915,40000.0,False
+Urea (N),310210,710,South Africa,710,South Africa,2023,1602330.339,5000000.0,True
+Urea (N),310210,710,South Africa,724,Spain,2023,5.474,7.92,False
+Urea (N),310210,710,South Africa,748,Eswatini,2023,89478.491,137000.0,True
+Urea (N),310210,710,South Africa,757,Switzerland,2023,120376.022,200600.0,False
+Urea (N),310210,710,South Africa,784,United Arab Emirates,2023,8483173.421,2222520.0,False
+Urea (N),310210,710,South Africa,792,Türkiye,2023,6027.834,8502.0,False
+Urea (N),310210,710,South Africa,826,United Kingdom,2023,1570.982,122.19,False
+Urea (N),310210,710,South Africa,839,Special Categories,2023,27850.58,43000.0,False
+Urea (N),310210,710,South Africa,842,USA,2023,74.471,3.93,False
+Urea (N),310210,710,South Africa,899,"Areas, nes",2023,484.059,74.2,False
+Urea (N),310210,716,Zimbabwe,48,Bahrain,2023,864242.35,2200000.0,False
+Urea (N),310210,716,Zimbabwe,480,Mauritius,2023,19048428.06,31250000.0,True
+Urea (N),310210,716,Zimbabwe,508,Mozambique,2023,2141679.87,4390000.0,True
+Urea (N),310210,716,Zimbabwe,620,Portugal,2023,217298.27,300000.0,False
+Urea (N),310210,716,Zimbabwe,710,South Africa,2023,5501787.19,8691145.0,True
+Urea (N),310210,716,Zimbabwe,784,United Arab Emirates,2023,19258769.87,26164060.0,False
+Urea (N),310210,716,Zimbabwe,842,USA,2023,11.49,2.0,False
+Urea (N),310210,716,Zimbabwe,894,Zambia,2023,368.94,500.0,True
+Urea (N),310210,748,Eswatini,156,China,2023,132285.21,198594.0,False
+Urea (N),310210,748,Eswatini,710,South Africa,2023,8858977.22,18214046.0,True
+Urea (N),310210,768,Togo,288,Ghana,2023,8884.494,65500.0,True
+Urea (N),310210,768,Togo,562,Niger,2023,28438.522,115000.0,True
+Urea (N),310210,768,Togo,748,Eswatini,2023,516964.793,nan,True
+Urea (N),310210,768,Togo,792,Türkiye,2023,38823750.988,36211040.0,False
+Urea (N),310210,788,Tunisia,12,Algeria,2023,20918.242,25000.0,True
+Urea (N),310210,788,Tunisia,40,Austria,2023,1515232.662,1825080.0,False
+Urea (N),310210,788,Tunisia,56,Belgium,2023,54.189,3.0,False
+Urea (N),310210,788,Tunisia,156,China,2023,256093.688,173000.0,False
+Urea (N),310210,788,Tunisia,251,France,2023,208156.118,149185.0,False
+Urea (N),310210,788,Tunisia,276,Germany,2023,115147.444,87742.0,False
+Urea (N),310210,788,Tunisia,348,Hungary,2023,123.532,4.0,False
+Urea (N),310210,788,Tunisia,380,Italy,2023,132725.795,196207.0,False
+Urea (N),310210,788,Tunisia,428,Latvia,2023,16619.308,19620.0,False
+Urea (N),310210,788,Tunisia,440,Lithuania,2023,2885.409,3499.0,False
+Urea (N),310210,788,Tunisia,643,Russian Federation,2023,34186.905,63000.0,False
+Urea (N),310210,788,Tunisia,724,Spain,2023,59773.081,65500.0,False
+Urea (N),310210,788,Tunisia,792,Türkiye,2023,188705.849,400000.0,False
+Urea (N),310210,788,Tunisia,804,Ukraine,2023,52977.454,95500.0,False
+Urea (N),310210,788,Tunisia,818,Egypt,2023,551472.787,785980.0,True
+Urea (N),310210,788,Tunisia,826,United Kingdom,2023,15167.343,17781.0,False
+Urea (N),310210,800,Uganda,156,China,2023,417721.8,726724.0,False
+Urea (N),310210,800,Uganda,344,"China, Hong Kong SAR",2023,177525.0,338175.0,False
+Urea (N),310210,800,Uganda,404,Kenya,2023,244.18,250.0,True
+Urea (N),310210,800,Uganda,458,Malaysia,2023,155222.0,194000.0,False
+Urea (N),310210,800,Uganda,512,Oman,2023,206537.0,475200.0,False
+Urea (N),310210,800,Uganda,528,Netherlands,2023,115496.5,177500.0,False
+Urea (N),310210,800,Uganda,634,Qatar,2023,2376947.6,3991400.0,False
+Urea (N),310210,800,Uganda,643,Russian Federation,2023,6008.0,8000.0,False
+Urea (N),310210,800,Uganda,682,Saudi Arabia,2023,3160322.01,5502112.0,False
+Urea (N),310210,800,Uganda,699,India,2023,2570.0,3231.0,False
+Urea (N),310210,800,Uganda,704,Viet Nam,2023,215394.0,366190.0,False
+Urea (N),310210,800,Uganda,784,United Arab Emirates,2023,390627.56,469576.5,False
+Urea (N),310210,800,Uganda,818,Egypt,2023,802243.0,942220.0,True
+Urea (N),310210,800,Uganda,826,United Kingdom,2023,972.4,1452.041,False
+Urea (N),310210,818,Egypt,276,Germany,2023,14008.622,29634.652,False
+Urea (N),310210,818,Egypt,724,Spain,2023,5135.261,10863.428,False
+Urea (N),310210,834,Tanzania,48,Bahrain,2023,2103259.84,5500000.0,False
+Urea (N),310210,834,Tanzania,156,China,2023,573961.52,976116.0,False
+Urea (N),310210,834,Tanzania,246,Finland,2023,2880715.0,5000000.0,False
+Urea (N),310210,834,Tanzania,276,Germany,2023,12746.78,7340.0,False
+Urea (N),310210,834,Tanzania,300,Greece,2023,17875.44,6870.74,False
+Urea (N),310210,834,Tanzania,404,Kenya,2023,720299.23,900000.0,True
+Urea (N),310210,834,Tanzania,512,Oman,2023,7251778.53,10728000.0,False
+Urea (N),310210,834,Tanzania,634,Qatar,2023,29566411.11,64254467.0,False
+Urea (N),310210,834,Tanzania,643,Russian Federation,2023,23472735.02,53966020.0,False
+Urea (N),310210,834,Tanzania,682,Saudi Arabia,2023,8148524.96,19410420.0,False
+Urea (N),310210,834,Tanzania,699,India,2023,7747.39,3092.24,False
+Urea (N),310210,834,Tanzania,784,United Arab Emirates,2023,10080172.74,16798118.0,False
+Urea (N),310210,834,Tanzania,792,Türkiye,2023,49283.9,85910.0,False
+Urea (N),310210,834,Tanzania,826,United Kingdom,2023,285.68,10.0,False
+Urea (N),310210,854,Burkina Faso,246,Finland,2023,37192.642,50000.0,False
+Urea (N),310210,854,Burkina Faso,276,Germany,2023,313.534,4.0,False
+Urea (N),310210,854,Burkina Faso,288,Ghana,2023,1189836.458,4530000.0,True
+Urea (N),310210,854,Burkina Faso,384,Côte d'Ivoire,2023,4436402.922,16326930.0,True
+Urea (N),310210,854,Burkina Faso,466,Mali,2023,12873.257,60000.0,True
+Urea (N),310210,854,Burkina Faso,504,Morocco,2023,1951364.75,8656594.0,True
+Urea (N),310210,854,Burkina Faso,566,Nigeria,2023,504179.752,2349894.0,True
+Urea (N),310210,854,Burkina Faso,643,Russian Federation,2023,11587760.203,22848840.0,False
+Urea (N),310210,854,Burkina Faso,768,Togo,2023,11771.075,50000.0,True
+Urea (N),310210,854,Burkina Faso,792,Türkiye,2023,1368.346,2000.0,False
+Urea (N),310210,854,Burkina Faso,804,Ukraine,2023,3873573.634,8055500.0,False
+Urea (N),310210,894,Zambia,12,Algeria,2023,2.454,1.0,True
+Urea (N),310210,894,Zambia,48,Bahrain,2023,10648437.483,19041270.0,False
+Urea (N),310210,894,Zambia,60,Bermuda,2023,1409054.972,1841000.0,False
+Urea (N),310210,894,Zambia,96,Brunei Darussalam,2023,6874173.278,6820000.0,False
+Urea (N),310210,894,Zambia,152,Chile,2023,1796902.862,2542500.0,False
+Urea (N),310210,894,Zambia,156,China,2023,3838199.908,5084190.0,False
+Urea (N),310210,894,Zambia,251,France,2023,1959.544,1527.4,False
+Urea (N),310210,894,Zambia,360,Indonesia,2023,6069861.217,5156000.0,False
+Urea (N),310210,894,Zambia,454,Malawi,2023,3275438.023,3715000.0,True
+Urea (N),310210,894,Zambia,480,Mauritius,2023,20142857.247,27306130.0,True
+Urea (N),310210,894,Zambia,508,Mozambique,2023,4847249.108,8461800.0,True
+Urea (N),310210,894,Zambia,512,Oman,2023,17668200.14,20232340.0,False
+Urea (N),310210,894,Zambia,634,Qatar,2023,22250979.1,35136443.0,False
+Urea (N),310210,894,Zambia,643,Russian Federation,2023,10545940.543,13084110.0,False
+Urea (N),310210,894,Zambia,682,Saudi Arabia,2023,21472772.257,22779825.0,False
+Urea (N),310210,894,Zambia,699,India,2023,3841.187,801.0,False
+Urea (N),310210,894,Zambia,702,Singapore,2023,1793706.92,2948520.0,False
+Urea (N),310210,894,Zambia,710,South Africa,2023,9682342.327,15336992.0,True
+Urea (N),310210,894,Zambia,757,Switzerland,2023,318148.854,452000.0,False
+Urea (N),310210,894,Zambia,784,United Arab Emirates,2023,76292115.314,96967620.0,False
+Urea (N),310210,894,Zambia,834,United Rep. of Tanzania,2023,361426.501,420000.0,True
+Urea (N),310210,894,Zambia,842,USA,2023,194880.556,200000.0,False
+Potassic fertilisers (K),3104,24,Angola,56,Belgium,2023,67536.0,56179.2,False
+Potassic fertilisers (K),3104,24,Angola,156,China,2023,441123.4,454216.0,False
+Potassic fertilisers (K),3104,24,Angola,251,France,2023,93.22,130.841,False
+Potassic fertilisers (K),3104,24,Angola,276,Germany,2023,3365516.41,4755198.3,False
+Potassic fertilisers (K),3104,24,Angola,376,Israel,2023,1181680.71,856000.0,False
+Potassic fertilisers (K),3104,24,Angola,490,"Other Asia, nes",2023,119464.62,142000.0,False
+Potassic fertilisers (K),3104,24,Angola,516,Namibia,2023,1690211.92,478743.0,True
+Potassic fertilisers (K),3104,24,Angola,620,Portugal,2023,1217847.74,877041.07,False
+Potassic fertilisers (K),3104,24,Angola,704,Viet Nam,2023,220400.79,379176.0,False
+Potassic fertilisers (K),3104,24,Angola,710,South Africa,2023,177356.01,264686.22,True
+Potassic fertilisers (K),3104,24,Angola,724,Spain,2023,69203.21,96564.0,False
+Potassic fertilisers (K),3104,24,Angola,784,United Arab Emirates,2023,121.7,1.0,False
+Potassic fertilisers (K),3104,24,Angola,788,Tunisia,2023,158729.8,182000.0,True
+Potassic fertilisers (K),3104,72,Botswana,156,China,2023,23.756,2.0,False
+Potassic fertilisers (K),3104,72,Botswana,710,South Africa,2023,105250.695,93158.54,True
+Potassic fertilisers (K),3104,108,Burundi,36,Australia,2023,229.779,441.72,False
+Potassic fertilisers (K),3104,108,Burundi,56,Belgium,2023,59.661,78.933,False
+Potassic fertilisers (K),3104,108,Burundi,156,China,2023,207817.805,nan,False
+Potassic fertilisers (K),3104,108,Burundi,400,Jordan,2023,1155131.039,nan,False
+Potassic fertilisers (K),3104,108,Burundi,899,"Areas, nes",2023,207346.54,nan,False
+Potassic fertilisers (K),3104,120,Cameroon,56,Belgium,2023,45152.987,59027.0,False
+Potassic fertilisers (K),3104,120,Cameroon,124,Canada,2023,21388622.721,43931640.0,False
+Potassic fertilisers (K),3104,120,Cameroon,156,China,2023,70644.508,82500.0,False
+Potassic fertilisers (K),3104,120,Cameroon,276,Germany,2023,1834072.819,3037500.0,False
+Potassic fertilisers (K),3104,120,Cameroon,400,Jordan,2023,147474.887,100000.0,False
+Potassic fertilisers (K),3104,120,Cameroon,752,Sweden,2023,110894.394,98000.0,False
+Potassic fertilisers (K),3104,120,Cameroon,784,United Arab Emirates,2023,10.437,7.0,False
+Potassic fertilisers (K),3104,120,Cameroon,792,Türkiye,2023,107191.154,248862.0,False
+Potassic fertilisers (K),3104,120,Cameroon,818,Egypt,2023,71498.065,126685.0,True
+Potassic fertilisers (K),3104,120,Cameroon,826,United Kingdom,2023,33.243,50.0,False
+Potassic fertilisers (K),3104,120,Cameroon,842,USA,2023,1068.415,12.0,False
+Potassic fertilisers (K),3104,132,Cabo Verde,620,Portugal,2023,3059.871,1341.0,False
+Potassic fertilisers (K),3104,132,Cabo Verde,724,Spain,2023,44758.598,18810.0,False
+Potassic fertilisers (K),3104,174,Comoros,710,South Africa,2023,9415.79,14275.0,True
+Potassic fertilisers (K),3104,174,Comoros,834,United Rep. of Tanzania,2023,28796.731,49550.0,True
+Potassic fertilisers (K),3104,178,Congo Rep,24,Angola,2023,267.715,101.0,True
+Potassic fertilisers (K),3104,178,Congo Rep,56,Belgium,2023,506482.713,432003.0,False
+Potassic fertilisers (K),3104,178,Congo Rep,120,Cameroon,2023,41.223,125.0,True
+Potassic fertilisers (K),3104,178,Congo Rep,156,China,2023,827742.085,240000.0,False
+Potassic fertilisers (K),3104,178,Congo Rep,196,Cyprus,2023,130547.546,96000.0,False
+Potassic fertilisers (K),3104,178,Congo Rep,251,France,2023,16.453,1.0,False
+Potassic fertilisers (K),3104,178,Congo Rep,276,Germany,2023,205906.742,198000.0,False
+Potassic fertilisers (K),3104,178,Congo Rep,380,Italy,2023,1440158.71,1392000.0,False
+Potassic fertilisers (K),3104,178,Congo Rep,504,Morocco,2023,108835.384,130210.0,True
+Potassic fertilisers (K),3104,178,Congo Rep,528,Netherlands,2023,39094.136,40000.0,False
+Potassic fertilisers (K),3104,178,Congo Rep,710,South Africa,2023,282994.128,240440.0,True
+Potassic fertilisers (K),3104,178,Congo Rep,784,United Arab Emirates,2023,1511.908,1000.0,False
+Potassic fertilisers (K),3104,178,Congo Rep,792,Türkiye,2023,732776.878,600000.0,False
+Potassic fertilisers (K),3104,178,Congo Rep,842,USA,2023,96.876,1.0,False
+Potassic fertilisers (K),3104,180,Congo Dem Rep,56,Belgium,2023,486170.06,437600.0,False
+Potassic fertilisers (K),3104,180,Congo Dem Rep,156,China,2023,1697.23,5000.0,False
+Potassic fertilisers (K),3104,180,Congo Dem Rep,276,Germany,2023,2902166.78,3610980.0,False
+Potassic fertilisers (K),3104,180,Congo Dem Rep,646,Rwanda,2023,219.42,550.0,True
+Potassic fertilisers (K),3104,180,Congo Dem Rep,699,India,2023,849.87,600.0,False
+Potassic fertilisers (K),3104,180,Congo Dem Rep,710,South Africa,2023,88469.96,52940.0,True
+Potassic fertilisers (K),3104,180,Congo Dem Rep,800,Uganda,2023,36551.33,20161.0,True
+Potassic fertilisers (K),3104,204,Benin,724,Spain,2023,16.649,4.0,False
+Potassic fertilisers (K),3104,231,Ethiopia,56,Belgium,2023,118757.584,87262.64,False
+Potassic fertilisers (K),3104,231,Ethiopia,152,Chile,2023,54868.779,30000.0,False
+Potassic fertilisers (K),3104,231,Ethiopia,156,China,2023,85209.959,64500.0,False
+Potassic fertilisers (K),3104,231,Ethiopia,203,Czechia,2023,3996.657,2400.0,False
+Potassic fertilisers (K),3104,231,Ethiopia,251,France,2023,127.898,146.2,False
+Potassic fertilisers (K),3104,231,Ethiopia,276,Germany,2023,118.021,50.0,False
+Potassic fertilisers (K),3104,231,Ethiopia,376,Israel,2023,8274.618,5000.0,False
+Potassic fertilisers (K),3104,231,Ethiopia,380,Italy,2023,43835.096,59200.0,False
+Potassic fertilisers (K),3104,231,Ethiopia,400,Jordan,2023,346003.775,236620.0,False
+Potassic fertilisers (K),3104,231,Ethiopia,404,Kenya,2023,1120.412,5000.0,True
+Potassic fertilisers (K),3104,231,Ethiopia,480,Mauritius,2023,29959.84,24000.0,True
+Potassic fertilisers (K),3104,231,Ethiopia,490,"Other Asia, nes",2023,106952.767,71850.0,False
+Potassic fertilisers (K),3104,231,Ethiopia,528,Netherlands,2023,66733.847,24000.0,False
+Potassic fertilisers (K),3104,231,Ethiopia,699,India,2023,228074.564,183358.777,False
+Potassic fertilisers (K),3104,231,Ethiopia,818,Egypt,2023,168368.778,133600.0,True
+Potassic fertilisers (K),3104,231,Ethiopia,826,United Kingdom,2023,1560.105,66.0,False
+Potassic fertilisers (K),3104,231,Ethiopia,842,USA,2023,5262.551,347.0,False
+Potassic fertilisers (K),3104,262,Djibouti,512,Oman,2023,33509.73,48993.6,False
+Potassic fertilisers (K),3104,266,Gabon,56,Belgium,2023,227338.499,238275.0,False
+Potassic fertilisers (K),3104,266,Gabon,124,Canada,2023,648.453,10.0,False
+Potassic fertilisers (K),3104,266,Gabon,152,Chile,2023,280737.222,247500.0,False
+Potassic fertilisers (K),3104,266,Gabon,156,China,2023,604.878,125.0,False
+Potassic fertilisers (K),3104,266,Gabon,276,Germany,2023,1342080.778,1495001.0,False
+Potassic fertilisers (K),3104,266,Gabon,376,Israel,2023,1985086.415,1220000.0,False
+Potassic fertilisers (K),3104,266,Gabon,699,India,2023,63791.682,50000.0,False
+Potassic fertilisers (K),3104,266,Gabon,792,Türkiye,2023,546252.812,400000.0,False
+Potassic fertilisers (K),3104,266,Gabon,826,United Kingdom,2023,886.383,950.0,False
+Potassic fertilisers (K),3104,266,Gabon,842,USA,2023,52.729,1.0,False
+Potassic fertilisers (K),3104,270,Gambia,826,United Kingdom,2023,181519.677,350031.0,False
+Potassic fertilisers (K),3104,288,Ghana,56,Belgium,2023,294434.764,463339.0,False
+Potassic fertilisers (K),3104,288,Ghana,124,Canada,2023,566193.989,1000000.0,False
+Potassic fertilisers (K),3104,288,Ghana,156,China,2023,2191218.138,5191173.0,False
+Potassic fertilisers (K),3104,288,Ghana,208,Denmark,2023,12.614,1.0,False
+Potassic fertilisers (K),3104,288,Ghana,276,Germany,2023,2516816.482,4270660.1,False
+Potassic fertilisers (K),3104,288,Ghana,376,Israel,2023,615100.653,1006220.0,False
+Potassic fertilisers (K),3104,288,Ghana,380,Italy,2023,83.943,10.0,False
+Potassic fertilisers (K),3104,288,Ghana,418,Lao People's Dem. Rep.,2023,998100.245,2088000.0,False
+Potassic fertilisers (K),3104,288,Ghana,528,Netherlands,2023,132920.682,133711.7,False
+Potassic fertilisers (K),3104,288,Ghana,699,India,2023,50422.965,18063.94,False
+Potassic fertilisers (K),3104,288,Ghana,710,South Africa,2023,4180.393,2000.0,True
+Potassic fertilisers (K),3104,288,Ghana,724,Spain,2023,5733958.601,10924000.0,False
+Potassic fertilisers (K),3104,288,Ghana,752,Sweden,2023,24068.223,27047.9,False
+Potassic fertilisers (K),3104,288,Ghana,757,Switzerland,2023,205856.038,286000.0,False
+Potassic fertilisers (K),3104,288,Ghana,792,Türkiye,2023,1345.512,nan,False
+Potassic fertilisers (K),3104,288,Ghana,818,Egypt,2023,35.83,100.0,True
+Potassic fertilisers (K),3104,288,Ghana,826,United Kingdom,2023,1585.468,401.56,False
+Potassic fertilisers (K),3104,288,Ghana,842,USA,2023,193.592,15.0,False
+Potassic fertilisers (K),3104,384,Cote dIvoire,56,Belgium,2023,389995.148,476000.0,False
+Potassic fertilisers (K),3104,384,Cote dIvoire,124,Canada,2023,36674346.733,62431840.0,False
+Potassic fertilisers (K),3104,384,Cote dIvoire,156,China,2023,1228240.095,2080000.0,False
+Potassic fertilisers (K),3104,384,Cote dIvoire,251,France,2023,406536.848,375000.0,False
+Potassic fertilisers (K),3104,384,Cote dIvoire,276,Germany,2023,14447715.256,22377000.0,False
+Potassic fertilisers (K),3104,384,Cote dIvoire,490,"Other Asia, nes",2023,75834.683,120000.0,False
+Potassic fertilisers (K),3104,384,Cote dIvoire,586,Pakistan,2023,505883.418,806000.0,False
+Potassic fertilisers (K),3104,384,Cote dIvoire,643,Russian Federation,2023,2951763.948,6676820.0,False
+Potassic fertilisers (K),3104,384,Cote dIvoire,699,India,2023,118149.532,30250.0,False
+Potassic fertilisers (K),3104,384,Cote dIvoire,704,Viet Nam,2023,88006.661,100000.0,False
+Potassic fertilisers (K),3104,384,Cote dIvoire,710,South Africa,2023,7124.296,2000.0,True
+Potassic fertilisers (K),3104,384,Cote dIvoire,724,Spain,2023,1576.763,68.0,False
+Potassic fertilisers (K),3104,384,Cote dIvoire,752,Sweden,2023,30130.297,24500.0,False
+Potassic fertilisers (K),3104,384,Cote dIvoire,757,Switzerland,2023,37.967,1.0,False
+Potassic fertilisers (K),3104,384,Cote dIvoire,792,Türkiye,2023,635782.524,998330.0,False
+Potassic fertilisers (K),3104,384,Cote dIvoire,818,Egypt,2023,459983.875,469000.0,True
+Potassic fertilisers (K),3104,384,Cote dIvoire,826,United Kingdom,2023,474.559,45.0,False
+Potassic fertilisers (K),3104,384,Cote dIvoire,842,USA,2023,208.017,16.0,False
+Potassic fertilisers (K),3104,384,Cote dIvoire,860,Uzbekistan,2023,44423.737,54000.0,False
+Potassic fertilisers (K),3104,384,Cote dIvoire,899,"Areas, nes",2023,967.086,149.0,False
+Potassic fertilisers (K),3104,404,Kenya,56,Belgium,2023,1372422.333,1817220.0,False
+Potassic fertilisers (K),3104,404,Kenya,156,China,2023,77972.331,85780.0,False
+Potassic fertilisers (K),3104,404,Kenya,231,Ethiopia,2023,66914.951,200000.0,True
+Potassic fertilisers (K),3104,404,Kenya,276,Germany,2023,21399974.771,43765470.0,False
+Potassic fertilisers (K),3104,404,Kenya,376,Israel,2023,719330.224,1125700.0,False
+Potassic fertilisers (K),3104,404,Kenya,400,Jordan,2023,1180032.942,1798420.0,False
+Potassic fertilisers (K),3104,404,Kenya,440,Lithuania,2023,16284.24,22067.0,False
+Potassic fertilisers (K),3104,404,Kenya,490,"Other Asia, nes",2023,378577.464,576461.0,False
+Potassic fertilisers (K),3104,404,Kenya,528,Netherlands,2023,5064.849,1275.0,False
+Potassic fertilisers (K),3104,404,Kenya,643,Russian Federation,2023,7156501.396,15585300.0,False
+Potassic fertilisers (K),3104,404,Kenya,682,Saudi Arabia,2023,125018.484,202000.0,False
+Potassic fertilisers (K),3104,404,Kenya,699,India,2023,61725.549,60685.05,False
+Potassic fertilisers (K),3104,404,Kenya,710,South Africa,2023,13.042,8.08,True
+Potassic fertilisers (K),3104,404,Kenya,724,Spain,2023,3043.684,813.24,False
+Potassic fertilisers (K),3104,404,Kenya,752,Sweden,2023,45230.545,49000.0,False
+Potassic fertilisers (K),3104,404,Kenya,818,Egypt,2023,51199.411,79000.0,True
+Potassic fertilisers (K),3104,404,Kenya,826,United Kingdom,2023,3035625.555,7782011.0,False
+Potassic fertilisers (K),3104,426,Lesotho,710,South Africa,2023,40147.818,100253.0,True
+Potassic fertilisers (K),3104,430,Liberia,458,Malaysia,2023,249226.0,262800.0,False
+Potassic fertilisers (K),3104,430,Liberia,699,India,2023,33.62,20.0,False
+Potassic fertilisers (K),3104,450,Madagascar,56,Belgium,2023,347380.534,357450.0,False
+Potassic fertilisers (K),3104,450,Madagascar,251,France,2023,6513.528,324.25,False
+Potassic fertilisers (K),3104,450,Madagascar,490,"Other Asia, nes",2023,14470.547,24000.0,False
+Potassic fertilisers (K),3104,450,Madagascar,699,India,2023,69.423,2.0,False
+Potassic fertilisers (K),3104,450,Madagascar,710,South Africa,2023,3966.234,7000.0,True
+Potassic fertilisers (K),3104,454,Malawi,56,Belgium,2023,2987206.37,3552000.0,False
+Potassic fertilisers (K),3104,454,Malawi,276,Germany,2023,1304844.07,1602000.0,False
+Potassic fertilisers (K),3104,454,Malawi,400,Jordan,2023,4156226.97,7110000.0,False
+Potassic fertilisers (K),3104,454,Malawi,508,Mozambique,2023,322869.13,423000.0,True
+Potassic fertilisers (K),3104,454,Malawi,699,India,2023,125968.65,126905.0,False
+Potassic fertilisers (K),3104,454,Malawi,710,South Africa,2023,5548.3,3852.0,True
+Potassic fertilisers (K),3104,454,Malawi,716,Zimbabwe,2023,10200.0,60000.0,True
+Potassic fertilisers (K),3104,454,Malawi,784,United Arab Emirates,2023,335400.88,408000.0,False
+Potassic fertilisers (K),3104,454,Malawi,818,Egypt,2023,1253073.55,1644000.0,True
+Potassic fertilisers (K),3104,454,Malawi,842,USA,2023,1294.37,nan,False
+Potassic fertilisers (K),3104,466,Mali,56,Belgium,2023,16172.481,12000.0,False
+Potassic fertilisers (K),3104,466,Mali,112,Belarus,2023,29693002.407,65023500.0,False
+Potassic fertilisers (K),3104,466,Mali,124,Canada,2023,57717.917,350000.0,False
+Potassic fertilisers (K),3104,466,Mali,246,Finland,2023,476581.785,631000.0,False
+Potassic fertilisers (K),3104,466,Mali,251,France,2023,9534.32,5000.0,False
+Potassic fertilisers (K),3104,466,Mali,276,Germany,2023,82638.864,501120.0,False
+Potassic fertilisers (K),3104,466,Mali,504,Morocco,2023,86721.747,200000.0,True
+Potassic fertilisers (K),3104,466,Mali,528,Netherlands,2023,9612.652,10000.0,False
+Potassic fertilisers (K),3104,466,Mali,643,Russian Federation,2023,3801446.286,8750000.0,False
+Potassic fertilisers (K),3104,466,Mali,724,Spain,2023,384.032,21.2,False
+Potassic fertilisers (K),3104,478,Mauritania,504,Morocco,2023,59245.722,128226.6,True
+Potassic fertilisers (K),3104,478,Mauritania,686,Senegal,2023,1738.935,10000.0,True
+Potassic fertilisers (K),3104,480,Mauritius,56,Belgium,2023,253819.396,273223.0,False
+Potassic fertilisers (K),3104,480,Mauritius,156,China,2023,749080.672,558000.0,False
+Potassic fertilisers (K),3104,480,Mauritius,276,Germany,2023,15172.053,15730.0,False
+Potassic fertilisers (K),3104,480,Mauritius,380,Italy,2023,8263.106,13538.0,False
+Potassic fertilisers (K),3104,480,Mauritius,410,Rep. of Korea,2023,185857.822,312000.0,False
+Potassic fertilisers (K),3104,480,Mauritius,418,Lao People's Dem. Rep.,2023,377931.64,312000.0,False
+Potassic fertilisers (K),3104,480,Mauritius,490,"Other Asia, nes",2023,37443.213,35540.0,False
+Potassic fertilisers (K),3104,480,Mauritius,699,India,2023,86.994,7.0,False
+Potassic fertilisers (K),3104,480,Mauritius,704,Viet Nam,2023,476924.638,440000.0,False
+Potassic fertilisers (K),3104,480,Mauritius,752,Sweden,2023,6647.611,3182.0,False
+Potassic fertilisers (K),3104,480,Mauritius,784,United Arab Emirates,2023,29262.728,23019.0,False
+Potassic fertilisers (K),3104,504,Morocco,56,Belgium,2023,6563688.48,8762880.0,False
+Potassic fertilisers (K),3104,504,Morocco,124,Canada,2023,23970284.097,72896000.0,False
+Potassic fertilisers (K),3104,504,Morocco,251,France,2023,7327.3,1105.0,False
+Potassic fertilisers (K),3104,504,Morocco,276,Germany,2023,21043328.959,53748921.1,False
+Potassic fertilisers (K),3104,504,Morocco,376,Israel,2023,392024.444,428600.0,False
+Potassic fertilisers (K),3104,504,Morocco,400,Jordan,2023,22444399.03,59362400.0,False
+Potassic fertilisers (K),3104,504,Morocco,490,"Other Asia, nes",2023,496476.069,696000.0,False
+Potassic fertilisers (K),3104,504,Morocco,579,Norway,2023,0.099,1.0,False
+Potassic fertilisers (K),3104,504,Morocco,682,Saudi Arabia,2023,1557912.144,2087459.52,False
+Potassic fertilisers (K),3104,504,Morocco,699,India,2023,659.236,102.5,False
+Potassic fertilisers (K),3104,504,Morocco,724,Spain,2023,11414260.813,27409964.37,False
+Potassic fertilisers (K),3104,504,Morocco,752,Sweden,2023,1962860.731,2443700.0,False
+Potassic fertilisers (K),3104,504,Morocco,792,Türkiye,2023,74745.839,91773.0,False
+Potassic fertilisers (K),3104,504,Morocco,818,Egypt,2023,12493070.453,16531000.0,True
+Potassic fertilisers (K),3104,504,Morocco,826,United Kingdom,2023,868228.246,3578696.0,False
+Potassic fertilisers (K),3104,504,Morocco,842,USA,2023,4612.973,420.0,False
+Potassic fertilisers (K),3104,504,Morocco,860,Uzbekistan,2023,9428126.757,13012100.0,False
+Potassic fertilisers (K),3104,508,Mozambique,56,Belgium,2023,865000.0,1215730.0,False
+Potassic fertilisers (K),3104,508,Mozambique,156,China,2023,90000.0,100800.0,False
+Potassic fertilisers (K),3104,508,Mozambique,208,Denmark,2023,63000.0,66000.0,False
+Potassic fertilisers (K),3104,508,Mozambique,276,Germany,2023,1979000.0,2951414.0,False
+Potassic fertilisers (K),3104,508,Mozambique,400,Jordan,2023,482000.0,1000000.0,False
+Potassic fertilisers (K),3104,508,Mozambique,458,Malaysia,2023,205000.0,19880.0,False
+Potassic fertilisers (K),3104,508,Mozambique,480,Mauritius,2023,1362000.0,2022110.0,True
+Potassic fertilisers (K),3104,508,Mozambique,490,"Other Asia, nes",2023,23000.0,24077.0,False
+Potassic fertilisers (K),3104,508,Mozambique,591,Panama,2023,36000.0,21000.0,False
+Potassic fertilisers (K),3104,508,Mozambique,643,Russian Federation,2023,1139000.0,1797064.0,False
+Potassic fertilisers (K),3104,508,Mozambique,699,India,2023,30000.0,34077.0,False
+Potassic fertilisers (K),3104,508,Mozambique,710,South Africa,2023,2907000.0,24440504.0,True
+Potassic fertilisers (K),3104,508,Mozambique,784,United Arab Emirates,2023,516000.0,1000000.0,False
+Potassic fertilisers (K),3104,516,Namibia,124,Canada,2023,186.265,6.0,False
+Potassic fertilisers (K),3104,516,Namibia,276,Germany,2023,87391.273,72861.0,False
+Potassic fertilisers (K),3104,516,Namibia,710,South Africa,2023,457101.746,448786.4,True
+Potassic fertilisers (K),3104,562,Niger,156,China,2023,275504.245,192298.0,False
+Potassic fertilisers (K),3104,562,Niger,792,Türkiye,2023,184233.481,159800.0,False
+Potassic fertilisers (K),3104,566,Nigeria,124,Canada,2023,37942503.039,48780373.906,False
+Potassic fertilisers (K),3104,566,Nigeria,152,Chile,2023,894424.645,806072.0,False
+Potassic fertilisers (K),3104,566,Nigeria,156,China,2023,264785.737,397158.0,False
+Potassic fertilisers (K),3104,566,Nigeria,276,Germany,2023,765693.492,997026.6,False
+Potassic fertilisers (K),3104,566,Nigeria,372,Ireland,2023,25751.206,30876.0,False
+Potassic fertilisers (K),3104,566,Nigeria,376,Israel,2023,445784.933,339400.0,False
+Potassic fertilisers (K),3104,566,Nigeria,410,Rep. of Korea,2023,4864.029,8000.0,False
+Potassic fertilisers (K),3104,566,Nigeria,643,Russian Federation,2023,441599.372,632215.0,False
+Potassic fertilisers (K),3104,566,Nigeria,699,India,2023,83984.878,106859.15,False
+Potassic fertilisers (K),3104,566,Nigeria,724,Spain,2023,5002.388,2600.0,False
+Potassic fertilisers (K),3104,678,Sao Tome and Principe,156,China,2023,233.791,2.0,False
+Potassic fertilisers (K),3104,678,Sao Tome and Principe,620,Portugal,2023,8371.905,11404.0,False
+Potassic fertilisers (K),3104,686,Senegal,4,Afghanistan,2023,1109915.351,1816162.0,False
+Potassic fertilisers (K),3104,686,Senegal,56,Belgium,2023,1678415.363,2218156.0,False
+Potassic fertilisers (K),3104,686,Senegal,100,Bulgaria,2023,242802.7,204500.0,False
+Potassic fertilisers (K),3104,686,Senegal,124,Canada,2023,3567425.719,10538000.0,False
+Potassic fertilisers (K),3104,686,Senegal,152,Chile,2023,39247.447,54000.0,False
+Potassic fertilisers (K),3104,686,Senegal,156,China,2023,187019.51,525200.0,False
+Potassic fertilisers (K),3104,686,Senegal,251,France,2023,135022.791,192614.0,False
+Potassic fertilisers (K),3104,686,Senegal,276,Germany,2023,6882294.407,13261214.0,False
+Potassic fertilisers (K),3104,686,Senegal,300,Greece,2023,15953.704,7208.0,False
+Potassic fertilisers (K),3104,686,Senegal,376,Israel,2023,789674.144,689230.0,False
+Potassic fertilisers (K),3104,686,Senegal,380,Italy,2023,35315.188,29877.0,False
+Potassic fertilisers (K),3104,686,Senegal,384,Côte d'Ivoire,2023,70212.913,50000.0,True
+Potassic fertilisers (K),3104,686,Senegal,400,Jordan,2023,8172497.576,12928000.0,False
+Potassic fertilisers (K),3104,686,Senegal,504,Morocco,2023,24421.376,22850.0,True
+Potassic fertilisers (K),3104,686,Senegal,528,Netherlands,2023,150985.495,293200.0,False
+Potassic fertilisers (K),3104,686,Senegal,704,Viet Nam,2023,235080.862,252000.0,False
+Potassic fertilisers (K),3104,686,Senegal,710,South Africa,2023,508197.43,829125.0,True
+Potassic fertilisers (K),3104,686,Senegal,724,Spain,2023,752240.908,602440.0,False
+Potassic fertilisers (K),3104,686,Senegal,752,Sweden,2023,391668.432,391747.0,False
+Potassic fertilisers (K),3104,686,Senegal,757,Switzerland,2023,35666.434,108000.0,False
+Potassic fertilisers (K),3104,686,Senegal,792,Türkiye,2023,58770.031,115200.0,False
+Potassic fertilisers (K),3104,686,Senegal,818,Egypt,2023,739698.099,839500.0,True
+Potassic fertilisers (K),3104,686,Senegal,899,"Areas, nes",2023,80571.317,102003.0,False
+Potassic fertilisers (K),3104,690,Seychelles,203,Czechia,2023,460.931,33.0,False
+Potassic fertilisers (K),3104,690,Seychelles,710,South Africa,2023,451.111,54.76,True
+Potassic fertilisers (K),3104,690,Seychelles,784,United Arab Emirates,2023,14832.043,9710.0,False
+Potassic fertilisers (K),3104,710,South Africa,36,Australia,2023,406.173,1.15,False
+Potassic fertilisers (K),3104,710,South Africa,56,Belgium,2023,4438257.902,6255300.0,False
+Potassic fertilisers (K),3104,710,South Africa,76,Brazil,2023,39234.332,20000.0,False
+Potassic fertilisers (K),3104,710,South Africa,124,Canada,2023,4542896.354,19538800.0,False
+Potassic fertilisers (K),3104,710,South Africa,152,Chile,2023,25868893.357,79094100.0,False
+Potassic fertilisers (K),3104,710,South Africa,156,China,2023,10249809.282,15378582.99,False
+Potassic fertilisers (K),3104,710,South Africa,203,Czechia,2023,91010.72,42525.0,False
+Potassic fertilisers (K),3104,710,South Africa,276,Germany,2023,78491869.333,147267672.38,False
+Potassic fertilisers (K),3104,710,South Africa,376,Israel,2023,11161737.971,28102125.0,False
+Potassic fertilisers (K),3104,710,South Africa,392,Japan,2023,38.157,0.19,False
+Potassic fertilisers (K),3104,710,South Africa,400,Jordan,2023,647881.995,1915920.0,False
+Potassic fertilisers (K),3104,710,South Africa,404,Kenya,2023,3588.516,705.0,True
+Potassic fertilisers (K),3104,710,South Africa,490,"Other Asia, nes",2023,1759585.006,2776000.0,False
+Potassic fertilisers (K),3104,710,South Africa,512,Oman,2023,2.06,4.0,False
+Potassic fertilisers (K),3104,710,South Africa,528,Netherlands,2023,45724.544,27302.01,False
+Potassic fertilisers (K),3104,710,South Africa,566,Nigeria,2023,1746820.567,4942180.35,True
+Potassic fertilisers (K),3104,710,South Africa,643,Russian Federation,2023,20998563.83,57639200.0,False
+Potassic fertilisers (K),3104,710,South Africa,682,Saudi Arabia,2023,172630.615,275080.0,False
+Potassic fertilisers (K),3104,710,South Africa,699,India,2023,624006.213,599500.0,False
+Potassic fertilisers (K),3104,710,South Africa,704,Viet Nam,2023,174011.085,324000.0,False
+Potassic fertilisers (K),3104,710,South Africa,724,Spain,2023,11630219.956,5034911.96,False
+Potassic fertilisers (K),3104,710,South Africa,748,Eswatini,2023,25829.739,2094940.0,True
+Potassic fertilisers (K),3104,710,South Africa,757,Switzerland,2023,1.192,0.5,False
+Potassic fertilisers (K),3104,710,South Africa,792,Türkiye,2023,218298.683,300000.0,False
+Potassic fertilisers (K),3104,710,South Africa,804,Ukraine,2023,30914.442,20000.0,False
+Potassic fertilisers (K),3104,710,South Africa,818,Egypt,2023,1688587.625,2844800.0,True
+Potassic fertilisers (K),3104,710,South Africa,826,United Kingdom,2023,1281803.524,4947627.0,False
+Potassic fertilisers (K),3104,710,South Africa,839,Special Categories,2023,78351.267,88000.0,False
+Potassic fertilisers (K),3104,710,South Africa,842,USA,2023,3565131.788,1521677.45,False
+Potassic fertilisers (K),3104,710,South Africa,860,Uzbekistan,2023,2627787.282,8019000.0,False
+Potassic fertilisers (K),3104,716,Zimbabwe,56,Belgium,2023,138515.0,180002.0,False
+Potassic fertilisers (K),3104,716,Zimbabwe,156,China,2023,251079.54,267426.0,False
+Potassic fertilisers (K),3104,716,Zimbabwe,276,Germany,2023,71.4,2.0,False
+Potassic fertilisers (K),3104,716,Zimbabwe,480,Mauritius,2023,22689405.65,28655700.0,True
+Potassic fertilisers (K),3104,716,Zimbabwe,508,Mozambique,2023,3236721.3,3761700.0,True
+Potassic fertilisers (K),3104,716,Zimbabwe,620,Portugal,2023,842901.07,1100000.0,False
+Potassic fertilisers (K),3104,716,Zimbabwe,682,Saudi Arabia,2023,4406067.0,4500000.0,False
+Potassic fertilisers (K),3104,716,Zimbabwe,710,South Africa,2023,16409794.68,21776515.0,True
+Potassic fertilisers (K),3104,716,Zimbabwe,784,United Arab Emirates,2023,9347998.64,10485500.0,False
+Potassic fertilisers (K),3104,716,Zimbabwe,842,USA,2023,23.16,12.5,False
+Potassic fertilisers (K),3104,716,Zimbabwe,894,Zambia,2023,4474.91,1286.0,True
+Potassic fertilisers (K),3104,748,Eswatini,156,China,2023,50772.56,54121.0,False
+Potassic fertilisers (K),3104,748,Eswatini,203,Czechia,2023,14557.21,1815.0,False
+Potassic fertilisers (K),3104,748,Eswatini,699,India,2023,478.05,48.48,False
+Potassic fertilisers (K),3104,748,Eswatini,710,South Africa,2023,1445736.57,2304786.2,True
+Potassic fertilisers (K),3104,768,Togo,156,China,2023,1900.547,200.0,False
+Potassic fertilisers (K),3104,768,Togo,384,Côte d'Ivoire,2023,1730.681,250.0,True
+Potassic fertilisers (K),3104,788,Tunisia,56,Belgium,2023,1494029.112,1953000.0,False
+Potassic fertilisers (K),3104,788,Tunisia,152,Chile,2023,62030.141,48000.0,False
+Potassic fertilisers (K),3104,788,Tunisia,156,China,2023,41.968,3.0,False
+Potassic fertilisers (K),3104,788,Tunisia,203,Czechia,2023,24818.595,11225.0,False
+Potassic fertilisers (K),3104,788,Tunisia,251,France,2023,105276.534,58308.0,False
+Potassic fertilisers (K),3104,788,Tunisia,276,Germany,2023,740333.125,878710.0,False
+Potassic fertilisers (K),3104,788,Tunisia,380,Italy,2023,4798.591,2574.0,False
+Potassic fertilisers (K),3104,788,Tunisia,400,Jordan,2023,448142.221,468700.0,False
+Potassic fertilisers (K),3104,788,Tunisia,490,"Other Asia, nes",2023,373986.609,338000.0,False
+Potassic fertilisers (K),3104,788,Tunisia,528,Netherlands,2023,51398.862,50613.0,False
+Potassic fertilisers (K),3104,788,Tunisia,682,Saudi Arabia,2023,328364.27,452000.0,False
+Potassic fertilisers (K),3104,788,Tunisia,699,India,2023,2032.73,770.0,False
+Potassic fertilisers (K),3104,788,Tunisia,724,Spain,2023,1121293.618,846063.0,False
+Potassic fertilisers (K),3104,788,Tunisia,752,Sweden,2023,792152.07,763000.0,False
+Potassic fertilisers (K),3104,788,Tunisia,792,Türkiye,2023,17992.636,27400.0,False
+Potassic fertilisers (K),3104,788,Tunisia,818,Egypt,2023,900765.582,1146000.0,True
+Potassic fertilisers (K),3104,788,Tunisia,826,United Kingdom,2023,38183.605,72001.0,False
+Potassic fertilisers (K),3104,788,Tunisia,842,USA,2023,120.395,2.0,False
+Potassic fertilisers (K),3104,800,Uganda,156,China,2023,138737.64,174832.0,False
+Potassic fertilisers (K),3104,800,Uganda,276,Germany,2023,3842843.4,6108055.0,False
+Potassic fertilisers (K),3104,800,Uganda,400,Jordan,2023,159200.0,160000.0,False
+Potassic fertilisers (K),3104,800,Uganda,404,Kenya,2023,9606.24,15100.0,True
+Potassic fertilisers (K),3104,800,Uganda,458,Malaysia,2023,55084.0,55962.0,False
+Potassic fertilisers (K),3104,800,Uganda,490,"Other Asia, nes",2023,25334.0,24000.0,False
+Potassic fertilisers (K),3104,800,Uganda,643,Russian Federation,2023,303495.15,498350.0,False
+Potassic fertilisers (K),3104,800,Uganda,682,Saudi Arabia,2023,222.0,300.0,False
+Potassic fertilisers (K),3104,800,Uganda,699,India,2023,5626.0,3665.0,False
+Potassic fertilisers (K),3104,800,Uganda,792,Türkiye,2023,415.0,125.0,False
+Potassic fertilisers (K),3104,800,Uganda,826,United Kingdom,2023,31721.72,59002.0,False
+Potassic fertilisers (K),3104,818,Egypt,56,Belgium,2023,21625626.63,28611222.33,False
+Potassic fertilisers (K),3104,818,Egypt,124,Canada,2023,66867.426,128543.523,False
+Potassic fertilisers (K),3104,818,Egypt,156,China,2023,977424.155,1487059.598,False
+Potassic fertilisers (K),3104,818,Egypt,203,Czechia,2023,68676.616,132021.445,False
+Potassic fertilisers (K),3104,818,Egypt,276,Germany,2023,3655425.216,6153076.406,False
+Potassic fertilisers (K),3104,818,Egypt,400,Jordan,2023,48173494.461,92536646.809,False
+Potassic fertilisers (K),3104,818,Egypt,490,"Other Asia, nes",2023,1691550.563,2237961.936,False
+Potassic fertilisers (K),3104,818,Egypt,643,Russian Federation,2023,868127.506,1148553.497,False
+Potassic fertilisers (K),3104,818,Egypt,682,Saudi Arabia,2023,161093.045,213129.959,False
+Potassic fertilisers (K),3104,818,Egypt,699,India,2023,123282.988,236994.764,False
+Potassic fertilisers (K),3104,818,Egypt,724,Spain,2023,32362.448,nan,False
+Potassic fertilisers (K),3104,818,Egypt,752,Sweden,2023,627963.25,830810.43,False
+Potassic fertilisers (K),3104,818,Egypt,784,United Arab Emirates,2023,69182.805,132994.525,False
+Potassic fertilisers (K),3104,818,Egypt,792,Türkiye,2023,38506.168,51061.558,False
+Potassic fertilisers (K),3104,818,Egypt,826,United Kingdom,2023,4528.952,nan,False
+Potassic fertilisers (K),3104,818,Egypt,842,USA,2023,97859.957,161999.548,False
+Potassic fertilisers (K),3104,834,Tanzania,56,Belgium,2023,108531.95,162230.0,False
+Potassic fertilisers (K),3104,834,Tanzania,156,China,2023,552283.54,1150674.0,False
+Potassic fertilisers (K),3104,834,Tanzania,262,Djibouti,2023,359999.64,999999.0,True
+Potassic fertilisers (K),3104,834,Tanzania,276,Germany,2023,454842.6,1028991.0,False
+Potassic fertilisers (K),3104,834,Tanzania,376,Israel,2023,41122.98,40013.1,False
+Potassic fertilisers (K),3104,834,Tanzania,400,Jordan,2023,1460729.62,2903720.0,False
+Potassic fertilisers (K),3104,834,Tanzania,404,Kenya,2023,159856.4,168200.0,True
+Potassic fertilisers (K),3104,834,Tanzania,490,"Other Asia, nes",2023,721871.99,866429.0,False
+Potassic fertilisers (K),3104,834,Tanzania,528,Netherlands,2023,489.54,221.0,False
+Potassic fertilisers (K),3104,834,Tanzania,682,Saudi Arabia,2023,1492.53,6775.0,False
+Potassic fertilisers (K),3104,834,Tanzania,699,India,2023,4449.85,817.12,False
+Potassic fertilisers (K),3104,834,Tanzania,704,Viet Nam,2023,345000.0,1000000.0,False
+Potassic fertilisers (K),3104,834,Tanzania,710,South Africa,2023,1111.08,459.0,True
+Potassic fertilisers (K),3104,834,Tanzania,818,Egypt,2023,25705.0,25250.0,True
+Potassic fertilisers (K),3104,834,Tanzania,826,United Kingdom,2023,130572.84,48000.0,False
+Potassic fertilisers (K),3104,854,Burkina Faso,36,Australia,2023,7776.596,61.0,False
+Potassic fertilisers (K),3104,854,Burkina Faso,276,Germany,2023,1153108.922,2262930.0,False
+Potassic fertilisers (K),3104,854,Burkina Faso,288,Ghana,2023,117125.253,250000.0,True
+Potassic fertilisers (K),3104,854,Burkina Faso,384,Côte d'Ivoire,2023,1596162.885,4755779.0,True
+Potassic fertilisers (K),3104,854,Burkina Faso,504,Morocco,2023,48090.778,97235.0,True
+Potassic fertilisers (K),3104,854,Burkina Faso,566,Nigeria,2023,42863.86,160000.0,True
+Potassic fertilisers (K),3104,854,Burkina Faso,643,Russian Federation,2023,137729.825,315000.0,False
+Potassic fertilisers (K),3104,854,Burkina Faso,699,India,2023,25984.847,20270.0,False
+Potassic fertilisers (K),3104,854,Burkina Faso,792,Türkiye,2023,618.229,700.0,False
+Potassic fertilisers (K),3104,894,Zambia,56,Belgium,2023,356177.111,300000.0,False
+Potassic fertilisers (K),3104,894,Zambia,152,Chile,2023,216099.455,362000.0,False
+Potassic fertilisers (K),3104,894,Zambia,156,China,2023,3016222.8,4142625.0,False
+Potassic fertilisers (K),3104,894,Zambia,276,Germany,2023,856730.756,1012180.0,False
+Potassic fertilisers (K),3104,894,Zambia,400,Jordan,2023,1545541.482,2072000.0,False
+Potassic fertilisers (K),3104,894,Zambia,480,Mauritius,2023,3451035.61,3827360.0,True
+Potassic fertilisers (K),3104,894,Zambia,508,Mozambique,2023,6904872.85,7068980.0,True
+Potassic fertilisers (K),3104,894,Zambia,643,Russian Federation,2023,390799.115,397000.0,False
+Potassic fertilisers (K),3104,894,Zambia,699,India,2023,18713.568,8571.6,False
+Potassic fertilisers (K),3104,894,Zambia,710,South Africa,2023,5943247.247,6813062.0,True
+Potassic fertilisers (K),3104,894,Zambia,716,Zimbabwe,2023,543754.523,897950.0,True
+Potassic fertilisers (K),3104,894,Zambia,784,United Arab Emirates,2023,1226212.937,1260000.0,False
+Potassic fertilisers (K),3104,894,Zambia,826,United Kingdom,2023,734535.6,874440.0,False
+Potassic fertilisers (K),3104,894,Zambia,834,United Rep. of Tanzania,2023,168433.884,388500.0,True
+Phosphatic fertilisers (P),3103,24,Angola,76,Brazil,2023,1785.17,60.0,False
+Phosphatic fertilisers (P),3103,24,Angola,251,France,2023,700.86,nan,False
+Phosphatic fertilisers (P),3103,24,Angola,504,Morocco,2023,434592.57,798930.0,True
+Phosphatic fertilisers (P),3103,24,Angola,516,Namibia,2023,860.28,50.0,True
+Phosphatic fertilisers (P),3103,24,Angola,620,Portugal,2023,30628.18,10347.0,False
+Phosphatic fertilisers (P),3103,24,Angola,702,Singapore,2023,170.34,45.0,False
+Phosphatic fertilisers (P),3103,24,Angola,704,Viet Nam,2023,187900.16,300520.0,False
+Phosphatic fertilisers (P),3103,24,Angola,710,South Africa,2023,13743.0,6867.0,True
+Phosphatic fertilisers (P),3103,24,Angola,792,Türkiye,2023,688000.0,800960.0,False
+Phosphatic fertilisers (P),3103,72,Botswana,699,India,2023,21410.733,22000.0,False
+Phosphatic fertilisers (P),3103,72,Botswana,710,South Africa,2023,124426.766,107100.0,True
+Phosphatic fertilisers (P),3103,108,Burundi,400,Jordan,2023,2679755.19,5798135.986,False
+Phosphatic fertilisers (P),3103,108,Burundi,512,Oman,2023,3185260.08,6891887.424,False
+Phosphatic fertilisers (P),3103,108,Burundi,634,Qatar,2023,1775308.075,3841200.745,False
+Phosphatic fertilisers (P),3103,108,Burundi,643,Russian Federation,2023,11152882.651,24131282.768,False
+Phosphatic fertilisers (P),3103,108,Burundi,682,Saudi Arabia,2023,16567771.21,35847375.465,False
+Phosphatic fertilisers (P),3103,108,Burundi,834,United Rep. of Tanzania,2023,25214168.048,54555421.945,True
+Phosphatic fertilisers (P),3103,120,Cameroon,156,China,2023,28555.101,135000.0,False
+Phosphatic fertilisers (P),3103,120,Cameroon,251,France,2023,75.602,6.5,False
+Phosphatic fertilisers (P),3103,132,Cabo Verde,620,Portugal,2023,4362.351,1000.0,False
+Phosphatic fertilisers (P),3103,132,Cabo Verde,724,Spain,2023,1329.724,150.0,False
+Phosphatic fertilisers (P),3103,178,Congo Rep,56,Belgium,2023,32962.128,27500.0,False
+Phosphatic fertilisers (P),3103,178,Congo Rep,120,Cameroon,2023,57.844,380.0,True
+Phosphatic fertilisers (P),3103,178,Congo Rep,156,China,2023,22471.651,27000.0,False
+Phosphatic fertilisers (P),3103,178,Congo Rep,699,India,2023,304143.888,95972.0,False
+Phosphatic fertilisers (P),3103,178,Congo Rep,784,United Arab Emirates,2023,300206.182,313000.0,False
+Phosphatic fertilisers (P),3103,180,Congo Dem Rep,404,Kenya,2023,20762.67,30000.0,True
+Phosphatic fertilisers (P),3103,180,Congo Dem Rep,894,Zambia,2023,726.32,2500.0,True
+Phosphatic fertilisers (P),3103,204,Benin,842,USA,2023,64696039.993,214203800.0,False
+Phosphatic fertilisers (P),3103,231,Ethiopia,504,Morocco,2023,6581.758,5000.0,True
+Phosphatic fertilisers (P),3103,231,Ethiopia,792,Türkiye,2023,53053.735,97200.0,False
+Phosphatic fertilisers (P),3103,231,Ethiopia,842,USA,2023,2211487.75,36900.0,False
+Phosphatic fertilisers (P),3103,266,Gabon,422,Lebanon,2023,15.8,15.0,False
+Phosphatic fertilisers (P),3103,270,Gambia,699,India,2023,3949.208,5000.0,False
+Phosphatic fertilisers (P),3103,288,Ghana,156,China,2023,25720.386,27000.0,False
+Phosphatic fertilisers (P),3103,288,Ghana,504,Morocco,2023,7220588.543,15848000.0,True
+Phosphatic fertilisers (P),3103,288,Ghana,620,Portugal,2023,552132.985,960000.0,False
+Phosphatic fertilisers (P),3103,288,Ghana,686,Senegal,2023,449564.614,1600000.0,True
+Phosphatic fertilisers (P),3103,288,Ghana,818,Egypt,2023,230083.481,1092800.0,True
+Phosphatic fertilisers (P),3103,288,Ghana,842,USA,2023,327750.843,430129.33,False
+Phosphatic fertilisers (P),3103,384,Cote dIvoire,484,Mexico,2023,178768.994,292382.0,False
+Phosphatic fertilisers (P),3103,384,Cote dIvoire,504,Morocco,2023,29482114.349,58392040.0,True
+Phosphatic fertilisers (P),3103,384,Cote dIvoire,699,India,2023,35596.751,125001.0,False
+Phosphatic fertilisers (P),3103,404,Kenya,699,India,2023,163314.528,494000.0,False
+Phosphatic fertilisers (P),3103,404,Kenya,710,South Africa,2023,54964.371,18417.0,True
+Phosphatic fertilisers (P),3103,404,Kenya,818,Egypt,2023,476683.509,1141030.0,True
+Phosphatic fertilisers (P),3103,404,Kenya,834,United Rep. of Tanzania,2023,1105735.544,2723000.0,True
+Phosphatic fertilisers (P),3103,426,Lesotho,710,South Africa,2023,10726.236,104035.0,True
+Phosphatic fertilisers (P),3103,430,Liberia,458,Malaysia,2023,1010124.0,1073400.0,False
+Phosphatic fertilisers (P),3103,450,Madagascar,251,France,2023,16092.482,22400.0,False
+Phosphatic fertilisers (P),3103,454,Malawi,156,China,2023,141.8,20.0,False
+Phosphatic fertilisers (P),3103,466,Mali,112,Belarus,2023,20419.197,47000.0,False
+Phosphatic fertilisers (P),3103,466,Mali,246,Finland,2023,737956.475,984000.0,False
+Phosphatic fertilisers (P),3103,466,Mali,686,Senegal,2023,2301324.593,14969700.0,True
+Phosphatic fertilisers (P),3103,478,Mauritania,504,Morocco,2023,29030.375,70388.0,True
+Phosphatic fertilisers (P),3103,480,Mauritius,156,China,2023,55.272,49.0,False
+Phosphatic fertilisers (P),3103,480,Mauritius,251,France,2023,59928.215,22267.0,False
+Phosphatic fertilisers (P),3103,480,Mauritius,410,Rep. of Korea,2023,146401.033,330000.0,False
+Phosphatic fertilisers (P),3103,480,Mauritius,504,Morocco,2023,152701.285,194611.0,True
+Phosphatic fertilisers (P),3103,480,Mauritius,818,Egypt,2023,57238.102,83487.0,True
+Phosphatic fertilisers (P),3103,504,Morocco,156,China,2023,17075.581,1650.0,False
+Phosphatic fertilisers (P),3103,504,Morocco,400,Jordan,2023,26868.575,26000.0,False
+Phosphatic fertilisers (P),3103,504,Morocco,724,Spain,2023,10346.618,3436.0,False
+Phosphatic fertilisers (P),3103,508,Mozambique,710,South Africa,2023,444000.0,787622.0,True
+Phosphatic fertilisers (P),3103,508,Mozambique,716,Zimbabwe,2023,1000.0,2571.0,True
+Phosphatic fertilisers (P),3103,516,Namibia,528,Netherlands,2023,2871.956,712.0,False
+Phosphatic fertilisers (P),3103,516,Namibia,710,South Africa,2023,117689.63,116970.0,True
+Phosphatic fertilisers (P),3103,562,Niger,504,Morocco,2023,1683217.799,3159000.0,True
+Phosphatic fertilisers (P),3103,562,Niger,566,Nigeria,2023,11592.414,59000.0,True
+Phosphatic fertilisers (P),3103,566,Nigeria,100,Bulgaria,2023,95072.271,100320.0,False
+Phosphatic fertilisers (P),3103,566,Nigeria,699,India,2023,1739.412,14.13,False
+Phosphatic fertilisers (P),3103,566,Nigeria,724,Spain,2023,6005998.201,nan,False
+Phosphatic fertilisers (P),3103,678,Sao Tome and Principe,276,Germany,2023,217969.56,200000.0,False
+Phosphatic fertilisers (P),3103,678,Sao Tome and Principe,418,Lao People's Dem. Rep.,2023,110.195,11.5,False
+Phosphatic fertilisers (P),3103,678,Sao Tome and Principe,620,Portugal,2023,88.156,20.0,False
+Phosphatic fertilisers (P),3103,686,Senegal,380,Italy,2023,6973.419,4050.0,False
+Phosphatic fertilisers (P),3103,686,Senegal,710,South Africa,2023,12318.648,25.0,True
+Phosphatic fertilisers (P),3103,686,Senegal,724,Spain,2023,64571.046,21590.0,False
+Phosphatic fertilisers (P),3103,690,Seychelles,784,United Arab Emirates,2023,57393.464,37130.0,False
+Phosphatic fertilisers (P),3103,710,South Africa,124,Canada,2023,2.873,2.31,False
+Phosphatic fertilisers (P),3103,710,South Africa,156,China,2023,499935.985,1377005.8,False
+Phosphatic fertilisers (P),3103,710,South Africa,376,Israel,2023,5198771.251,11690420.0,False
+Phosphatic fertilisers (P),3103,710,South Africa,682,Saudi Arabia,2023,327097.514,483000.0,False
+Phosphatic fertilisers (P),3103,710,South Africa,818,Egypt,2023,947085.135,2634047.0,True
+Phosphatic fertilisers (P),3103,710,South Africa,842,USA,2023,345095.053,58642.9,False
+Phosphatic fertilisers (P),3103,716,Zimbabwe,710,South Africa,2023,645595.83,1061768.0,True
+Phosphatic fertilisers (P),3103,748,Eswatini,710,South Africa,2023,638142.48,1447424.0,True
+Phosphatic fertilisers (P),3103,788,Tunisia,276,Germany,2023,36230.501,2444.0,False
+Phosphatic fertilisers (P),3103,788,Tunisia,528,Netherlands,2023,256372.28,41652.0,False
+Phosphatic fertilisers (P),3103,788,Tunisia,724,Spain,2023,15931.591,1000.0,False
+Phosphatic fertilisers (P),3103,800,Uganda,156,China,2023,2849.52,1200.0,False
+Phosphatic fertilisers (P),3103,800,Uganda,404,Kenya,2023,369.12,1690.0,True
+Phosphatic fertilisers (P),3103,800,Uganda,458,Malaysia,2023,199935.0,201603.0,False
+Phosphatic fertilisers (P),3103,800,Uganda,699,India,2023,5620.0,2795.0,False
+Phosphatic fertilisers (P),3103,800,Uganda,818,Egypt,2023,309078.69,1277920.0,True
+Phosphatic fertilisers (P),3103,800,Uganda,834,United Rep. of Tanzania,2023,66300.0,150000.0,True
+Phosphatic fertilisers (P),3103,818,Egypt,156,China,2023,198401.367,392753.335,False
+Phosphatic fertilisers (P),3103,818,Egypt,400,Jordan,2023,40021.191,86593.1,False
+Phosphatic fertilisers (P),3103,818,Egypt,724,Spain,2023,131076.906,259478.515,False
+Phosphatic fertilisers (P),3103,818,Egypt,842,USA,2023,57983.0,114782.559,False
+Phosphatic fertilisers (P),3103,834,Tanzania,404,Kenya,2023,325812.35,458700.0,True
+Phosphatic fertilisers (P),3103,854,Burkina Faso,466,Mali,2023,3856.099,40000.0,True
+Phosphatic fertilisers (P),3103,854,Burkina Faso,566,Nigeria,2023,2200.697,25000.0,True
+Phosphatic fertilisers (P),3103,854,Burkina Faso,792,Türkiye,2023,890.249,1200.0,False
+Phosphatic fertilisers (P),3103,894,Zambia,508,Mozambique,2023,557767.921,545000.0,True
+Phosphatic fertilisers (P),3103,894,Zambia,710,South Africa,2023,296746.993,209680.0,True

@@ -1,0 +1,191 @@
+nutrient,source,source_code,source_is_african,total_value_usd,total_qty_kg,n_importers
+Phosphatic fertilisers (P),USA,842,False,67638356.639,214844254.789,5
+Phosphatic fertilisers (P),Morocco,504,True,39008826.679,78467969.0,7
+Phosphatic fertilisers (P),United Rep. of Tanzania,834,True,26386203.592,57428421.945,3
+Phosphatic fertilisers (P),Saudi Arabia,682,False,16894868.724,36330375.465,2
+Phosphatic fertilisers (P),Russian Federation,643,False,11152882.651,24131282.768,1
+Phosphatic fertilisers (P),Spain,724,False,6229254.086,285654.515,6
+Phosphatic fertilisers (P),Israel,376,False,5198771.251,11690420.0,1
+Phosphatic fertilisers (P),Oman,512,False,3185260.08,6891887.424,1
+Phosphatic fertilisers (P),Senegal,686,True,2750889.207,16569700.0,2
+Phosphatic fertilisers (P),Jordan,400,False,2746644.956,5910729.085999999,3
+Phosphatic fertilisers (P),South Africa,710,True,2358353.954,3859908.0,10
+Phosphatic fertilisers (P),Egypt,818,True,2020168.9170000001,6229284.0,5
+Phosphatic fertilisers (P),Qatar,634,False,1775308.075,3841200.745,1
+Phosphatic fertilisers (P),Malaysia,458,False,1210059.0,1275003.0,2
+Phosphatic fertilisers (P),China,156,False,795206.663,1961678.135,9
+Phosphatic fertilisers (P),Türkiye,792,False,741943.984,899360.0,3
+Phosphatic fertilisers (P),Finland,246,False,737956.475,984000.0,1
+Phosphatic fertilisers (P),Portugal,620,False,587211.6719999999,971367.0,4
+Phosphatic fertilisers (P),Mozambique,508,True,557767.921,545000.0,1
+Phosphatic fertilisers (P),India,699,False,535774.52,744782.13,7
+Phosphatic fertilisers (P),United Arab Emirates,784,False,357599.64599999995,350130.0,2
+Phosphatic fertilisers (P),Kenya,404,True,346944.13999999996,490390.0,3
+Phosphatic fertilisers (P),Netherlands,528,False,259244.236,42364.0,2
+Phosphatic fertilisers (P),Germany,276,False,254200.061,202444.0,2
+Phosphatic fertilisers (P),Viet Nam,704,False,187900.16,300520.0,1
+Phosphatic fertilisers (P),Mexico,484,False,178768.994,292382.0,1
+Phosphatic fertilisers (P),Rep. of Korea,410,False,146401.033,330000.0,1
+Phosphatic fertilisers (P),Bulgaria,100,False,95072.271,100320.0,1
+Phosphatic fertilisers (P),France,251,False,76797.159,44673.5,4
+Phosphatic fertilisers (P),Belgium,56,False,32962.128,27500.0,1
+Phosphatic fertilisers (P),Belarus,112,False,20419.197,47000.0,1
+Phosphatic fertilisers (P),Nigeria,566,True,13793.111,84000.0,2
+Phosphatic fertilisers (P),Italy,380,False,6973.419,4050.0,1
+Phosphatic fertilisers (P),Mali,466,True,3856.099,40000.0,1
+Phosphatic fertilisers (P),Brazil,76,False,1785.17,60.0,1
+Phosphatic fertilisers (P),Zimbabwe,716,True,1000.0,2571.0,1
+Phosphatic fertilisers (P),Namibia,516,True,860.28,50.0,1
+Phosphatic fertilisers (P),Zambia,894,True,726.32,2500.0,1
+Phosphatic fertilisers (P),Singapore,702,False,170.34,45.0,1
+Phosphatic fertilisers (P),Lao People's Dem. Rep.,418,False,110.195,11.5,1
+Phosphatic fertilisers (P),Cameroon,120,True,57.844,380.0,1
+Phosphatic fertilisers (P),Lebanon,422,False,15.8,15.0,1
+Phosphatic fertilisers (P),Canada,124,False,2.873,2.31,1
+Potassic fertilisers (K),Germany,276,False,169369955.92900002,321371762.886,25
+Potassic fertilisers (K),Canada,124,False,128777692.713,259595213.429,11
+Potassic fertilisers (K),Jordan,400,False,90518755.99800001,182592426.80900002,14
+Potassic fertilisers (K),Belgium,56,False,44381170.078,57920178.103,23
+Potassic fertilisers (K),Russian Federation,643,False,38189026.427999996,93439502.497,10
+Potassic fertilisers (K),Spain,724,False,30808321.668,44936259.769999996,13
+Potassic fertilisers (K),Belarus,112,False,29693002.407,65023500.0,1
+Potassic fertilisers (K),South Africa,710,True,28397106.53,57393905.2,19
+Potassic fertilisers (K),Mauritius,480,True,27532401.099999998,34529170.0,4
+Potassic fertilisers (K),Chile,152,False,27416301.046,80641672.0,7
+Potassic fertilisers (K),China,156,False,21937190.172,32632277.588,26
+Potassic fertilisers (K),Egypt,818,True,17851986.268,23838935.0,11
+Potassic fertilisers (K),Israel,376,False,17339817.092,33812288.1,10
+Potassic fertilisers (K),Uzbekistan,860,False,12100337.775999999,21085100.0,3
+Potassic fertilisers (K),United Arab Emirates,784,False,11540534.078000002,13320231.525,10
+Potassic fertilisers (K),Mozambique,508,True,10464463.28,11253680.0,3
+Potassic fertilisers (K),Saudi Arabia,682,False,6752800.0879999995,7736744.478999999,8
+Potassic fertilisers (K),United Kingdom,826,False,6311259.477,17713320.56,14
+Potassic fertilisers (K),"Other Asia, nes",490,False,5824547.5309999995,7932318.936000001,13
+Potassic fertilisers (K),Sweden,752,False,3991615.553,4630987.33,9
+Potassic fertilisers (K),USA,842,False,3675924.8230000003,1684503.498,12
+Potassic fertilisers (K),Türkiye,792,False,2616928.947,2993251.558,13
+Potassic fertilisers (K),Portugal,620,False,2072180.586,1989786.0699999998,4
+Potassic fertilisers (K),Nigeria,566,True,1789684.4270000001,5102180.35,2
+Potassic fertilisers (K),Namibia,516,True,1690211.92,478743.0,1
+Potassic fertilisers (K),Côte d'Ivoire,384,True,1668106.479,4806029.0,3
+Potassic fertilisers (K),India,699,False,1568391.209,1481567.381,21
+Potassic fertilisers (K),Viet Nam,704,False,1539424.0359999998,2495176.0,6
+Potassic fertilisers (K),Italy,380,False,1532454.634,1497199.0,6
+Potassic fertilisers (K),Lao People's Dem. Rep.,418,False,1376031.885,2400000.0,2
+Potassic fertilisers (K),Afghanistan,4,False,1109915.351,1816162.0,1
+Potassic fertilisers (K),France,251,False,670448.892,632629.291,9
+Potassic fertilisers (K),Zimbabwe,716,True,553954.523,957950.0,2
+Potassic fertilisers (K),Malaysia,458,False,509310.0,338642.0,3
+Potassic fertilisers (K),Pakistan,586,False,505883.418,806000.0,1
+Potassic fertilisers (K),Netherlands,528,False,502024.607,580322.71,9
+Potassic fertilisers (K),Finland,246,False,476581.785,631000.0,1
+Potassic fertilisers (K),Djibouti,262,True,359999.64,999999.0,1
+Potassic fertilisers (K),Morocco,504,True,327315.007,578521.6,5
+Potassic fertilisers (K),"Areas, nes",899,False,288884.94299999997,102152.0,3
+Potassic fertilisers (K),Bulgaria,100,False,242802.7,204500.0,1
+Potassic fertilisers (K),Switzerland,757,False,241561.631,394001.5,4
+Potassic fertilisers (K),Czechia,203,False,203520.729,190019.445,6
+Potassic fertilisers (K),United Rep. of Tanzania,834,True,197230.615,438050.0,2
+Potassic fertilisers (K),Rep. of Korea,410,False,190721.851,320000.0,2
+Potassic fertilisers (K),Kenya,404,True,174171.568,189005.0,4
+Potassic fertilisers (K),Tunisia,788,True,158729.8,182000.0,1
+Potassic fertilisers (K),Cyprus,196,False,130547.546,96000.0,1
+Potassic fertilisers (K),Ghana,288,True,117125.253,250000.0,1
+Potassic fertilisers (K),Special Categories,839,False,78351.267,88000.0,1
+Potassic fertilisers (K),Ethiopia,231,True,66914.951,200000.0,1
+Potassic fertilisers (K),Denmark,208,False,63012.614,66001.0,2
+Potassic fertilisers (K),Brazil,76,False,39234.332,20000.0,1
+Potassic fertilisers (K),Uganda,800,True,36551.33,20161.0,1
+Potassic fertilisers (K),Panama,591,False,36000.0,21000.0,1
+Potassic fertilisers (K),Oman,512,False,33511.79,48997.6,2
+Potassic fertilisers (K),Ukraine,804,False,30914.442,20000.0,1
+Potassic fertilisers (K),Eswatini,748,True,25829.739,2094940.0,1
+Potassic fertilisers (K),Ireland,372,False,25751.206,30876.0,1
+Potassic fertilisers (K),Lithuania,440,False,16284.24,22067.0,1
+Potassic fertilisers (K),Greece,300,False,15953.704,7208.0,1
+Potassic fertilisers (K),Australia,36,False,8412.547999999999,503.87,3
+Potassic fertilisers (K),Zambia,894,True,4474.91,1286.0,1
+Potassic fertilisers (K),Senegal,686,True,1738.935,10000.0,1
+Potassic fertilisers (K),Angola,24,True,267.715,101.0,1
+Potassic fertilisers (K),Rwanda,646,True,219.42,550.0,1
+Potassic fertilisers (K),Cameroon,120,True,41.223,125.0,1
+Potassic fertilisers (K),Japan,392,False,38.157,0.19,1
+Potassic fertilisers (K),Norway,579,False,0.099,1.0,1
+Urea (N),Egypt,818,True,398383469.05799997,593916422.0,15
+Urea (N),United Arab Emirates,784,False,230660561.34399998,308272184.526,19
+Urea (N),Oman,512,False,203700354.691,414912282.0,9
+Urea (N),Saudi Arabia,682,False,186293898.638,397750185.367,9
+Urea (N),Russian Federation,643,False,182283368.412,448699400.0,17
+Urea (N),Qatar,634,False,158224220.209,378222415.9,9
+Urea (N),Nigeria,566,True,90384973.857,184086191.5,10
+Urea (N),China,156,False,80346764.046,108991510.645,21
+Urea (N),Finland,246,False,76583273.464,130931460.0,5
+Urea (N),USA,842,False,58909181.550000004,119634664.256,10
+Urea (N),Bahrain,48,False,58100369.228,140602370.0,7
+Urea (N),Mauritius,480,True,40777985.648,61717398.0,4
+Urea (N),Türkiye,792,False,39705883.471999995,37979477.5,10
+Urea (N),South Africa,710,True,32259827.762000002,63988111.01,14
+Urea (N),Indonesia,360,False,25711468.952,27100323.0,4
+Urea (N),Libya,434,True,16390637.694,41592810.0,3
+Urea (N),Brunei Darussalam,96,False,12145173.278,13820000.0,2
+Urea (N),Mozambique,508,True,10709501.674,18495460.0,6
+Urea (N),United Rep. of Tanzania,834,True,10331727.014999999,21483698.431,3
+Urea (N),Senegal,686,True,8010113.245,23877400.0,2
+Urea (N),Morocco,504,True,7557473.764,39965334.0,3
+Urea (N),Algeria,12,True,7520758.204000001,14006001.0,5
+Urea (N),Lebanon,422,False,6882985.211,15840000.0,1
+Urea (N),Côte d'Ivoire,384,True,5225207.346,18346930.0,3
+Urea (N),Ukraine,804,False,3926551.088,8151000.0,2
+Urea (N),Netherlands,528,False,3590314.433,6185100.671,11
+Urea (N),Malawi,454,True,3275438.023,3715000.0,1
+Urea (N),Singapore,702,False,3110400.835,5988520.0,3
+Urea (N),Afghanistan,4,False,2755932.321,6050000.0,1
+Urea (N),Zambia,894,True,1974026.646,2103660.578,3
+Urea (N),Chile,152,False,1796902.862,2542500.0,1
+Urea (N),Spain,724,False,1756356.373,3474969.348,11
+Urea (N),Austria,40,False,1515232.662,1825080.0,1
+Urea (N),Malaysia,458,False,1431340.936,1510900.0,4
+Urea (N),Bermuda,60,False,1409054.972,1841000.0,1
+Urea (N),Portugal,620,False,1304168.616,2017828.99,6
+Urea (N),Ghana,288,True,1239043.118,4716500.0,4
+Urea (N),Slovakia,703,False,1192853.102,1463820.0,1
+Urea (N),Belgium,56,False,1164752.517,2385780.2,8
+Urea (N),Germany,276,False,1106080.023,987930.79,14
+Urea (N),Viet Nam,704,False,1068792.656,1160910.0,5
+Urea (N),India,699,False,927276.8319999999,958516.394,18
+Urea (N),Kenya,404,True,740537.2019999999,929443.362,4
+Urea (N),Kuwait,414,False,682000.0,1500000.0,1
+Urea (N),Eswatini,748,True,606443.284,137000.0,2
+Urea (N),Poland,616,False,533462.642,660000.0,1
+Urea (N),Switzerland,757,False,497309.462,705048.8,3
+Urea (N),France,251,False,468276.157,439806.28,13
+Urea (N),Benin,204,True,410592.523,1463335.0,1
+Urea (N),"China, Hong Kong SAR",344,False,296960.205,470175.0,2
+Urea (N),Latvia,428,False,294051.808,449855.8,3
+Urea (N),Israel,376,False,272538.163,524280.0,2
+Urea (N),Lithuania,440,False,228510.037,1005799.4,6
+Urea (N),Iran,364,False,183532.31,349400.0,2
+Urea (N),Canada,124,False,181597.057,1101200.0,1
+Urea (N),Italy,380,False,171878.12300000002,247907.47,6
+Urea (N),Slovenia,705,False,110202.147,162000.0,1
+Urea (N),Tunisia,788,True,98190.21,100600.0,1
+Urea (N),United Kingdom,826,False,96818.137,36313.23,11
+Urea (N),Iraq,368,False,90165.024,215000.0,1
+Urea (N),Cameroon,120,True,57432.472,64000.0,1
+Urea (N),Rep. of Korea,410,False,30790.021,50012.0,2
+Urea (N),Niger,562,True,28438.522,115000.0,1
+Urea (N),Special Categories,839,False,27850.58,43000.0,1
+Urea (N),Greece,300,False,21111.0,10194.74,2
+Urea (N),Turkmenistan,795,False,16221.404,17614.0,1
+Urea (N),Czechia,203,False,12900.913,3000.0,1
+Urea (N),Mali,466,True,12873.257,60000.0,1
+Urea (N),Togo,768,True,11771.075,50000.0,1
+Urea (N),"Areas, nes",899,False,11365.045,2664.2,4
+Urea (N),Brazil,76,False,7989.991,9441.0,4
+Urea (N),Japan,392,False,2350.871,1200.0,1
+Urea (N),Gabon,266,True,794.908,3200.0,1
+Urea (N),Mexico,484,False,438.322,28.0,1
+Urea (N),Namibia,516,True,282.87,50.0,1
+Urea (N),Australia,36,False,133.386,4.84,1
+Urea (N),Hungary,348,False,123.532,4.0,1
+Urea (N),Angola,24,True,78.381,27.0,1
