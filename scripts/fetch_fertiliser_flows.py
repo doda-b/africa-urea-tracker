@@ -59,8 +59,8 @@ PRODUCT_CODES = {
     "310210": "Urea (N)",
     "3104":   "Potassic fertilisers (K)",
     "3103":   "Phosphatic fertilisers (P)",
+    "3105":   "NPK / DAP / MAP compound (N+P+K)",
 }
-
 YEAR = 2023            # single year for the flow map (matches FAOSTAT bubble year)
 FLOW_CODE = "M"        # imports only — we want what flows INTO Africa
 BASE_DIR = Path(__file__).parent.parent / "data"
