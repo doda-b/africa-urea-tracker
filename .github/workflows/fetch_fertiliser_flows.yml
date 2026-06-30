@@ -1,0 +1,45 @@
+# .github/workflows/fetch_fertiliser_flows.yml
+#
+# This workflow:
+# 1. Fetches bilateral import flows for all 3 nutrients (urea/N HS 310210,
+#    potash/K HS 3104, phosphates/P HS 3103) for all African countries, 2023,
+#    broken down BY PARTNER (origin country) — the data behind the import-flow maps.
+# 2. Aggregates to an "arrows table": source country -> Africa, by nutrient.
+# 3. Commits the results (raw + clean + arrows CSV) back to the repo.
+#
+# Manual trigger only. Only 3 API calls (one per nutrient), so it runs in well under
+# a minute — far lighter than the urea time-series pull.
+name: Fetch Fertiliser Flows (3 nutrients)
+on:
+  workflow_dispatch:       # Manual trigger only — go to Actions tab → Run workflow
+jobs:
+  fetch-flows:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write  # Needed to commit results back to repo
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install requests comtradeapicall pandas
+
+      - name: Fetch fertiliser flows
+        run: python scripts/fetch_fertiliser_flows.py
+        env:
+          COMTRADE_API_KEY: ${{ secrets.COMTRADE_API_KEY }}
+
+      - name: Commit and push results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --staged --quiet || git commit -m "Update fertiliser flows: $(date +%Y-%m-%d)"
+          git push
