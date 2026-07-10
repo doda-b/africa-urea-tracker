@@ -18,7 +18,7 @@ jobs:
 
       - name: Pull Comtrade and build chart
         env:
-          COMTRADE_KEY: ${{ secrets.COMTRADE_KEY }}   # reuse your existing repo secret
+          COMTRADE_KEY: ${{ secrets.COMTRADE_API_KEY }}   # reuse your existing repo secret
         run: python pull_indonesia_nickel.py
 
       - uses: actions/upload-artifact@v4
