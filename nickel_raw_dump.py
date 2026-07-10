@@ -1,13 +1,15 @@
 #!/usr/bin/env python3
 """
-Raw UN Comtrade dump — Indonesia nickel exports, 2012-2024. No aggregation.
+Raw UN Comtrade dump — Indonesia nickel exports, 2008-2024. No aggregation.
 
 One row per (year, HS code): value (USD), net weight (kg) and quantity exactly as
-reported. Pulls every nickel 6-digit line PLUS the 4-digit and chapter aggregates,
-so you can check the hierarchy yourself (filter on the aggrLevel column):
+reported. Includes the raw-ORE line (260400) so you can show the substitution story:
+ore exports climbing into 2014, collapsing at the ban, ferro-nickel/NPI surging to
+fill the gap. Also pulls the 4-digit and chapter aggregates so you can verify the
+roll-up yourself (filter on aggrLevel):
   aggrLevel 6 = atomic lines   |   4 = headings   |   2 = chapter total (75)
-The 6-digit chapter-75 lines sum to the 4-digit, which sum to 75. 720260 is in
-chapter 72 (not 75), so it never overlaps the chapter-75 codes.
+The 6-digit chapter-75 lines sum to the 4-digit, which sum to 75. 260400 (ch.26)
+and 720260 (ch.72) are their own chapters and never overlap the chapter-75 codes.
 
 Requires env var COMTRADE_KEY.  Deps: requests pandas
 Run:  COMTRADE_KEY=xxxx python nickel_raw_dump.py   ->  indonesia_nickel_raw.csv
@@ -18,9 +20,11 @@ import pandas as pd
 KEY = os.environ["COMTRADE_KEY"]
 BASE = "https://comtradeapi.un.org/data/v1/get/C/A/HS"
 REPORTER = "360"                       # Indonesia
-YEARS = list(range(2012, 2025))
+YEARS = list(range(2008, 2025))        # 2008..2024 — back far enough to catch the ore ramp
 
 CODES = [
+    # ---- chapter 26 (ores) ----
+    "260400",                                       # nickel ores & concentrates (the raw-ore export)
     # ---- chapter 72 (ferro-alloys) ----
     "720260",                                       # ferro-nickel / NPI
     # ---- chapter 75, 6-digit atomic lines ----
@@ -70,5 +74,8 @@ df = df[cols].sort_values(["period", "aggrLevel", "cmdCode"] if "aggrLevel" in d
 df.to_csv("indonesia_nickel_raw.csv", index=False)
 print(f"wrote indonesia_nickel_raw.csv - {len(df)} rows, "
       f"{df['cmdCode'].nunique()} codes, {df['period'].min()}-{df['period'].max()}")
-print(df[[c for c in ['period','cmdCode','cmdDesc','primaryValue','netWgt','qty','qtyUnitAbbr']
-          if c in df.columns]].head(25).to_string(index=False))
+
+# quick peek at the substitution pair: ore (260400) vs ferro-nickel/NPI (720260)
+sub = df[df["cmdCode"].astype(str).isin(["260400", "720260"])]
+show = [c for c in ["period", "cmdCode", "cmdDesc", "primaryValue", "netWgt"] if c in sub.columns]
+print(sub[show].to_string(index=False))
