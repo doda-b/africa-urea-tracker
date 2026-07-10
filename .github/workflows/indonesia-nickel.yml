@@ -1,6 +1,5 @@
-name: indonesia-nickel-chart
+name: indonesia-nickel-raw
 
-# Run on demand from the Actions tab. Add push/schedule triggers if you want it automatic.
 on:
   workflow_dispatch:
 
@@ -14,16 +13,14 @@ jobs:
         with:
           python-version: "3.12"
 
-      - run: pip install requests pandas matplotlib
+      - run: pip install requests pandas
 
-      - name: Pull Comtrade and build chart
+      - name: Dump raw Comtrade data
         env:
-          COMTRADE_KEY: ${{ secrets.COMTRADE_API_KEY }}   # reuse your existing repo secret
-        run: python pull_indonesia_nickel.py
+          COMTRADE_KEY: ${{ secrets.COMTRADE_API_KEY }}
+        run: python nickel_raw_dump.py
 
       - uses: actions/upload-artifact@v4
         with:
-          name: indonesia-nickel
-          path: |
-            indonesia_nickel_exports.csv
-            indonesia_nickel_exports.png
+          name: indonesia-nickel-raw
+          path: indonesia_nickel_raw.csv
